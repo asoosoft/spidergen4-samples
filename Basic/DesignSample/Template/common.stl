@@ -1,0 +1,10 @@
+{
+  "styleName": "common",
+  "items": {
+    "btn01-down": ".btn01-down\n{\n\tbackground-color: rgb(36, 104, 175);\n\tcolor: rgb(255, 255, 255);\t\n}\n\n",
+    "btn02": ".btn02\n{\n\t\n\tbackground-color: rgb(247, 109, 34);\n\tcolor: rgb(255, 255, 255);\n}\n\n",
+    "fsize20px": ".fsize20px\n{\n\tfont-size: 20px;\n}\n\n",
+    "fsize16px": ".fsize16px\n{\n\tfont-size: 16px;\n}\n\n",
+    "myBold": ".myBold\n{\n\tfont-family: notokr-bold;\n}\n\n"
+  }
+}

@@ -1,0 +1,54 @@
+
+._global_style_
+{
+	font-size: 12px !important;
+	font-family: courier !important;
+
+}
+
+.global_resp
+{
+	/* TODO:edit here */
+
+}
+
+/*가로모드*/
+@media screen and (orientation:landscape)
+{
+}
+
+/*세로모드*/
+@media screen and (orientation:portrait)
+{
+}
+
+/*아이폰*/
+@media screen and (min-resolution:2dppx)
+{
+}
+
+/*안드로이드*/
+@media screen and (min-resolution:1.5dppx)
+{
+}
+
+/*웹페이지 사이즈, 최대 400픽셀부터 그 이하면*/
+@media screen and (max-width:400px)
+{
+}
+
+/*웹페이지 사이즈, 최소 800픽셀부터 그 이상이면*/
+@media screen and (min-width:800px)
+{
+}
+
+/*스크린 사이즈, 최대 400픽셀부터 그 이하면*/
+@media screen and (max-device-height:400px)
+{
+}
+
+/*스크린 사이즈, 최소 800픽셀부터 그 이상이면*/
+@media screen and (min-device-height:800px)
+{
+}
+

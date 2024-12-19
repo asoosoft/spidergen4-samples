@@ -1,0 +1,7 @@
+{
+  "styleName": "QuerySampleApp_global",
+  "items": {
+    "_global_style_": "\r\n._global_style_\r\n{\r\n\tfont-size: 12px;\r\n\tfont-family: courier;\r\n\r\n}\r\n",
+    "global_resp": "\r\n.global_resp\r\n{\r\n\t/* TODO:edit here */\r\n\r\n}\r\n\r\n/*가로모드*/\r\n@media screen and (orientation:landscape)\r\n{\r\n}\r\n\r\n/*세로모드*/\r\n@media screen and (orientation:portrait)\r\n{\r\n}\r\n\r\n/*아이폰*/\r\n@media screen and (min-resolution:2dppx)\r\n{\r\n}\r\n\r\n/*안드로이드*/\r\n@media screen and (min-resolution:1.5dppx)\r\n{\r\n}\r\n\r\n/*웹페이지 사이즈, 최대 400픽셀부터 그 이하면*/\r\n@media screen and (max-width:400px)\r\n{\r\n}\r\n\r\n/*웹페이지 사이즈, 최소 800픽셀부터 그 이상이면*/\r\n@media screen and (min-width:800px)\r\n{\r\n}\r\n\r\n/*스크린 사이즈, 최대 400픽셀부터 그 이하면*/\r\n@media screen and (max-device-height:400px)\r\n{\r\n}\r\n\r\n/*스크린 사이즈, 최소 800픽셀부터 그 이상이면*/\r\n@media screen and (min-device-height:800px)\r\n{\r\n}\r\n"
+  }
+}

@@ -1,0 +1,28 @@
+{
+	"name": "ac002",
+	"desc": "유저정보요청",
+	"queryType": ".JSON",
+	"input":
+	{
+		"InBlock1":
+		{
+			"format":
+			[
+				["고유아이디","uid",0,0,"char",0,0]
+			]
+		}
+	},
+	
+	"output":
+	{
+		"OutBlock1":
+		{
+			"format":
+			[
+				["성명","name",0,0,"char",0,0],
+				["성별","sex",0,0,"char",0,0],
+				["나이","age",0,0,"char",0,0]
+			]
+		}
+	}
+}

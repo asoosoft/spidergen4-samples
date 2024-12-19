@@ -1,0 +1,14 @@
+<div class="AView-Style" data-base="AView" data-class="MainView" style="left: 0px; top: 0px; width: 100%; height: 100%;" data-max-aview="2" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ALabel&quot;,&quot;AButton&quot;,&quot;AListView&quot;]}" data-browser-width="430" data-browser-height="560">
+    <div class="AView-Style" data-base="AView" data-class="AView" id="MainView--TitleView" style="width: 100%; height: 50px; top: 0px; left: 0px; background-color: rgb(200, 224, 221);">
+        <label class="ALabel-Style" data-base="ALabel" data-class="ALabel" style="width: auto; height: auto; left: 10px; top: 10px; font-weight: bold; color: rgb(0, 0, 0); font-size: 20px;">List View Sample</label>
+    </div>
+    <div class="AView-Style" data-base="AView" data-class="AView" id="MainView--ToolbarView" style="width: 100%; height: 50px; left: 0px; bottom: 0px; background-color: rgb(255, 255, 255);">
+        <button class="AButton-Style listview_select" data-base="AButton" data-class="AButton" data-flag="0001" id="MainView--addButton" style="width: 120px; height: 40px; font-size: 20px; left: 20px; top: 5px; background-color: rgb(197, 197, 197);" data-style=" listview_select" data-listener-click="MainView:onAddButtonClick">Add</button>
+    </div>
+    <div data-base="AListView" data-class="AListView" class="AListView-Style" data-selectable="true" style="width: 100%; height: calc((100% - 50px) - 50px); left: 0px; top: 50px;" data-sgap-height="1" id="MainView--listView" data-listener-select="MainView:onListViewSelect" data-style-selectitem=" listview_select" data-style=" ">
+        <div class="listview-row" style="height: 100px;"></div>
+        <div class="listview-row AListView-select listview_select" style="height: 100px;"></div>
+        <div class="listview-row" style="height: 100px;"></div>
+        <div class="listview-row" style="height: 100px;"></div>
+    </div>
+</div>

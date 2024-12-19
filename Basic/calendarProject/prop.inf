@@ -1,0 +1,52 @@
+{
+  "general": {
+    "autoScale": false,
+    "userSize": false,
+    "docWidth": 640,
+    "phoneDocWidth": 0,
+    "tabletDocWidth": 0,
+    "queryFormat": "qry",
+    "docHeight": 1137,
+    "scaleVal": 1,
+    "userScalable": false,
+    "isPort": true,
+    "scaleValue": 100,
+    "responsiveTest": "",
+    "layBrowserInfo": [
+      "640",
+      "800"
+    ],
+    "tabletMinWidth": 500,
+    "flavor": "common"
+  },
+  "build": {
+    "autoInc": true,
+    "dynamicInc": true,
+    "dynamicComp": false,
+    "bridgeName": "none",
+    "indexTitle": "",
+    "frwLoadOption": "inTimeLoad",
+    "stlImportant": true,
+    "concat": true,
+    "subName": "",
+    "outputPath": "",
+    "scriptLink": ""
+  },
+  "script": {
+    "before": [],
+    "after": []
+  },
+  "subversion": {
+    "useMode": false,
+    "url": "",
+    "username": "",
+    "password": "",
+    "ignore": 1
+  },
+  "deployment": {
+    "upload": {
+      "idx": null,
+      "list": []
+    }
+  }
+}

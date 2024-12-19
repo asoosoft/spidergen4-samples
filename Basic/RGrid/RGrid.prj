@@ -1,0 +1,91 @@
+{
+  "projectName": "RGrid",
+  "fileTree": {
+    "type": 0,
+    "name": "RGrid",
+    "children": [
+      {
+        "type": 1,
+        "name": "Framework",
+        "action": 1,
+        "children": [
+          {
+            "type": 11,
+            "name": "afc",
+            "relType": 7,
+            "path": "afc\\"
+          },
+          {
+            "type": 11,
+            "name": "mdfc",
+            "relType": 7,
+            "path": "mdfc\\"
+          },
+          {
+            "type": 11,
+            "name": "rMate",
+            "relType": 7,
+            "path": "rMate\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Library",
+        "action": 2,
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Template",
+        "action": 4,
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Query",
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Assets",
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Source",
+        "children": [
+          {
+            "type": 5,
+            "name": "RGridApp.js",
+            "relType": 1,
+            "path": ""
+          },
+          {
+            "type": 5,
+            "name": "MainView.js",
+            "relType": 1,
+            "path": ""
+          },
+          {
+            "type": 3,
+            "name": "MainView.lay",
+            "relType": 1,
+            "path": ""
+          }
+        ]
+      },
+      {
+        "type": 14,
+        "name": "index.html",
+        "relType": 1,
+        "path": ""
+      }
+    ]
+  },
+  "version": "4.0.3",
+  "flavor": {
+    "common": "common"
+  },
+  "defaultLanguage": "js"
+}

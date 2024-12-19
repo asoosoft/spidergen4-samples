@@ -1,0 +1,145 @@
+{
+  "projectName": "calendarProject",
+  "fileTree": {
+    "type": 0,
+    "name": "calendarProject",
+    "children": [
+      {
+        "type": 1,
+        "name": "Framework",
+        "action": 1,
+        "children": [
+          {
+            "type": 11,
+            "name": "afc",
+            "relType": 7,
+            "path": "afc\\"
+          },
+          {
+            "type": 11,
+            "name": "mdfc",
+            "relType": 7,
+            "path": "mdfc\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Library",
+        "action": 2,
+        "children": [
+          {
+            "type": 5,
+            "name": "ExCalendarPicker.js",
+            "action": null,
+            "relType": 1,
+            "path": "Library\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Template",
+        "action": 4,
+        "children": [
+          {
+            "type": 4,
+            "name": "calendarProjectApp_global.stl",
+            "relType": 1,
+            "path": ""
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Query",
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Assets",
+        "children": [
+          {
+            "type": 1,
+            "name": "images",
+            "children": [
+              {
+                "type": 8,
+                "name": "scroll_left_arrow.png",
+                "action": null,
+                "relType": 1,
+                "path": "Assets\\images\\"
+              },
+              {
+                "type": 8,
+                "name": "scroll_left_arrow2.png",
+                "action": null,
+                "relType": 1,
+                "path": "Assets\\images\\"
+              },
+              {
+                "type": 8,
+                "name": "scroll_right_arrow.png",
+                "action": null,
+                "relType": 1,
+                "path": "Assets\\images\\"
+              },
+              {
+                "type": 8,
+                "name": "scroll_right_arrow2.png",
+                "action": null,
+                "relType": 1,
+                "path": "Assets\\images\\"
+              },
+              {
+                "type": 8,
+                "name": "calendar1.png",
+                "relType": 1,
+                "path": "Assets\\images\\"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Source",
+        "children": [
+          {
+            "type": 5,
+            "name": "calendarProjectApp.js",
+            "relType": 1,
+            "path": ""
+          },
+          {
+            "type": 5,
+            "name": "MainView.js",
+            "action": null,
+            "relType": 1,
+            "path": "Source\\",
+            "comment": ""
+          },
+          {
+            "type": 3,
+            "name": "MainView.lay",
+            "action": null,
+            "relType": 1,
+            "path": "Source\\",
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "type": 14,
+        "name": "index.html",
+        "relType": 1,
+        "path": ""
+      }
+    ]
+  },
+  "version": "4.0.3",
+  "flavor": {
+    "common": "common"
+  },
+  "defaultLanguage": "js"
+}

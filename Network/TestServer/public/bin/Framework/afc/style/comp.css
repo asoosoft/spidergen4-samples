@@ -1,0 +1,774 @@
+
+
+/************************************************************************************/
+/*	Component Default Style 														*/
+/************************************************************************************/
+
+.AButton-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	border: 0px solid;
+	/*white-space: normal;*/
+	text-decoration: none;
+	/*The button text padding should be set to 0px, because the iPhone default is 1em.*/
+	/*padding: 0px 0px 1px 0px;*/
+	/*outline: 0;*/
+	
+    /*cursor:pointer;*/
+}
+
+.AButton-Style > img
+{
+	vertical-align: middle;
+}
+
+
+.ALabel-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	display: inline-block;
+	border: 0px solid;
+	cursor: default;
+}
+
+/*asoocool 20180419*/
+.ALabel-Style > pre
+{
+	padding: 0px;
+	margin: 0px;
+	font-size: inherit;
+	font-family: inherit;
+}
+
+
+.ATextBox-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	border: 0px solid;
+	
+	padding: 0px;
+	margin: 0px;
+	/*asoocool 20180419*/
+	font-size: inherit;
+	font-family: inherit;
+	
+	display: flex;
+	align-items: center;
+	
+	display: -ms-flexbox;
+	-ms-flex-align: center;
+}
+
+/*-----------------------------------------------------------------------*/
+.ACheckBox-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+    padding-left: 20px;
+    cursor: default;
+	
+	display: flex;
+	align-items: center;
+	
+	display: -ms-flexbox;
+	-ms-flex-align: center;
+	
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+	background-position : left center;
+}
+/*
+.checkbox_normal
+{	
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+	background-position : left center;
+}
+
+.checkbox_check
+{
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+	background-position : left center;
+}
+*/
+/*-----------------------------------------------------------------------*/
+.ARadioButton-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+    padding-left: 20px;
+    cursor: default;
+	
+	display: flex;
+	align-items: center;
+	
+	display: -ms-flexbox;
+	-ms-flex-align: center;
+}
+
+
+/*-----------------------------------------------------------------------*/
+.ARadioGroup-Style
+{
+	position: absolute;
+	box-sizing: border-box; 
+    border: 0px solid;
+    overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------*/
+.ATextField-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 1px;
+	padding-left : 5px;
+	padding-right : 5px;
+}
+
+/*-----------------------------------------------------------------------*/
+.ASlider-Style
+{
+	position: absolute;
+    box-sizing: border-box;
+    border: 0px solid;
+    padding: 0px;
+    margin: 0px; 
+	font-size: inherit;
+}
+
+/*-----------------------------------------------------------------------*/
+.ATextArea-Style
+{
+	position: absolute;
+	box-sizing: border-box;	
+	border-style: solid;
+	border-width: 1px;
+	padding : 5px 5px 5px 5px;
+	resize: none;
+}
+
+/*-----------------------------------------------------------------------*/
+.ADropBox-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	border: 0px solid;
+	overflow: hidden;
+	padding-left: 5px;
+	padding-right: 22px;
+}
+
+.dropbox_back
+{
+	width: 100%;
+	height: 100%;
+}
+
+/*input tag*/
+.dropbox_label
+{
+	border: none;
+	padding-top: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+/*IE input clear 버튼 제거*/
+.dropbox_label::-ms-clear
+{
+	display: none;
+}
+
+.dropbox_label:focus
+{
+	//outline:0px;
+}
+
+.dropbox_button
+{
+	position: absolute;
+	display: inline-block;
+	background-position: center center;
+	background-repeat: no-repeat;
+	top: 0px;
+	right: 0px;
+	width: 22px;
+	height: 100%;	
+}
+
+.dropbox_list
+{
+	margin: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	list-style-type: none;
+	width: 100%;
+	height: 100%;
+	white-space: nowrap;
+	overflow: auto;
+	cursor: default;
+}
+
+.dropbox_list > li
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+
+/*
+.dropbox_cell
+{
+	padding-left: 5px;
+	cursor: default;
+	height: 20px;
+	line-height: 20px;
+}
+
+.dropbox_cellover
+{
+	padding-left: 5px;
+	cursor: default;
+	height: 20px;
+	line-height: 20px;
+}
+*/
+
+/*-----------------------------------------------------------------------*/
+.ASelectBox-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	border-style : solid;
+	border-width : 1px;	
+	font-size: inherit;
+}
+
+/*-----------------------------------------------------------------------*/
+.AGrid-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+}
+/*
+.AGrid-Style tr
+{
+	height: 30px;
+}
+*/
+
+.AGrid-Style td
+{
+	overflow: hidden;
+	padding: 0px;
+	text-align: center;
+}
+
+.grid-header-table
+{
+	position: absolute;
+	box-sizing: border-box;
+	left: 0px; 
+	top: 0px;
+	
+	width: 100%; 
+	border-collapse: collapse; 
+	table-layout: fixed;
+}
+
+.grid-body-table
+{
+	width: 100%; 
+	border-collapse: collapse; 
+	table-layout: fixed;
+}
+
+.grid-scroll-area
+{
+/*
+	position: absolute;
+	box-sizing: border-box;
+	left: 0px; 
+	top: 0px;
+*/
+	width: 100%;
+	height: 100%; 
+	overflow-y: auto; 
+	overflow-x: hidden; 
+	-webkit-overflow-scrolling: touch;
+}
+
+
+/*-----------------------------------------------------------------------*/
+.ATree-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	border: 0px solid;
+	overflow: auto;
+}
+
+/*-----------------------------------------------------------------------*/
+.ASwitchButton-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+}
+
+.switch-off
+{
+	position: absolute;
+	border-radius: 25%/50%;
+	cursor:pointer;
+}
+
+.switch-on
+{
+	position: absolute;
+	border-radius: 25%/50%;
+	cursor:pointer;
+}
+
+.switch-off span
+{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	margin-left: 0px;
+	border-radius: 50%; 	
+}
+
+.switch-on span
+{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	margin-left: 50%;
+	border-radius: 50%;
+}
+
+
+/*-----------------------------------------------------------------------*/
+.AImage-Style
+{
+	position: absolute;
+	box-sizing: border-box; 
+	border : 0px soild;    
+}
+
+/*-----------------------------------------------------------------------*/
+.ACanvas-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+    border: 0px solid;
+}
+
+/*-----------------------------------------------------------------------*/
+.AProgress-Style
+{
+	position: absolute;
+	box-sizing: border-box; 
+	overflow: hidden;
+	border-radius: 20px;
+}
+
+.AProgress-Style div
+{
+	width:40%;
+	height:100%;
+	border-radius:20px;	
+}
+
+/*-----------------------------------------------------------------------*/
+.ADatePicker-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	border: 0px solid; 
+	font-size: inherit;
+}
+
+/*-----------------------------------------------------------------------*/
+.ATimePicker-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	border: 0px solid;  
+}
+
+.AScrollBar-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	border: 0px solid;  	
+}
+
+.AScrollBar-Style span
+{
+	display: inline-block;
+}
+
+
+/*-----------------------------------------------------------------------*/
+.AGridLayout-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	border: 0px solid;
+}
+
+.AGridLayout-Style > table
+{
+	border-collapse:collapse; 
+	width: 100%;
+	height: 100%;	
+	table-layout : fixed;
+	/*border:1px solid white;*/
+}
+
+.AFlexLayout-Style
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+	
+	display: -ms-flexbox;
+	-ms-flex-direction: row;
+	-ms-flex-wrap: nowrap;
+	-ms-flex-pack: start;
+	-ms-flex-align: start;
+	-ms-flex-line-pack: start;
+		
+	position: absolute;
+	box-sizing: border-box;
+	border: 0px solid;
+	overflow: hidden;
+}
+
+
+/*-----------------------------------------------------------------------*/
+.AView-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	border: 0px solid;
+	overflow: visible;
+	outline: none;
+}
+
+.AFlexView-Style
+{
+	display: flex;
+	flex-direction: column;
+	
+	display: -ms-flexbox;
+	-ms-flex-direction: column;
+	
+	
+	position: absolute;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.ASplitView-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.AAccordion-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+.AAccordion-Menu
+{
+}
+
+.AAccordion-Contents
+{
+	
+}
+
+
+.AContainer-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	/*overflow: auto;*/
+}
+
+
+/*-------------------------------- AMenu ---------------------------------------*/
+.AMenu-Style
+{
+	cursor:	default;
+	/*font-size: 12px;*/
+	border-collapse: collapse;
+	width: 100%;
+	height: 100%;
+}
+
+.AMenu-Style tr { height: 25px; }
+
+.AMenu-Style td:nth-child(1) { padding-left: 5px; padding-right: 5px; }
+.AMenu-Style td:nth-child(2) { }
+.AMenu-Style td:nth-child(3)	/* sub mark or hot-key */
+{
+	text-align: right;
+	min-width: 25px;
+	padding-right: 10px;
+}
+
+/* menu icon */
+.AMenu-Style span
+{ 
+	display: inline-block;
+	width: 16px;
+	height: 100%;
+}
+
+
+
+/*-----------------------------------------------------------------------*/
+
+.ABar-Style
+{
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	
+	position: absolute;
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+.ATabBar-Style
+{
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	
+	position: absolute;
+	box-sizing: border-box;
+	overflow: hidden;
+	/*overflow-x: auto;*/
+	
+	cursor: default;
+}
+
+.AMenuBar-Style
+{
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	
+	position: absolute;
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+
+
+
+/*-------------------------------- AListView ---------------------------------------*/
+.AListView-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	overflow: hidden;
+	outline: none;
+}
+
+.listview-row
+{
+	position: relative;
+	height: 60px;	/*item-height 값을 지우더라도 최소한의 공간을 보여주기 위해 필요*/
+}
+
+/*------------------------------  -----------------------------------------*/
+.ATabView-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+    overflow: hidden;
+	outline: none;
+}
+
+.ATabView-Style .tab_area
+{
+	width:100%;
+	height: 22px;
+	white-space: nowrap;
+	box-sizing: border-box;
+}
+
+.ATabView-Style .tab_area > span
+{
+	width: 110px;
+	line-height: 22px;
+	cursor: default;
+}
+
+
+.ATabView-Style .tab_contents
+{
+	box-sizing:border-box;    	
+	width:100%;
+	height: calc(100% - 22px);
+}
+
+.ATabView_select
+{
+	display:inline-block;
+	height:100%;
+	text-align:center;
+	background-size: 100% 100%;
+	/*cursor:pointer;*/
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.ATabView_deselect
+{
+	display:inline-block;
+	height:100%;
+	text-align:center;
+	background-size: 100% 100%;
+	/*cursor:pointer;*/
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+/*-----------------------------------------------------------------------*/
+.AToolBar-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+    background-color: #000000;
+    border: 0px solid;
+    overflow: auto;
+    white-space: nowrap;
+    
+}
+
+.ScrollLeft::before
+{
+	content:'';
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	width: 20px;
+	height: 100%;
+	background-image:url("../../img/img_left.png") ;
+	background-repeat: no-repeat;
+ 	background-size: 17px 30px;
+ 	background-position: center;
+}
+
+.ScrollRight::after
+{
+	content:'';
+	position:absolute;
+	right: 0px;
+	top: 0px;
+	width: 20px;
+	height: 100%;
+	background-image:url("../../img/img_right.png") ;
+	background-repeat: no-repeat;
+ 	background-size: 17px 30px;
+ 	background-position: center;
+}
+/*------------------------------  -----------------------------------------*/
+.AWebView-Style
+{
+	position: absolute;
+	box-sizing: border-box; 
+    border: 0px solid;
+    overflow: auto;	/*asoocool, 이 값을 바꾸면 ios 에서 작동하지 않음.*/
+}
+
+.AWebView-Style iframe
+{
+	width: 100%;
+	height: 100%;
+}
+
+
+.scrollarrow-top
+{
+	width: 24px;
+	height: 24px;
+	background-image : url('../image/scroll_up_arrow.png');
+	background-repeat: no-repeat;
+ 	background-position: center;
+}
+
+.scrollarrow-bottom
+{
+	width: 24px;
+	height: 24px;
+	background-image : url('../image/scroll_down_arrow.png');
+	background-repeat: no-repeat;
+ 	background-position: center;
+}
+
+.scrollarrow-left
+{
+	width: 24px;
+	height: 24px;
+}
+
+.scrollarrow-right
+{
+	width: 24px;
+	height: 24px;
+}
+
+/*------------------------------------------------------------------------*/
+
+.ADataGrid-Style
+{
+	position: absolute;
+	box-sizing: border-box; 
+    border: 0px solid;
+    overflow: hidden;
+}
+
+
+
+/*------------------------------- ASlideView -----------------------------------------*/
+
+.ASlideView-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	border: 0px solid;
+	overflow: visible;
+	outline: none;
+}
+
+.ASlideView-Style::-webkit-scrollbar 
+{
+	width: 0px; 
+	height: 0px;
+} 
+

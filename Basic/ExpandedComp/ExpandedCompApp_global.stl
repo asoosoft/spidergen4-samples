@@ -1,0 +1,9 @@
+{
+  "styleName": "ExpandedCompApp_global",
+  "items": {
+    "_global_style_": "\n._global_style_\n{\n\tfont-size: 12px;\n\tfont-family: courier;\n\n}\n",
+    "global_resp": "\n.global_resp\n{\n\t/* TODO:edit here */\n\n}\n\n/*가로모드*/\n@media screen and (orientation:landscape)\n{\n\n}\n\n/*세로모드*/\n@media screen and (orientation:portrait)\n{\n}\n\n/*아이폰*/\n@media screen and (min-resolution:2dppx)\n{\n}\n\n/*안드로이드*/\n@media screen and (min-resolution:1.5dppx)\n{\n}\n\n/*웹페이지 사이즈, 최대 400픽셀부터 그 이하면*/\n@media screen and (max-width:400px)\n{\n}\n\n/*웹페이지 사이즈, 최소 800픽셀부터 그 이상이면*/\n@media screen and (min-width:800px)\n{\n}\n\n/*스크린 사이즈, 최대 400픽셀부터 그 이하면*/\n@media screen and (max-device-height:400px)\n{\n}\n\n/*스크린 사이즈, 최소 800픽셀부터 그 이상이면*/\n@media screen and (min-device-height:800px)\n{\n}\n",
+    "drag_over1": "\r\n.drag_over1\r\n{\r\n\tbackground-color: cyan;\r\n\r\n}\r\n",
+    "drag_over2": "\r\n.drag_over2\r\n{\r\n\tbackground-color: magenta;\r\n\r\n}\r\n"
+  }
+}

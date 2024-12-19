@@ -1,0 +1,12 @@
+<div class="AView-Style" data-base="AView" data-class="MainView" style="left: 0px; top: 0px; width: 100%; height: 100%; background-color: transparent;" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ALabel&quot;,&quot;ATabView&quot;,&quot;AButton&quot;]}" data-browser-width="420" data-browser-height="570">
+    <div class="AView-Style" data-base="AView" data-class="AView" style="width: 100%; height: 50px; left: 0px; top: 0px;"><label class="ALabel-Style" data-base="ALabel" data-class="ALabel" id="MainView--titleLabel" style="width: auto; height: auto; top: 0px; left: calc(50% - 84px); padding-left: 10px; background-color: rgba(0, 0, 0, 0); font-size: 20px; font-weight: bold; color: rgb(0, 0, 0); line-height: 50px;" data-center-x="true">TabView Sample</label></div>
+    
+    <div class="ATabView-Style" data-base="ATabView" data-class="ATabView" data-state="0" id="MainView--tabView" style="width: 100%; left: 0px; top: 50px; height: calc((100% - 50px) - 60px);" data-sgap-height="1" data-stretch-height="true" data-style-tabselect=" select_style" data-tab-history="true">
+        <div class="tab_area" style="height: 40px; visibility: visible;"><span class="ATabView_select select_style" style="line-height: 40px;">tab1</span>
+            <span class="ATabView_deselect" style="line-height: 40px;">tab2</span>
+            <span class="ATabView_deselect" style="line-height: 40px;">tab3</span></div>
+        <div class="tab_contents"></div>
+    </div>
+    <div class="AView-Style" data-base="AView" data-class="AView" style="width: 100%; height: 60px; left: 0px; bottom: 0px;"><button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" data-listener-click="MainView:onButtonTabShowClick" id="MainView--ButtonTabShow" style="width: 120px; height: 40px; left: 10px; top: 10px;" data-style-over=" select_style" data-style-down=" select_style">Show Tab</button>
+        <button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" data-listener-click="MainView:onButtonTabHideClick" id="MainView--ButtonTabHide" style="width: 120px; height: 40px; left: 150px; top: 10px;" data-style-over=" select_style" data-style-down=" select_style">Hide Tab</button></div>
+</div>

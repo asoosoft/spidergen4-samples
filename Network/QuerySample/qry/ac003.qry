@@ -1,0 +1,20 @@
+{
+	"name": "ac003",
+	"desc": "테스트 쿼리",
+	"queryType": "",
+	"input": {
+		"InBlock1": {
+			"format": [
+				["입력1","input1","","","char",0,"0"]
+			]
+		}
+	},
+	"output": {
+		"OutBlock1": {
+			"format": [
+				["출력1","output1","","","char",0,"0"],
+				["출력2","output2","","","signed",0,"0"]
+			]
+		}
+	}
+}

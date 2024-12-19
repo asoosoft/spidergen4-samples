@@ -1,0 +1,651 @@
+
+/*
+body
+{
+	color: #5c5c5c;
+	font-family: Helvetica,나눔고딕,NanumGothic,돋움,Dotum;
+	font-size : 12px;
+}
+*/
+
+
+/*-------------------------------- AButton ---------------------------------------*/
+.AButton-Style
+{   
+    color:#333333; 
+	background-color: #ffffff;
+	/*background-color: #f6f6f6;*/
+	/*border : 1px solid #bbbbbb;*/
+}
+
+
+
+/*-------------------------------- ALabel ---------------------------------------*/
+.ALabel-Style 
+{
+    color:#333333;
+}
+
+.ATextBox-Style
+{
+	color:#333333;
+}
+
+
+/*-------------------------------- ACheckBox ---------------------------------------*/
+.ACheckBox-Style
+{
+    color: #333333;
+	background-image: url("../image/checkbox_normal.png");
+}
+
+.ACheckBox-Style[style*="pointer-events: none"]
+{
+    opacity: 0.6;
+}
+/*
+.checkbox_normal
+{
+	background-image: url("../image/checkbox_normal.png");
+}
+*/
+.checkbox_check
+{
+	background-image: url("../image/checkbox_check.png");
+}
+
+/*--------------------------------- ARadioButton --------------------------------------*/
+.ARadioButton-Style
+{
+	color: #333333;
+	background-image : url('../image/radiobtn_normal.png');
+	background-position : left center;
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+	height : 22px;
+	
+}
+
+.ARadioButton-Style[style*="pointer-events: none"]
+{
+    opacity: 0.6;
+}
+
+
+.radiobtn_check
+{
+	background-image : url('../image/radiobtn_check.png');
+} 
+
+
+/*--------------------------------- ARadioGroup --------------------------------------*/
+.ARadioGroup-Style
+{
+    background-color: #efefef;
+	border: 1px solid #d9d9d9;
+	border-radius : 7px;
+}
+
+/*----------------------------------- ASelectBox ------------------------------------*/
+
+.ASelectBox-Style{
+	
+	color: #333333;
+	background-color: #ffffff;
+	border-color : #d9d9d9;
+	padding-left : 10px;
+	
+	-webkit-appearance:none; /*화살표 없애기*/
+	-moz-appearance:none;	 
+	appearance:none;
+	
+	background-image : url('../image/SelectBoxBtn.png');
+	background-position : calc(100% - 7px) center;
+	background-repeat : no-repeat;
+	
+}
+
+.ASelectBox-Style option{
+	color: #333333;
+	background-color: #ffffff;
+}
+
+.ASelectBox-Style option:hover{
+	background-color : #eeeeee;
+}
+
+.ASelectBox-Style::-ms-expand{display:none;}
+
+.ASelectBox-Style[style*="pointer-events: none"]
+{
+    opacity: 0.6;
+}
+
+
+
+/*----------------------------------- ADropBox ------------------------------------*/
+.ADropBox-Style	
+{
+	color: #333333;
+	background-color: #ffffff;	
+	border : 1px solid #d9d9d9;
+}
+
+.ADropBox-Style[style*="pointer-events: none"]
+{
+    opacity: 0.6;
+}
+
+/*ADropBox css*/
+.dropbox_back
+{
+	color: #333333;
+	background-color:#ffffff;
+	border: 1px solid #d9d9d9;
+}
+
+.dropbox_label
+{
+	color : #333333;
+	background-color: transparent;
+}
+
+.dropbox_button
+{
+	background-image: url("../image/DropBoxBtn.png");
+}
+
+.dropbox_cell
+{
+
+}
+
+.dropbox_cellfocus
+{
+	background-color : #eeeeee;
+}
+/*
+.dropbox_cell:hover
+{
+	background-color : #eeeeee;
+}
+*/
+.dropbox_cellover
+{
+	background-color: #d5ecf5;
+}
+
+
+
+/*-------------------------------- AGrid ---------------------------------------*/
+.AGrid-Style
+{
+	color:#333333;
+    background-color: #ffffff;
+	cursor: default;
+}
+
+.AGrid-Style thead
+{
+	background-color: #d9dee0;
+
+}
+
+.AGrid-Style td
+{
+	border:1px solid #c2c2c2;
+}
+
+
+.agrid_select
+{
+	background-color: #3b5885;
+	color: white;
+}
+
+
+/*--------------------------------- ATree --------------------------------------*/
+.ATree-Style
+{
+	color:#333333;
+    background-color: #eeeeee;
+}
+
+/*
+.tree-normal
+{
+   	color: #ffffff !important;
+   	background-color:#000000 !important;
+}
+*/
+
+.tree-select
+{
+	background: #3b5885;
+	color: #d9d9d9;
+}
+
+.tree-over
+{
+	box-shadow: inset 0 0 0 1px #90beed;
+	background: rgba(180, 213, 255, 0.5);
+}
+
+.tree-after
+{
+	border-bottom : 3px solid cyan;
+}
+
+
+.tree-item > label {
+	position: absolute;
+}
+
+.tree-expand
+{
+
+	display : inline-block;	
+	margin-top : 3px;
+	padding : 0;
+	visibility : hidden;	
+	width : 16px;
+	height : 16px;
+	cursor : default;
+	//line-height : 17px;
+	
+	/*color : #3b5885;
+	border-style : solid;
+	border-width : 1px;
+	border-color : transparent;*/
+	
+	background-image: url('../image/folder_right.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: auto;
+	
+}
+
+.tree-expand.expanded {
+	background-image: url('../image/folder_down.png');
+}
+
+/*.tree-expand:hover
+{	
+	color : #3b5885;
+	border-style : solid;
+	border-width : 1px;
+	border-color : #3b5885;	
+}*/
+
+
+
+/*--------------------------------- AAccordion --------------------------------------*/
+.AAccordion-Style
+{
+	color:#333333;
+    background-color: #efefef;
+}
+
+.AAccordion-Menu
+{
+	color:#333333;
+    background-color: #acacac;
+    border-top: 1px solid #777777;
+    border-bottom: 1px solid #777777;
+}
+
+.AAccordion-Contents
+{
+	color:#333333;
+    /*background-color: #595959;*/
+}
+
+/*-------------------------------- AImage ---------------------------------------*/
+.AImage-Style
+{
+
+}
+
+.aimage-blank
+{
+	 background-image: url("../image/no_image.png");
+	 background-size : contain;
+	 background-position: center center;
+	 background-repeat : no-repeat;
+}
+
+/*
+.-chiron-aimage
+{
+    background-image: url("./img/no_image.png");
+}
+*/
+
+
+/*-------------------------------- ACanvas ---------------------------------------*/
+.ACanvas-Style
+{
+    background-color: #ffffff;
+}
+
+
+/*-------------------------------- AProgress ---------------------------------------*/
+.AProgress-Style
+{
+	background-color: #f0f0f0;
+	border: 1px solid #f0f0f0;
+}
+
+.AProgress-Style div
+{
+	background-color:rgb(54,54,237); 
+}
+
+
+/*-------------------------------- ATextArea ---------------------------------------*/
+.ATextArea-Style
+{
+	color: #333333;
+	background-color: #eeeeee;
+	border-color : #d9d9d9;
+}
+
+.ATextArea-Style[style*="pointer-events: none"]
+{
+    opacity: 0.6;
+}
+
+
+.ATextField-Style
+{
+	color: #333333;
+	background-color: #eeeeee;
+	border-color : #d9d9d9;	
+}
+
+.ATextField-Style[style*="pointer-events: none"]
+{
+    opacity: 0.6;
+}
+
+
+.AScrollBar-Style
+{
+	background-color: #d9d9d9;
+}
+
+
+
+
+
+/*-------------------------------- AListView ---------------------------------------*/
+.AListView-Style
+{
+	background: #efefef;
+}
+
+.AListView-select
+{
+	color: white;
+	background-color: #1473e6;
+}
+
+.listview-row
+{
+	border-bottom: 1px solid #c2c2c2; 
+}                          
+
+
+/*------------------------------ ATabView -----------------------------------------*/
+.ATabView-Style
+{
+    background-color: #f1f3f5;
+}
+
+.ATabView-Style .tab_area
+{
+    border-bottom:1px solid #767676;
+	background-color : transparent;
+}
+
+.ATabView_select
+{
+	color:white;
+	background-color:#3b5885;
+	border-top : 1px solid #aaaaaa;
+	border-bottom : 0;
+}
+
+.ATabView_deselect
+{
+	color:#333333;
+	background-color:#fdfdfd;
+	border : 1px solid #aaaaaa;
+	border-bottom : 0;
+}
+
+
+/*------------------------------ AWebView -----------------------------------------*/
+.AWebView-Style
+{
+    background-color: #efefef;
+}
+
+
+
+.AFlexView-Style
+{
+	background-color: #efefef;
+}
+
+.ASplitView-Style
+{
+	background-color: #efefef;
+}
+
+
+
+
+
+
+/*------------------------------ ASwitchButton -----------------------------------------*/
+.ASwitchButton-Style
+{
+	border : 1px solid #d9d9d9;
+}
+
+.switch-off
+{
+	position: absolute;
+	background-color:#eeeeee;
+	border : 1px solid #d9d9d9;
+}
+
+.switch-on
+{
+	position: absolute;
+	background-color: #2a4a7b;
+	border : 1px solid #2a4a7b;
+}
+
+.switch-off span
+{
+	position: absolute;
+	background-color: #fefefe;
+}
+
+.switch-on span
+{
+	position: absolute;
+	background-color: #fefefe;
+}
+
+
+/*-------------------------------- AView ---------------------------------------*/
+.AView-Style
+{
+	background-color: #cdcdcd;
+	
+}
+
+
+
+/*-------------------------------- AWindow ---------------------------------------*/
+/*
+.AWindow-Style
+{
+	background-color: #efefef;
+}
+*/
+
+
+
+/*-------------------------------- AMenu ---------------------------------------*/
+.AMenu-Style
+{
+	color: #ffffff;
+	background-color: #3A3A3A;
+	border: 1px solid #555555; 
+}
+
+/*
+.AMenu-Style > tr
+{
+	
+}
+*/
+
+.amenu-over
+{
+	background-color: #2a4a7b;
+}
+
+
+
+/*
+.scrollbar-up
+{
+	width: 100%;
+	height: 20px;
+	background-image: url("../image/ctl_scroll_top_on.png");
+}
+
+.scrollbar-down
+{
+	width: 100%;
+	height: 20px;
+	background-image: url("../image/ctl_scroll_down_on.png");
+}
+*/
+
+
+/*-------------------------------- ABar ---------------------------------------*/
+
+
+.ABar-Style
+{
+	background-color: #3A3A3A;
+}
+
+
+
+.ATabBar-Style
+{
+	color: #d9d9d9;
+	background-color: #3A3A3A;
+}
+
+
+.ADatePicker-Style{
+	color: #333333;
+	background-color: #fefefe;
+	border : 1px solid #d9d9d9;	
+	background-image : url('../image/datepicker.png');
+	background-position : 3px center;
+	background-size : 16px 16px;
+	background-repeat : no-repeat;
+	padding-left:22px;
+}
+
+
+
+.ADataGrid-Style
+{
+
+}
+
+/*-------------------------------- ASlideView ---------------------------------------*/
+.ASlideView-Style
+{
+	background-color: #cdcdcd;
+}
+
+
+
+/* webkit scrollbar custom */
+
+/* _global_style_ 에서 _global_scroll_style_ 으로 변경 AApplication  에서 pc 버전인 경우만 동적으로 추가  */ 
+
+._global_scroll_style_
+{
+	scrollbar-base-color: #f5f5f5;
+	scrollbar-face-color: rgb(168, 174, 182);
+	scrollbar-track-color: #f5f5f5;
+	scrollbar-arrow-color: rgb(168, 174, 182);
+	scrollbar-shadow-color: #f5f5f5;
+}
+
+._global_scroll_style_ ::-webkit-scrollbar{width:14px; background-color:#f5f5f5;}
+._global_scroll_style_ ::-webkit-scrollbar-thumb{
+	background-color:rgb(168, 174, 182);
+	border : 3px solid transparent;
+	border-radius : 10px;
+	background-clip:content-box;
+}
+._global_scroll_style_ ::-webkit-scrollbar-track { background-color:#f5f5f5; }
+._global_scroll_style_ ::-webkit-scrollbar-track-piece { background-color:#f5f5f5; }
+._global_scroll_style_ ::-webkit-scrollbar-corner { background-color:#ffffff; }
+._global_scroll_style_ ::-webkit-scrollbar-button:vertical:decrement{
+	background-color : #f5f5f5;
+	background-image : url('../image/scroll_up_arrow.png');
+	background-position : center center;
+	background-repeat : no-repeat;
+	background-size : auto;
+}
+._global_scroll_style_ ::-webkit-scrollbar-button:horizontal:start:decrement{
+	background-color : #f5f5f5;
+	background-image : url('../image/scroll_left_arrow.png');
+	background-position : center center;
+	background-repeat : no-repeat;
+	background-size : auto;
+}
+._global_scroll_style_ ::-webkit-scrollbar-button:vertical:increment{
+	background-color : #f5f5f5;
+	background-image : url('../image/scroll_down_arrow.png');
+	background-position : center center;
+	background-repeat : no-repeat;
+	background-size : auto;
+}
+._global_scroll_style_ ::-webkit-scrollbar-button:horizontal:end:increment{
+	background-color : #f5f5f5;
+	background-image : url('../image/scroll_right_arrow.png');
+	background-position : center center;
+	background-repeat : no-repeat;
+	background-size : auto;
+}
+
+
+
+
+/* framewnd */
+
+.frm_border
+{
+	/*border: 1px solid #656565;*/
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+._frame_title_
+{
+
+}

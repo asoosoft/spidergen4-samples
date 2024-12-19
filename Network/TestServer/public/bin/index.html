@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>BdkTest</title>
+	<style id="_font_style_">
+	</style>
+	<link rel="stylesheet" href="Framework/afc/style/afc.css"/>
+	<link rel="stylesheet" href="Framework/afc/style/comp.css"/>
+	<link rel="stylesheet" href="Framework/afc/style/basicStyle.css"/>
+	<link rel="stylesheet" href="Framework/afc/style/compEx.css"/>
+	<link rel="stylesheet" href="Framework/afc/style/jquery-ui.css"/>
+	<link rel="stylesheet" href="Framework/bdksys/style/comp.css"/>
+	<link rel="stylesheet" href="Framework/bdksys/style/basicStyle.css"/>
+
+	<link rel="stylesheet" href="Template/BdkTestApp_global.css"/>
+
+	<script>
+		var PROJECT_OPTION = {
+    "build": {
+        "autoInc": true,
+        "dynamicInc": true,
+        "dynamicComp": false,
+        "bridgeName": "none"
+    },
+    "general": {
+        "autoScale": false,
+        "docWidth": 640,
+        "scaleVal": 1,
+        "userScalable": false
+    },
+    "unitUrl": ""
+};
+	</script>
+	<script src="Framework/afc/library/jquery-2.1.3.js"></script>
+	<script src="Framework/afc/library/jquery-ui.js"></script>
+	<script src="Framework/afc/library/jquery.ui.touch-punch.js"></script>
+	<script src="Framework/afc/library/afc.js"></script>
+	<script src="Framework/afc/library/ARect.js"></script>
+	<script src="Framework/afc/library/AUtil.js"></script>
+	<script src="Framework/afc/library/ASplitter.js"></script>
+	<script src="Framework/afc/library/ADataMask.js"></script>
+	<script src="Framework/afc/library/BackupManager.js"></script>
+	<script src="Framework/afc/library/TabKeyController.js"></script>
+	<script src="Framework/afc/library/ScrollManager.js"></script>
+	<script src="Framework/afc/library/ScrollArrow.js"></script>
+	<script src="Framework/afc/library/KeyboardManager.js"></script>
+	<script src="Framework/afc/component/AComponent.js"></script>
+	<script src="Framework/afc/component/ALayout.js"></script>
+	<script src="Framework/afc/component/ALabel.js"></script>
+	<script src="Framework/afc/component/ATextBox.js"></script>
+	<script src="Framework/afc/component/AButton.js"></script>
+	<script src="Framework/afc/component/ACheckBox.js"></script>
+	<script src="Framework/afc/component/ARadioButton.js"></script>
+	<script src="Framework/afc/component/ADropBox.js"></script>
+	<script src="Framework/afc/component/ASelectBox.js"></script>
+	<script src="Framework/afc/component/ATextField.js"></script>
+	<script src="Framework/afc/component/ATextArea.js"></script>
+	<script src="Framework/afc/component/ASwitchButton.js"></script>
+	<script src="Framework/afc/component/AImage.js"></script>
+	<script src="Framework/afc/component/ACanvas.js"></script>
+	<script src="Framework/afc/component/AGrid.js"></script>
+	<script src="Framework/afc/component/ATree.js"></script>
+	<script src="Framework/afc/component/AView.js"></script>
+	<script src="Framework/afc/component/ARadioGroup.js"></script>
+	<script src="Framework/afc/component/AListView.js"></script>
+	<script src="Framework/afc/component/ATabView.js"></script>
+	<script src="Framework/afc/component/AWebView.js"></script>
+	<script src="Framework/afc/component/AProgress.js"></script>
+	<script src="Framework/afc/component/ASlider.js"></script>
+	<script src="Framework/afc/component/ADatePicker.js"></script>
+	<script src="Framework/afc/component/AScrollBar.js"></script>
+	<script src="Framework/afc/component/AGridLayout.js"></script>
+	<script src="Framework/afc/component/AFlexLayout.js"></script>
+	<script src="Framework/afc/component/AFlexView.js"></script>
+	<script src="Framework/afc/component/ASplitView.js"></script>
+	<script src="Framework/afc/component/AAccordion.js"></script>
+	<script src="Framework/afc/component/ABar.js"></script>
+	<script src="Framework/afc/component/AToolBar.js"></script>
+	<script src="Framework/afc/component/AMenuBar.js"></script>
+	<script src="Framework/afc/component/ATabBar.js"></script>
+	<script src="Framework/afc/component/AFloat.js"></script>
+	<script src="Framework/afc/component/AToast.js"></script>
+	<script src="Framework/afc/component/AIndicator.js"></script>
+	<script src="Framework/afc/component/AMenu.js"></script>
+	<script src="Framework/afc/component/ATooltip.js"></script>
+	<script src="Framework/afc/component/AContainer.js"></script>
+	<script src="Framework/afc/component/APanel.js"></script>
+	<script src="Framework/afc/component/AWindow.js"></script>
+	<script src="Framework/afc/component/APage.js"></script>
+	<script src="Framework/afc/component/ANavigator.js"></script>
+	<script src="Framework/afc/component/AApplication.js"></script>
+	<script src="Framework/afc/component/ADocument.js"></script>
+	<script src="Framework/afc/component/AFrameWnd.js"></script>
+	<script src="Framework/afc/component/ADialog.js"></script>
+	<script src="Framework/afc/component/ADockingFrame.js"></script>
+	<script src="Framework/afc/component/AMessageBox.js"></script>
+	<script src="Framework/afc/component/ADockablePanel.js"></script>
+	<script src="Framework/afc/component/ADataGrid.js"></script>
+	<script src="Framework/afc/component/ASlideView.js"></script>
+	<script src="Framework/afc/event/AEvent.js"></script>
+	<script src="Framework/afc/event/AButtonEvent.js"></script>
+	<script src="Framework/afc/event/ACanvasEvent.js"></script>
+	<script src="Framework/afc/event/ACheckBoxEvent.js"></script>
+	<script src="Framework/afc/event/ADatePickerEvent.js"></script>
+	<script src="Framework/afc/event/ADropBoxEvent.js"></script>
+	<script src="Framework/afc/event/AGridEvent.js"></script>
+	<script src="Framework/afc/event/ATreeEvent.js"></script>
+	<script src="Framework/afc/event/AAccordionEvent.js"></script>
+	<script src="Framework/afc/event/AImageEvent.js"></script>
+	<script src="Framework/afc/event/ALabelEvent.js"></script>
+	<script src="Framework/afc/event/ATextBoxEvent.js"></script>
+	<script src="Framework/afc/event/AListViewEvent.js"></script>
+	<script src="Framework/afc/event/AProgressEvent.js"></script>
+	<script src="Framework/afc/event/ARadioButtonEvent.js"></script>
+	<script src="Framework/afc/event/ARadioGroupEvent.js"></script>
+	<script src="Framework/afc/event/ASelectBoxEvent.js"></script>
+	<script src="Framework/afc/event/ASliderEvent.js"></script>
+	<script src="Framework/afc/event/ASwitchButtonEvent.js"></script>
+	<script src="Framework/afc/event/ATabViewEvent.js"></script>
+	<script src="Framework/afc/event/ATextAreaEvent.js"></script>
+	<script src="Framework/afc/event/ATextFieldEvent.js"></script>
+	<script src="Framework/afc/event/AViewEvent.js"></script>
+	<script src="Framework/afc/event/AToolBarEvent.js"></script>
+	<script src="Framework/afc/event/AMenuBarEvent.js"></script>
+	<script src="Framework/afc/event/ATabBarEvent.js"></script>
+	<script src="Framework/afc/event/AWebViewEvent.js"></script>
+	<script src="Framework/afc/event/AScrollBarEvent.js"></script>
+	<script src="Framework/afc/event/AFlexLayoutEvent.js"></script>
+	<script src="Framework/afc/event/AFlexViewEvent.js"></script>
+	<script src="Framework/afc/event/AGridLayoutEvent.js"></script>
+	<script src="Framework/afc/event/ASplitViewEvent.js"></script>
+	<script src="Framework/afc/event/ADataGridEvent.js"></script>
+	<script src="Framework/afc/event/ASlideViewEvent.js"></script>
+	<script src="Framework/bdksys/library/bdksys.js"></script>
+	<script src="Framework/bdksys/library/NodeData.js"></script>
+	<script src="Framework/bdksys/library/NodeList.js"></script>
+	<script src="Framework/bdksys/library/NodeGroup.js"></script>
+	<script src="Framework/bdksys/library/GameTree.js"></script>
+	<script src="Framework/bdksys/library/DomainCount.js"></script>
+	<script src="Framework/bdksys/library/BoardChecker.js"></script>
+	<script src="Framework/bdksys/library/MarkManage.js"></script>
+	<script src="Framework/bdksys/library/DomainChecker.js"></script>
+	<script src="Framework/bdksys/library/BdkContent.js"></script>
+	<script src="Framework/bdksys/library/BdkDoc.js"></script>
+	<script src="Framework/bdksys/library/BdkView.js"></script>
+	<script src="Framework/bdksys/library/XParser.js"></script>
+	<script src="Framework/bdksys/library/JFGParser.js"></script>
+	<script src="Framework/bdksys/component/BdkCanvas.js"></script>
+	<script src="Framework/bdksys/event/BdkCanvasEvent.js"></script>
+
+	<script src="Source/BdkTestApp.js"></script>
+
+</head>
+<body class="_global_style_">
+</body>
+</html>

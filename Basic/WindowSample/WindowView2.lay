@@ -1,0 +1,4 @@
+<div class="AView-Style" data-base="AView" data-class="WindowView2" id="WindowView2--WindowsView2" style="left: 0px; top: 0px; width: 100%; height: 100%; background-color: transparent;" data-browser-width="400" data-browser-height="600" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AButton&quot;]}">
+    <div class="AView-Style" data-base="AView" data-bg-option="pattern" data-class="AView" style="width: 100%; height: 100%; left: 0px; top: 0px; background-color: rgb(95, 93, 93); background-image: url(&quot;Assets/image/chiron1.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%;" data-background-option="stretch"></div>
+    <button class="AButton-Style" data-base="AButton" data-class="AButton" data-listener-click="WindowView2:onButtonCloseClick" id="WindowView2--ButtonClose" style="width: 30px; height: 30px; top: 10px; right: 10px;">X</button>
+</div>

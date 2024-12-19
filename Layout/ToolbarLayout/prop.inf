@@ -1,0 +1,40 @@
+{
+  "general": {
+    "autoScale": false,
+    "userSize": false,
+    "phoneDocWidth": 0,
+    "tabletDocWidth": 0,
+    "queryFormat": "qry",
+    "scaleVal": 1,
+    "tabletMinWidth": 500,
+    "userScalable": false,
+    "layBrowserInfo": [
+      640,
+      800
+    ],
+    "isPort": true,
+    "scaleValue": 100
+  },
+  "build": {
+    "bridgeName": "none",
+    "indexTitle": "",
+    "frwLoadOption": "inTimeLoad",
+    "stlImportant": true
+  },
+  "script": {
+    "before": [],
+    "beforeUse": false,
+    "after": [],
+    "afterUse": false
+  },
+  "subversion": {
+    "useSvn": false,
+    "useMode": false
+  },
+  "deployment": {
+    "upload": {
+      "idx": null,
+      "list": []
+    }
+  }
+}

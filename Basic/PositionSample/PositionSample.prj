@@ -1,0 +1,308 @@
+{
+    "projectName": "PositionSample",
+    "fileTree": {
+        "type": 0,
+        "name": "PositionSample",
+        "children": [
+            {
+                "type": 1,
+                "name": "Framework",
+                "action": 1,
+                "children": [
+                    {
+                        "type": 11,
+                        "name": "afc",
+                        "relType": 7,
+                        "path": "afc\\"
+                    }
+                ]
+            },
+            {
+                "type": 1,
+                "name": "Library",
+                "action": 2,
+                "children": []
+            },
+            {
+                "type": 1,
+                "name": "Template",
+                "action": 4,
+                "children": [
+                    {
+                        "type": 4,
+                        "name": "PositionSampleApp_global.stl",
+                        "relType": 1,
+                        "path": "Template\\"
+                    }
+                ]
+            },
+            {
+                "type": 1,
+                "name": "Query",
+                "children": []
+            },
+            {
+                "type": 1,
+                "name": "Assets",
+                "children": [
+                    {
+                        "type": 8,
+                        "name": "all_save-btn.gif",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Assets\\"
+                    },
+                    {
+                        "type": 8,
+                        "name": "build_btn.gif",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Assets\\"
+                    },
+                    {
+                        "type": 8,
+                        "name": "build_play_btn.gif",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Assets\\"
+                    },
+                    {
+                        "type": 8,
+                        "name": "simulator.png",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Assets\\"
+                    },
+                    {
+                        "type": 8,
+                        "name": "spidergen.png",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Assets\\"
+                    },
+                    {
+                        "type": 8,
+                        "name": "balance.svg",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Assets\\"
+                    },
+                    {
+                        "type": 8,
+                        "name": "sub4_img_01.jpg",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Assets\\"
+                    },
+                    {
+                        "type": 8,
+                        "name": "sub4_img_02.jpg",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Assets\\"
+                    },
+                    {
+                        "type": 8,
+                        "name": "sub4_img_03.jpg",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Assets\\"
+                    },
+                    {
+                        "type": 8,
+                        "name": "sub4_img_04.jpg",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Assets\\"
+                    },
+                    {
+                        "type": 8,
+                        "name": "sub4_img_05.png",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Assets\\"
+                    }
+                ]
+            },
+            {
+                "type": 1,
+                "name": "Source",
+                "children": [
+                    {
+                        "type": 5,
+                        "name": "PositionSampleApp.js",
+                        "relType": 1,
+                        "path": "Source\\"
+                    },
+                    {
+                        "type": 5,
+                        "name": "MainView.js",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 3,
+                        "name": "MainView.lay",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 5,
+                        "name": "TestView.js",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 3,
+                        "name": "TestView.lay",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 5,
+                        "name": "LayoutView.js",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 3,
+                        "name": "LayoutView.lay",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 5,
+                        "name": "FlexLayoutView.js",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 3,
+                        "name": "FlexLayoutView.lay",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 5,
+                        "name": "GridLayoutView.js",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 3,
+                        "name": "GridLayoutView.lay",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 5,
+                        "name": "GridLayoutView2.js",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 3,
+                        "name": "GridLayoutView2.lay",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 5,
+                        "name": "BadUsecaseView.js",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 3,
+                        "name": "BadUsecaseView.lay",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 5,
+                        "name": "FlexLayoutView2.js",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 3,
+                        "name": "FlexLayoutView2.lay",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 5,
+                        "name": "FlexLayoutView3.js",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 3,
+                        "name": "FlexLayoutView3.lay",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 5,
+                        "name": "AutoSizeView.js",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 3,
+                        "name": "AutoSizeView.lay",
+                        "action": null,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "type": 14,
+                "name": "index.html",
+                "relType": 1,
+                "path": ""
+            }
+        ]
+    },
+    "version": "4.0.1"
+}

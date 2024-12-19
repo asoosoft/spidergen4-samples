@@ -1,0 +1,2775 @@
+{
+  "projectName": "CKeditorSample",
+  "fileTree": {
+    "type": 0,
+    "name": "CKeditorSample",
+    "children": [
+      {
+        "type": 1,
+        "name": "Framework",
+        "action": 1,
+        "children": [
+          {
+            "type": 11,
+            "name": "afc",
+            "relType": 7,
+            "path": "afc\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Library",
+        "action": 2,
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Template",
+        "action": 4,
+        "children": [
+          {
+            "type": 1,
+            "name": "Theme",
+            "children": []
+          },
+          {
+            "type": 4,
+            "name": "CKeditorSampleApp_global.stl",
+            "relType": 1,
+            "path": "Template\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Query",
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Assets",
+        "children": [
+          {
+            "type": 1,
+            "name": "ckeditor",
+            "children": [
+              {
+                "type": 1,
+                "name": "adapters",
+                "children": [
+                  {
+                    "type": 5,
+                    "name": "jquery.js",
+                    "action": 9,
+                    "relType": 1,
+                    "path": "Assets\\ckeditor\\adapters\\"
+                  }
+                ]
+              },
+              {
+                "type": 5,
+                "name": "build-config.js",
+                "action": 9,
+                "relType": 1,
+                "path": "Assets\\ckeditor\\"
+              },
+              {
+                "type": 5,
+                "name": "ckeditor.js",
+                "action": 9,
+                "relType": 1,
+                "path": "Assets\\ckeditor\\"
+              },
+              {
+                "type": 5,
+                "name": "config.js",
+                "action": 9,
+                "relType": 1,
+                "path": "Assets\\ckeditor\\"
+              },
+              {
+                "type": 6,
+                "name": "contents.css",
+                "action": 10,
+                "relType": 1,
+                "path": "Assets\\ckeditor\\"
+              },
+              {
+                "type": 1,
+                "name": "lang",
+                "children": [
+                  {
+                    "type": 5,
+                    "name": "en.js",
+                    "action": 9,
+                    "relType": 1,
+                    "path": "Assets\\ckeditor\\lang\\"
+                  },
+                  {
+                    "type": 5,
+                    "name": "es-mx.js",
+                    "action": 9,
+                    "relType": 1,
+                    "path": "Assets\\ckeditor\\lang\\"
+                  },
+                  {
+                    "type": 5,
+                    "name": "es.js",
+                    "action": 9,
+                    "relType": 1,
+                    "path": "Assets\\ckeditor\\lang\\"
+                  },
+                  {
+                    "type": 5,
+                    "name": "ja.js",
+                    "action": 9,
+                    "relType": 1,
+                    "path": "Assets\\ckeditor\\lang\\"
+                  },
+                  {
+                    "type": 5,
+                    "name": "ko.js",
+                    "action": 9,
+                    "relType": 1,
+                    "path": "Assets\\ckeditor\\lang\\"
+                  },
+                  {
+                    "type": 5,
+                    "name": "zh-cn.js",
+                    "action": 9,
+                    "relType": 1,
+                    "path": "Assets\\ckeditor\\lang\\"
+                  },
+                  {
+                    "type": 5,
+                    "name": "zh.js",
+                    "action": 9,
+                    "relType": 1,
+                    "path": "Assets\\ckeditor\\lang\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "plugins",
+                "children": [
+                  {
+                    "type": 1,
+                    "name": "a11yhelp",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "dialogs",
+                        "children": [
+                          {
+                            "type": 5,
+                            "name": "a11yhelp.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\"
+                          },
+                          {
+                            "type": 1,
+                            "name": "lang",
+                            "children": [
+                              {
+                                "type": 8,
+                                "name": "_translationstatus.txt",
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "af.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "ar.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "az.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "bg.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "ca.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "cs.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "cy.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "da.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "de-ch.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "de.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "el.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "en-au.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "en-gb.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "en.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "eo.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "es-mx.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "es.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "et.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "eu.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "fa.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "fi.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "fo.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "fr-ca.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "fr.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "gl.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "gu.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "he.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "hi.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "hr.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "hu.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "id.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "it.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "ja.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "km.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "ko.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "ku.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "lt.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "lv.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "mk.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "mn.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "nb.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "nl.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "no.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "oc.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "pl.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "pt-br.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "pt.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "ro.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "ru.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "si.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "sk.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "sl.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "sq.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "sr-latn.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "sr.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "sv.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "th.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "tr.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "tt.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "ug.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "uk.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "vi.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "zh-cn.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "zh.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "about",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "dialogs",
+                        "children": [
+                          {
+                            "type": 5,
+                            "name": "about.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\about\\dialogs\\"
+                          },
+                          {
+                            "type": 1,
+                            "name": "hidpi",
+                            "children": [
+                              {
+                                "type": 8,
+                                "name": "logo_ckeditor.png",
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\about\\dialogs\\hidpi\\"
+                              }
+                            ]
+                          },
+                          {
+                            "type": 8,
+                            "name": "logo_ckeditor.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\about\\dialogs\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "balloonpanel",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "skins",
+                        "children": [
+                          {
+                            "type": 1,
+                            "name": "kama",
+                            "children": [
+                              {
+                                "type": 6,
+                                "name": "balloonpanel.css",
+                                "action": 10,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\balloonpanel\\skins\\kama\\"
+                              }
+                            ]
+                          },
+                          {
+                            "type": 1,
+                            "name": "moono",
+                            "children": [
+                              {
+                                "type": 6,
+                                "name": "balloonpanel.css",
+                                "action": 10,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\balloonpanel\\skins\\moono\\"
+                              },
+                              {
+                                "type": 1,
+                                "name": "images",
+                                "children": [
+                                  {
+                                    "type": 8,
+                                    "name": "close.png",
+                                    "relType": 1,
+                                    "path": "Assets\\ckeditor\\plugins\\balloonpanel\\skins\\moono\\images\\"
+                                  },
+                                  {
+                                    "type": 1,
+                                    "name": "hidpi",
+                                    "children": [
+                                      {
+                                        "type": 8,
+                                        "name": "close.png",
+                                        "relType": 1,
+                                        "path": "Assets\\ckeditor\\plugins\\balloonpanel\\skins\\moono\\images\\hidpi\\"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": 1,
+                            "name": "moono-lisa",
+                            "children": [
+                              {
+                                "type": 6,
+                                "name": "balloonpanel.css",
+                                "action": 10,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\balloonpanel\\skins\\moono-lisa\\"
+                              },
+                              {
+                                "type": 1,
+                                "name": "images",
+                                "children": [
+                                  {
+                                    "type": 8,
+                                    "name": "close.png",
+                                    "relType": 1,
+                                    "path": "Assets\\ckeditor\\plugins\\balloonpanel\\skins\\moono-lisa\\images\\"
+                                  },
+                                  {
+                                    "type": 1,
+                                    "name": "hidpi",
+                                    "children": [
+                                      {
+                                        "type": 8,
+                                        "name": "close.png",
+                                        "relType": 1,
+                                        "path": "Assets\\ckeditor\\plugins\\balloonpanel\\skins\\moono-lisa\\images\\hidpi\\"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "balloontoolbar",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "skins",
+                        "children": [
+                          {
+                            "type": 6,
+                            "name": "default.css",
+                            "action": 10,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\balloontoolbar\\skins\\"
+                          },
+                          {
+                            "type": 1,
+                            "name": "kama",
+                            "children": [
+                              {
+                                "type": 6,
+                                "name": "balloontoolbar.css",
+                                "action": 10,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\balloontoolbar\\skins\\kama\\"
+                              }
+                            ]
+                          },
+                          {
+                            "type": 1,
+                            "name": "moono",
+                            "children": [
+                              {
+                                "type": 6,
+                                "name": "balloontoolbar.css",
+                                "action": 10,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\balloontoolbar\\skins\\moono\\"
+                              }
+                            ]
+                          },
+                          {
+                            "type": 1,
+                            "name": "moono-lisa",
+                            "children": [
+                              {
+                                "type": 6,
+                                "name": "balloontoolbar.css",
+                                "action": 10,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\balloontoolbar\\skins\\moono-lisa\\"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "clipboard",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "dialogs",
+                        "children": [
+                          {
+                            "type": 5,
+                            "name": "paste.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\clipboard\\dialogs\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "colordialog",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "dialogs",
+                        "children": [
+                          {
+                            "type": 6,
+                            "name": "colordialog.css",
+                            "action": 10,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\colordialog\\dialogs\\"
+                          },
+                          {
+                            "type": 5,
+                            "name": "colordialog.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\colordialog\\dialogs\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "copyformatting",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "cursors",
+                        "children": [
+                          {
+                            "type": 8,
+                            "name": "cursor-disabled.svg",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\copyformatting\\cursors\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "cursor.svg",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\copyformatting\\cursors\\"
+                          }
+                        ]
+                      },
+                      {
+                        "type": 1,
+                        "name": "styles",
+                        "children": [
+                          {
+                            "type": 6,
+                            "name": "copyformatting.css",
+                            "action": 10,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\copyformatting\\styles\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "dialog",
+                    "children": [
+                      {
+                        "type": 5,
+                        "name": "dialogDefinition.js",
+                        "action": 9,
+                        "relType": 1,
+                        "path": "Assets\\ckeditor\\plugins\\dialog\\"
+                      },
+                      {
+                        "type": 1,
+                        "name": "styles",
+                        "children": [
+                          {
+                            "type": 6,
+                            "name": "dialog.css",
+                            "action": 10,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\dialog\\styles\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "div",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "dialogs",
+                        "children": [
+                          {
+                            "type": 5,
+                            "name": "div.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\div\\dialogs\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "easyimage",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "dialogs",
+                        "children": [
+                          {
+                            "type": 5,
+                            "name": "easyimagealt.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\easyimage\\dialogs\\"
+                          }
+                        ]
+                      },
+                      {
+                        "type": 1,
+                        "name": "styles",
+                        "children": [
+                          {
+                            "type": 6,
+                            "name": "easyimage.css",
+                            "action": 10,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\easyimage\\styles\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "find",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "dialogs",
+                        "children": [
+                          {
+                            "type": 5,
+                            "name": "find.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\find\\dialogs\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "flash",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "dialogs",
+                        "children": [
+                          {
+                            "type": 5,
+                            "name": "flash.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\flash\\dialogs\\"
+                          }
+                        ]
+                      },
+                      {
+                        "type": 1,
+                        "name": "images",
+                        "children": [
+                          {
+                            "type": 8,
+                            "name": "placeholder.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\flash\\images\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "forms",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "dialogs",
+                        "children": [
+                          {
+                            "type": 5,
+                            "name": "button.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\forms\\dialogs\\"
+                          },
+                          {
+                            "type": 5,
+                            "name": "checkbox.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\forms\\dialogs\\"
+                          },
+                          {
+                            "type": 5,
+                            "name": "form.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\forms\\dialogs\\"
+                          },
+                          {
+                            "type": 5,
+                            "name": "hiddenfield.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\forms\\dialogs\\"
+                          },
+                          {
+                            "type": 5,
+                            "name": "radio.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\forms\\dialogs\\"
+                          },
+                          {
+                            "type": 5,
+                            "name": "select.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\forms\\dialogs\\"
+                          },
+                          {
+                            "type": 5,
+                            "name": "textarea.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\forms\\dialogs\\"
+                          },
+                          {
+                            "type": 5,
+                            "name": "textfield.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\forms\\dialogs\\"
+                          }
+                        ]
+                      },
+                      {
+                        "type": 1,
+                        "name": "images",
+                        "children": [
+                          {
+                            "type": 8,
+                            "name": "hiddenfield.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\forms\\images\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 8,
+                    "name": "icons.png",
+                    "relType": 1,
+                    "path": "Assets\\ckeditor\\plugins\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "icons_hidpi.png",
+                    "relType": 1,
+                    "path": "Assets\\ckeditor\\plugins\\"
+                  },
+                  {
+                    "type": 1,
+                    "name": "iframe",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "dialogs",
+                        "children": [
+                          {
+                            "type": 5,
+                            "name": "iframe.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\iframe\\dialogs\\"
+                          }
+                        ]
+                      },
+                      {
+                        "type": 1,
+                        "name": "images",
+                        "children": [
+                          {
+                            "type": 8,
+                            "name": "placeholder.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\iframe\\images\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "image",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "dialogs",
+                        "children": [
+                          {
+                            "type": 5,
+                            "name": "image.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\image\\dialogs\\"
+                          }
+                        ]
+                      },
+                      {
+                        "type": 1,
+                        "name": "images",
+                        "children": [
+                          {
+                            "type": 8,
+                            "name": "noimage.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\image\\images\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "imagebase",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "styles",
+                        "children": [
+                          {
+                            "type": 6,
+                            "name": "imagebase.css",
+                            "action": 10,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\imagebase\\styles\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "link",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "dialogs",
+                        "children": [
+                          {
+                            "type": 5,
+                            "name": "anchor.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\link\\dialogs\\"
+                          },
+                          {
+                            "type": 5,
+                            "name": "link.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\link\\dialogs\\"
+                          }
+                        ]
+                      },
+                      {
+                        "type": 1,
+                        "name": "images",
+                        "children": [
+                          {
+                            "type": 8,
+                            "name": "anchor.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\link\\images\\"
+                          },
+                          {
+                            "type": 1,
+                            "name": "hidpi",
+                            "children": [
+                              {
+                                "type": 8,
+                                "name": "anchor.png",
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\link\\images\\hidpi\\"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "liststyle",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "dialogs",
+                        "children": [
+                          {
+                            "type": 5,
+                            "name": "liststyle.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\liststyle\\dialogs\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "magicline",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "images",
+                        "children": [
+                          {
+                            "type": 1,
+                            "name": "hidpi",
+                            "children": [
+                              {
+                                "type": 8,
+                                "name": "icon-rtl.png",
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\magicline\\images\\hidpi\\"
+                              },
+                              {
+                                "type": 8,
+                                "name": "icon.png",
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\magicline\\images\\hidpi\\"
+                              }
+                            ]
+                          },
+                          {
+                            "type": 8,
+                            "name": "icon-rtl.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\magicline\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "icon.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\magicline\\images\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "pagebreak",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "images",
+                        "children": [
+                          {
+                            "type": 8,
+                            "name": "pagebreak.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\pagebreak\\images\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "pastefromgdocs",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "filter",
+                        "children": [
+                          {
+                            "type": 5,
+                            "name": "default.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\pastefromgdocs\\filter\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "pastefromword",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "filter",
+                        "children": [
+                          {
+                            "type": 5,
+                            "name": "default.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\pastefromword\\filter\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "pastetools",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "filter",
+                        "children": [
+                          {
+                            "type": 5,
+                            "name": "common.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\pastetools\\filter\\"
+                          },
+                          {
+                            "type": 5,
+                            "name": "image.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\pastetools\\filter\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "preview",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "images",
+                        "children": [
+                          {
+                            "type": 8,
+                            "name": "pagebreak.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\preview\\images\\"
+                          }
+                        ]
+                      },
+                      {
+                        "type": 14,
+                        "name": "preview.html",
+                        "action": 13,
+                        "relType": 1,
+                        "path": "Assets\\ckeditor\\plugins\\preview\\"
+                      },
+                      {
+                        "type": 1,
+                        "name": "styles",
+                        "children": [
+                          {
+                            "type": 6,
+                            "name": "screen.css",
+                            "action": 10,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\preview\\styles\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "scayt",
+                    "children": [
+                      {
+                        "type": 8,
+                        "name": "CHANGELOG.md",
+                        "relType": 1,
+                        "path": "Assets\\ckeditor\\plugins\\scayt\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "LICENSE.md",
+                        "relType": 1,
+                        "path": "Assets\\ckeditor\\plugins\\scayt\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "README.md",
+                        "relType": 1,
+                        "path": "Assets\\ckeditor\\plugins\\scayt\\"
+                      },
+                      {
+                        "type": 1,
+                        "name": "dialogs",
+                        "children": [
+                          {
+                            "type": 6,
+                            "name": "dialog.css",
+                            "action": 10,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\scayt\\dialogs\\"
+                          },
+                          {
+                            "type": 5,
+                            "name": "options.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\scayt\\dialogs\\"
+                          },
+                          {
+                            "type": 6,
+                            "name": "toolbar.css",
+                            "action": 10,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\scayt\\dialogs\\"
+                          }
+                        ]
+                      },
+                      {
+                        "type": 1,
+                        "name": "skins",
+                        "children": [
+                          {
+                            "type": 1,
+                            "name": "moono-lisa",
+                            "children": [
+                              {
+                                "type": 6,
+                                "name": "scayt.css",
+                                "action": 10,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\scayt\\skins\\moono-lisa\\"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "showblocks",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "images",
+                        "children": [
+                          {
+                            "type": 8,
+                            "name": "block_address.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\showblocks\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "block_blockquote.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\showblocks\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "block_div.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\showblocks\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "block_h1.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\showblocks\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "block_h2.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\showblocks\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "block_h3.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\showblocks\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "block_h4.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\showblocks\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "block_h5.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\showblocks\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "block_h6.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\showblocks\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "block_p.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\showblocks\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "block_pre.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\showblocks\\images\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "smiley",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "dialogs",
+                        "children": [
+                          {
+                            "type": 5,
+                            "name": "smiley.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\dialogs\\"
+                          }
+                        ]
+                      },
+                      {
+                        "type": 1,
+                        "name": "images",
+                        "children": [
+                          {
+                            "type": 8,
+                            "name": "angel_smile.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "angel_smile.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "angry_smile.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "angry_smile.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "broken_heart.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "broken_heart.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "confused_smile.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "confused_smile.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "cry_smile.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "cry_smile.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "devil_smile.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "devil_smile.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "embaressed_smile.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "embarrassed_smile.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "embarrassed_smile.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "envelope.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "envelope.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "heart.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "heart.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "kiss.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "kiss.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "lightbulb.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "lightbulb.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "omg_smile.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "omg_smile.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "regular_smile.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "regular_smile.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "sad_smile.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "sad_smile.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "shades_smile.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "shades_smile.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "teeth_smile.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "teeth_smile.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "thumbs_down.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "thumbs_down.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "thumbs_up.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "thumbs_up.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "tongue_smile.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "tongue_smile.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "tounge_smile.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "whatchutalkingabout_smile.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "whatchutalkingabout_smile.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "wink_smile.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "wink_smile.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\smiley\\images\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "specialchar",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "dialogs",
+                        "children": [
+                          {
+                            "type": 1,
+                            "name": "lang",
+                            "children": [
+                              {
+                                "type": 8,
+                                "name": "_translationstatus.txt",
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "af.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "ar.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "az.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "bg.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "ca.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "cs.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "cy.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "da.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "de-ch.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "de.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "el.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "en-au.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "en-ca.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "en-gb.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "en.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "eo.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "es-mx.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "es.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "et.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "eu.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "fa.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "fi.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "fr-ca.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "fr.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "gl.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "he.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "hr.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "hu.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "id.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "it.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "ja.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "km.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "ko.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "ku.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "lt.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "lv.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "nb.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "nl.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "no.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "oc.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "pl.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "pt-br.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "pt.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "ro.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "ru.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "si.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "sk.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "sl.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "sq.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "sr-latn.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "sr.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "sv.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "th.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "tr.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "tt.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "ug.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "uk.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "vi.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "zh-cn.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              },
+                              {
+                                "type": 5,
+                                "name": "zh.js",
+                                "action": 9,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\"
+                              }
+                            ]
+                          },
+                          {
+                            "type": 5,
+                            "name": "specialchar.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\specialchar\\dialogs\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "table",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "dialogs",
+                        "children": [
+                          {
+                            "type": 5,
+                            "name": "table.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\table\\dialogs\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "tableselection",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "styles",
+                        "children": [
+                          {
+                            "type": 6,
+                            "name": "tableselection.css",
+                            "action": 10,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\tableselection\\styles\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "tabletools",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "dialogs",
+                        "children": [
+                          {
+                            "type": 5,
+                            "name": "tableCell.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\tabletools\\dialogs\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "templates",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "dialogs",
+                        "children": [
+                          {
+                            "type": 6,
+                            "name": "templates.css",
+                            "action": 10,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\templates\\dialogs\\"
+                          },
+                          {
+                            "type": 5,
+                            "name": "templates.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\templates\\dialogs\\"
+                          }
+                        ]
+                      },
+                      {
+                        "type": 1,
+                        "name": "templates",
+                        "children": [
+                          {
+                            "type": 5,
+                            "name": "default.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\templates\\templates\\"
+                          },
+                          {
+                            "type": 1,
+                            "name": "images",
+                            "children": [
+                              {
+                                "type": 8,
+                                "name": "template1.gif",
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\templates\\templates\\images\\"
+                              },
+                              {
+                                "type": 8,
+                                "name": "template2.gif",
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\templates\\templates\\images\\"
+                              },
+                              {
+                                "type": 8,
+                                "name": "template3.gif",
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\templates\\templates\\images\\"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "widget",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "images",
+                        "children": [
+                          {
+                            "type": 8,
+                            "name": "handle.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\widget\\images\\"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "wsc",
+                    "children": [
+                      {
+                        "type": 8,
+                        "name": "LICENSE.md",
+                        "relType": 1,
+                        "path": "Assets\\ckeditor\\plugins\\wsc\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "README.md",
+                        "relType": 1,
+                        "path": "Assets\\ckeditor\\plugins\\wsc\\"
+                      },
+                      {
+                        "type": 1,
+                        "name": "dialogs",
+                        "children": [
+                          {
+                            "type": 14,
+                            "name": "ciframe.html",
+                            "action": 13,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\wsc\\dialogs\\"
+                          },
+                          {
+                            "type": 14,
+                            "name": "tmpFrameset.html",
+                            "action": 13,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\wsc\\dialogs\\"
+                          },
+                          {
+                            "type": 6,
+                            "name": "wsc.css",
+                            "action": 10,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\wsc\\dialogs\\"
+                          },
+                          {
+                            "type": 5,
+                            "name": "wsc.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\wsc\\dialogs\\"
+                          },
+                          {
+                            "type": 5,
+                            "name": "wsc_ie.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\plugins\\wsc\\dialogs\\"
+                          }
+                        ]
+                      },
+                      {
+                        "type": 1,
+                        "name": "skins",
+                        "children": [
+                          {
+                            "type": 1,
+                            "name": "moono-lisa",
+                            "children": [
+                              {
+                                "type": 6,
+                                "name": "wsc.css",
+                                "action": 10,
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\plugins\\wsc\\skins\\moono-lisa\\"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "skins",
+                "children": [
+                  {
+                    "type": 1,
+                    "name": "moono-lisa",
+                    "children": [
+                      {
+                        "type": 6,
+                        "name": "dialog.css",
+                        "action": 10,
+                        "relType": 1,
+                        "path": "Assets\\ckeditor\\skins\\moono-lisa\\"
+                      },
+                      {
+                        "type": 6,
+                        "name": "dialog_ie.css",
+                        "action": 10,
+                        "relType": 1,
+                        "path": "Assets\\ckeditor\\skins\\moono-lisa\\"
+                      },
+                      {
+                        "type": 6,
+                        "name": "dialog_ie8.css",
+                        "action": 10,
+                        "relType": 1,
+                        "path": "Assets\\ckeditor\\skins\\moono-lisa\\"
+                      },
+                      {
+                        "type": 6,
+                        "name": "dialog_iequirks.css",
+                        "action": 10,
+                        "relType": 1,
+                        "path": "Assets\\ckeditor\\skins\\moono-lisa\\"
+                      },
+                      {
+                        "type": 6,
+                        "name": "editor.css",
+                        "action": 10,
+                        "relType": 1,
+                        "path": "Assets\\ckeditor\\skins\\moono-lisa\\"
+                      },
+                      {
+                        "type": 6,
+                        "name": "editor_gecko.css",
+                        "action": 10,
+                        "relType": 1,
+                        "path": "Assets\\ckeditor\\skins\\moono-lisa\\"
+                      },
+                      {
+                        "type": 6,
+                        "name": "editor_ie.css",
+                        "action": 10,
+                        "relType": 1,
+                        "path": "Assets\\ckeditor\\skins\\moono-lisa\\"
+                      },
+                      {
+                        "type": 6,
+                        "name": "editor_ie8.css",
+                        "action": 10,
+                        "relType": 1,
+                        "path": "Assets\\ckeditor\\skins\\moono-lisa\\"
+                      },
+                      {
+                        "type": 6,
+                        "name": "editor_iequirks.css",
+                        "action": 10,
+                        "relType": 1,
+                        "path": "Assets\\ckeditor\\skins\\moono-lisa\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "icons.png",
+                        "relType": 1,
+                        "path": "Assets\\ckeditor\\skins\\moono-lisa\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "icons_hidpi.png",
+                        "relType": 1,
+                        "path": "Assets\\ckeditor\\skins\\moono-lisa\\"
+                      },
+                      {
+                        "type": 1,
+                        "name": "images",
+                        "children": [
+                          {
+                            "type": 8,
+                            "name": "arrow.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\skins\\moono-lisa\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "close.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\skins\\moono-lisa\\images\\"
+                          },
+                          {
+                            "type": 1,
+                            "name": "hidpi",
+                            "children": [
+                              {
+                                "type": 8,
+                                "name": "close.png",
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\"
+                              },
+                              {
+                                "type": 8,
+                                "name": "lock-open.png",
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\"
+                              },
+                              {
+                                "type": 8,
+                                "name": "lock.png",
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\"
+                              },
+                              {
+                                "type": 8,
+                                "name": "refresh.png",
+                                "relType": 1,
+                                "path": "Assets\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\"
+                              }
+                            ]
+                          },
+                          {
+                            "type": 8,
+                            "name": "lock-open.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\skins\\moono-lisa\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "lock.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\skins\\moono-lisa\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "refresh.png",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\skins\\moono-lisa\\images\\"
+                          },
+                          {
+                            "type": 8,
+                            "name": "spinner.gif",
+                            "relType": 1,
+                            "path": "Assets\\ckeditor\\skins\\moono-lisa\\images\\"
+                          }
+                        ]
+                      },
+                      {
+                        "type": 8,
+                        "name": "readme.md",
+                        "relType": 1,
+                        "path": "Assets\\ckeditor\\skins\\moono-lisa\\"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": 5,
+                "name": "styles.js",
+                "action": 9,
+                "relType": 1,
+                "path": "Assets\\ckeditor\\"
+              },
+              {
+                "type": 1,
+                "name": "vendor",
+                "children": [
+                  {
+                    "type": 5,
+                    "name": "promise.js",
+                    "action": 9,
+                    "relType": 1,
+                    "path": "Assets\\ckeditor\\vendor\\"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Source",
+        "children": [
+          {
+            "type": 5,
+            "name": "CKeditorSampleApp.js",
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 5,
+            "name": "MainView.js",
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 3,
+            "name": "MainView.lay",
+            "relType": 1,
+            "path": "Source\\"
+          }
+        ]
+      },
+      {
+        "type": 14,
+        "name": "index.html",
+        "relType": 1,
+        "path": ""
+      }
+    ]
+  },
+  "version": "4.0.3",
+  "flavor": {
+    "common": "common"
+  },
+  "defaultLanguage": "js"
+}

@@ -1,0 +1,29 @@
+{
+	"name": "ac001",
+	"desc": "로그인",
+	"queryType": ".JSON",
+	"input":
+	{
+		"InBlock1":
+		{
+			"format":
+			[
+				["로그인아이디","login_id",0,0,"char",0,0],
+				["로그인비밀번호","login_pw",0,0,"char",0,0]
+			]
+		}
+	},
+	
+	"output":
+	{
+		"OutBlock1":
+		{
+			"format":
+			[
+				["닉네임","nick_name",0,0,"char",0,0],
+				["고유아이디","uid",0,0,"char",0,0],
+				["이메일","email",0,0,"char",0,0]
+			]
+		}
+	}
+}

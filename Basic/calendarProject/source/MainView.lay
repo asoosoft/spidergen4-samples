@@ -1,0 +1,41 @@
+<div data-base="AView" data-class="MainView" class="AView-Style" style="left: 0px; top: 0px; width: 100%; height: 100%; background-color: rgb(255, 255, 255);" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ALabel&quot;,&quot;ATextField&quot;,&quot;AButton&quot;],&quot;mdfc&quot;:[&quot;ACalendarPicker&quot;]}" data-max-abutton="1" data-browser-width="590" data-browser-height="600">
+    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; left: 50px; top: 30px; font-weight: bold;">-일별 캘린더-</label>
+    <div data-base="ACalendarPicker" data-class="ExCalendarPicker" data-flag="0001" class="ACalendarPicker-Style" style="left: 210px; top: 50px; width: 150px; height: 30px; text-align: left; font-size: 14px;" data-day-mode="0" data-format="yyyy-MM-dd" id="MainView--ExCalendar1">
+        <div style="width:100%; height:100%">
+            <div data-base="AView" class="AView-Style ACalendarPicker-Style" data-class="ACalendarPickerItem" data-flag="1111" data-day-mode="0" data-multi-mode="0" data-format="yyyy-MM-dd" style="width: 100%; height: 100%; left: 0px; top: 0px; border: 1px solid rgb(187, 187, 187);" data-work-size="60px|40px|325px|32px" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ATextField&quot;,&quot;AButton&quot;]}" data-fullview="true">
+                <input data-listener-change="ACalendarPickerItem:onChange" data-listener-blur="ACalendarPickerItem:onBlur" data-listener-keyup="ACalendarPickerItem:onKeyup" data-base="ATextField" data-class="ATextField" data-flag="0001" class="ATextField-Style" data-listener-focus="ACalendarPickerItem:onFocus" pattern="" type="text" value="2022-06-14" autocomplete="off" style="text-align: left; font-size: 14px;">
+                <button class="AButton-Style Calendar_Button Calendar_Button_Down" data-base="AButton" data-class="AButton" data-flag="0001" data-listener-click="ACalendarPickerItem:onClickCal" data-state="2"></button>
+            </div>
+        </div>
+    </div>
+    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; left: 132px; top: 80px;">(기본)</label>
+    <div data-base="ACalendarPicker" data-class="ACalendarPicker" data-flag="0001" class="ACalendarPicker-Style" style="left: 50px; top: 50px; width: 120px; height: 30px; text-align: left; font-size: 12px;" data-day-mode="0" data-format="yyyy-MM-dd" id="MainView--BasicCalendar1">
+        <div style="width:100%; height:100%">
+            <div data-base="AView" class="AView-Style ACalendarPicker-Style" data-class="ACalendarPickerItem" data-flag="1111" data-day-mode="0" data-multi-mode="0" data-format="yyyy-MM-dd" style="width: 100%; height: 100%; left: 0px; top: 0px; border: 1px solid rgb(187, 187, 187);" data-work-size="60px|40px|325px|32px" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ATextField&quot;,&quot;AButton&quot;]}" data-fullview="true">
+                <input data-listener-change="ACalendarPickerItem:onChange" data-listener-blur="ACalendarPickerItem:onBlur" data-listener-keyup="ACalendarPickerItem:onKeyup" data-base="ATextField" data-class="ATextField" data-flag="0001" class="ATextField-Style" data-listener-focus="ACalendarPickerItem:onFocus" pattern="" type="text" value="2022-06-14" autocomplete="off" style="text-align: left; font-size: 12px;">
+                <button class="AButton-Style Calendar_Button Calendar_Button_Down" data-base="AButton" data-class="AButton" data-flag="0001" data-listener-click="ACalendarPickerItem:onClickCal" data-state="2"></button>
+            </div>
+        </div>
+    </div>
+    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; left: 292px; top: 80px;">(확장)</label>
+    <div data-base="AView" data-class="AView" class="AView-Style" style="width: calc((100% - 20px) - 20px); height: 2px; left: 20px; top: 120px;" data-sgap-width="1" data-stretch-width="true"></div>
+    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; left: 50px; top: 153px; font-weight: bold;">-월별 캘린더-</label>
+    <div data-base="ACalendarPicker" data-class="ExCalendarPicker" data-flag="0001" class="ACalendarPicker-Style" style="left: 210px; top: 170px; width: 120px; height: 30px; text-align: left; font-size: 12px;" data-day-mode="1" data-format="yyyy-MM-dd" id="MainView--ExCalendar2">
+        <div style="width:100%; height:100%">
+            <div data-base="AView" class="AView-Style ACalendarPicker-Style" data-class="ACalendarPickerItem" data-flag="1111" data-day-mode="1" data-multi-mode="0" data-format="yyyy-MM-dd" style="width: 100%; height: 100%; left: 0px; top: 0px; border: 1px solid rgb(187, 187, 187);" data-work-size="60px|40px|325px|32px" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ATextField&quot;,&quot;AButton&quot;]}" data-fullview="true">
+                <input data-listener-change="ACalendarPickerItem:onChange" data-listener-blur="ACalendarPickerItem:onBlur" data-listener-keyup="ACalendarPickerItem:onKeyup" data-base="ATextField" data-class="ATextField" data-flag="0001" class="ATextField-Style" data-listener-focus="ACalendarPickerItem:onFocus" pattern="" type="text" value="2022-06" autocomplete="off" style="text-align: left; font-size: 12px;">
+                <button class="AButton-Style Calendar_Button Calendar_Button_Down" data-base="AButton" data-class="AButton" data-flag="0001" data-listener-click="ACalendarPickerItem:onClickCal" data-state="2"></button>
+            </div>
+        </div>
+    </div>
+    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; left: 132px; top: 200px;">(기본)</label>
+    <div data-base="ACalendarPicker" data-class="ACalendarPicker" data-flag="0001" class="ACalendarPicker-Style" style="left: 50px; top: 170px; width: 120px; height: 30px; text-align: left; font-size: 12px;" data-day-mode="1" data-format="yyyy-MM-dd" id="MainView--BasicCalendar2">
+        <div style="width:100%; height:100%">
+            <div data-base="AView" class="AView-Style ACalendarPicker-Style" data-class="ACalendarPickerItem" data-flag="1111" data-day-mode="1" data-multi-mode="0" data-format="yyyy-MM-dd" style="width: 100%; height: 100%; left: 0px; top: 0px; border: 1px solid rgb(187, 187, 187);" data-work-size="60px|40px|325px|32px" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ATextField&quot;,&quot;AButton&quot;]}" data-fullview="true">
+                <input data-listener-change="ACalendarPickerItem:onChange" data-listener-blur="ACalendarPickerItem:onBlur" data-listener-keyup="ACalendarPickerItem:onKeyup" data-base="ATextField" data-class="ATextField" data-flag="0001" class="ATextField-Style" data-listener-focus="ACalendarPickerItem:onFocus" pattern="" type="text" value="2022-06" autocomplete="off" style="text-align: left; font-size: 12px;">
+                <button class="AButton-Style Calendar_Button Calendar_Button_Down" data-base="AButton" data-class="AButton" data-flag="0001" data-listener-click="ACalendarPickerItem:onClickCal" data-state="2"></button>
+            </div>
+        </div>
+    </div>
+    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; left: 292px; top: 200px;">(확장)</label>
+</div>

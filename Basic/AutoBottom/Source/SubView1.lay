@@ -1,0 +1,10 @@
+<div data-base="AView" data-class="SubView1" class="AView-Style" style="left: 0px; top: 0px; width: 100%; height: 1024px; background-color: rgb(255, 255, 0); position: absolute;" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AButton&quot;,&quot;ATextBox&quot;]}"><button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 80px; height: 22px; position: absolute; left: 48px; top: 33px;">Button</button><button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 80px; height: 22px; position: absolute; left: 490px; top: 970px;">Button</button><button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 80px; height: 22px; position: absolute; left: 267px; top: 659px;">Button</button><button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 80px; height: 22px; position: absolute; left: 166px; top: 757px;">Button</button><pre data-base="ATextBox" data-class="ATextBox" class="ATextBox-Style" style="width: 320px; height: 80px; position: absolute; left: 40px; top: 110px;">Be thankful for what you have.
+you will end up having more.
+If you concentrate on what you do not have,
+you will never, ever have enough</pre><pre data-base="ATextBox" data-class="ATextBox" class="ATextBox-Style" style="width: 320px; height: 80px; position: absolute; left: 80px; top: 880px;">Be thankful for what you have.
+you will end up having more.
+If you concentrate on what you do not have,
+you will never, ever have enough</pre><pre data-base="ATextBox" data-class="ATextBox" class="ATextBox-Style" style="width: 320px; height: 80px; position: absolute; left: 50px; top: 400px;">Be thankful for what you have.
+you will end up having more.
+If you concentrate on what you do not have,
+you will never, ever have enough</pre></div>

@@ -1,0 +1,6 @@
+<div class="AView-Style" data-base="AView" data-class="MainView" style="left: 0px; top: 0px; width: 100%; height: 100%;" data-browser-width="600" data-browser-height="600" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ALabel&quot;]}">
+    <label class="ALabel-Style" data-base="ALabel" data-class="ALabel" data-listener-actionup="MainView:onTitleLabelActionUp" id="MainView--TitleLabel" style="width: auto; height: auto; left: 50px; top: 60px; color: rgb(0, 0, 0); font-size: 20px; font-weight: bold;">AView.createView</label>
+    <label class="ALabel-Style" data-base="ALabel" data-class="ALabel" data-listener-actionup="MainView:onTitleLabelActionUp" id="" style="width: auto; height: auto; left: 400px; top: 510px; color: rgb(0, 0, 0); font-size: 20px; font-weight: bold;">Load View</label>
+    <div class="AView-Style" data-base="AView" data-class="AView" data-sgap-height="1" data-stretch-height="true" id="MainView--blankView1" style="width: 50%; height: calc((100% - 100px) - 100px); left: 0px; top: 100px; background-color: rgb(255, 255, 255);"></div>
+    <div class="AView-Style" data-base="AView" data-class="AView" data-sgap-height="1" data-stretch-height="true" id="MainView--blankView2" style="width: 50%; height: calc((100% - 100px) - 100px); left: 50%; top: 100px; background-color: rgb(250, 250, 203);"></div>
+</div>

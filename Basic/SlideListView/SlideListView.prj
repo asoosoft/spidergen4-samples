@@ -1,0 +1,198 @@
+{
+  "projectName": "SlideListView",
+  "fileTree": {
+    "type": 0,
+    "name": "SlideListView",
+    "children": [
+      {
+        "type": 1,
+        "name": "Framework",
+        "action": 1,
+        "children": [
+          {
+            "type": 11,
+            "name": "afc",
+            "relType": 7,
+            "path": "afc\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Library",
+        "action": 2,
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Template",
+        "action": 4,
+        "children": [
+          {
+            "type": 4,
+            "name": "SlideListViewApp_global.stl",
+            "relType": 1,
+            "path": "Template\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Query",
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Assets",
+        "children": [
+          {
+            "type": 8,
+            "name": "rpoint_m0101.png",
+            "action": null,
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "Mine.png",
+            "action": null,
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "sub_banner_01.png",
+            "action": null,
+            "relType": 1,
+            "path": "Assets\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Source",
+        "children": [
+          {
+            "type": 1,
+            "name": "items",
+            "children": [
+              {
+                "type": 5,
+                "name": "item1.js",
+                "action": null,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "item1.lay",
+                "action": null,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 5,
+                "name": "item2.js",
+                "action": null,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "item2.lay",
+                "action": null,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 5,
+                "name": "item3.js",
+                "action": null,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "item3.lay",
+                "action": null,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "type": 5,
+            "name": "SlideListViewApp.js",
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 5,
+            "name": "MainView.js",
+            "action": null,
+            "relType": 1,
+            "path": "Source\\",
+            "comment": ""
+          },
+          {
+            "type": 3,
+            "name": "MainView.lay",
+            "action": null,
+            "relType": 1,
+            "path": "Source\\",
+            "comment": ""
+          },
+          {
+            "type": 5,
+            "name": "SlideSubview.js",
+            "action": null,
+            "relType": 1,
+            "path": "Source\\",
+            "comment": ""
+          },
+          {
+            "type": 3,
+            "name": "SlideSubview.lay",
+            "action": null,
+            "relType": 1,
+            "path": "Source\\",
+            "comment": ""
+          },
+          {
+            "type": 5,
+            "name": "subview1.js",
+            "action": null,
+            "relType": 1,
+            "path": "Source\\",
+            "comment": ""
+          },
+          {
+            "type": 3,
+            "name": "subview1.lay",
+            "action": null,
+            "relType": 1,
+            "path": "Source\\",
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "type": 14,
+        "name": "index.html",
+        "relType": 1,
+        "path": ""
+      }
+    ]
+  },
+  "version": "4.0.3",
+  "flavor": {
+    "common": "common"
+  },
+  "defaultLanguage": "js"
+}

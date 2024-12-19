@@ -1,0 +1,70 @@
+
+/*
+* ADataMask 사용자 정의 파일
+*/
+if(!ADataMask.common) ADataMask.common = {};
+ADataMask.common.myTemperature =
+{
+	title : "함수 설명",
+	param : [], //마스크 등록 시 입력할 파라미터 정의
+	func : function myTemperature(value, param, ele)
+	{
+		// value: 마스킹 할 대상 값(query 를 등록했을 경우 매핑한 필드의 값이 넘어옴)
+		// param: 마스크 등록 시 입력한 값이 배열로 넘어옴
+		// ele: 마스크를 매핑한 엘리먼트
+		// ADataMask.getQueryData() : [data, keyArr, queryData]
+		// --> query 파일 매핑시, 매핑한 필드와 수신한 데이터를 위와 같이 얻어올 수 있다.
+
+		// 리턴값이 마스킹 결과 값이 됨
+
+		return value + ' ℃';
+	}
+};
+
+ADataMask.common.myFruit =
+{
+	title : "함수 설명",
+	param : [], //마스크 등록 시 입력할 파라미터 정의
+	func : function myFruit(value, param, ele, dataObj)
+	{
+        if(dataObj.type=='select')
+        {
+            for(let i=0; i<dataObj.names.length; i++)
+            {
+                dataObj.names[i] = `★ ${dataObj.names[i]} ★`
+            }
+
+        }
+
+        //마스킹에 반영할 object 를 리턴
+        return dataObj
+	}
+};
+
+ADataMask.common.mySports =
+{
+	title : "함수 설명",
+	param : [], //마스크 등록 시 입력할 파라미터 정의
+	func : function mySports(value, param, ele, dataObj)
+	{
+        value %= 5
+
+        //마스킹에 반영할 object 를 리턴
+        return { type:'select', names:['축구','야구','배구','농구','탁구'], values:[1,2,3,4,5], selInx: value }
+	}
+};
+
+ADataMask.common.myHello =
+{
+	title : "함수 설명",
+	param : [], //마스크 등록 시 입력할 파라미터 정의
+	func : function myHello(value, param, ele, dataObj)
+	{
+        if(dataObj.type=='text')
+        {
+            dataObj.value = '-' + dataObj.value + '-'
+        }
+
+        return dataObj
+	}
+};

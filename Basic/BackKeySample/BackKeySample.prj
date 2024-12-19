@@ -1,0 +1,184 @@
+{
+  "projectName": "BackKeySample",
+  "fileTree": {
+    "type": 0,
+    "name": "BackKeySample",
+    "children": [
+      {
+        "type": 1,
+        "name": "Framework",
+        "action": 1,
+        "children": [
+          {
+            "type": 11,
+            "name": "afc",
+            "relType": 7,
+            "path": "afc\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Library",
+        "action": 2,
+        "children": [
+          {
+            "type": 5,
+            "name": "WebHistoryManager.js",
+            "action": 2,
+            "relType": 4,
+            "path": ""
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Template",
+        "action": 4,
+        "children": [
+          {
+            "type": 4,
+            "name": "BackKeySampleApp_global.stl",
+            "relType": 1,
+            "path": "Template\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Query",
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Assets",
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Source",
+        "children": [
+          {
+            "type": 5,
+            "name": "BackKeySampleApp.js",
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 5,
+            "name": "LoginView.js",
+            "action": null,
+            "relType": 1,
+            "path": "Source\\",
+            "comment": ""
+          },
+          {
+            "type": 3,
+            "name": "LoginView.lay",
+            "action": null,
+            "relType": 1,
+            "path": "Source\\",
+            "comment": ""
+          },
+          {
+            "type": 5,
+            "name": "MainView.js",
+            "action": null,
+            "relType": 1,
+            "path": "Source\\",
+            "comment": ""
+          },
+          {
+            "type": 3,
+            "name": "MainView.lay",
+            "action": null,
+            "relType": 1,
+            "path": "Source\\",
+            "comment": ""
+          },
+          {
+            "type": 1,
+            "name": "subview",
+            "children": [
+              {
+                "type": 5,
+                "name": "ItemView1.js",
+                "action": null,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "ItemView1.lay",
+                "action": null,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 5,
+                "name": "ItemView2.js",
+                "action": null,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "ItemView2.lay",
+                "action": null,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 5,
+                "name": "ItemView3.js",
+                "action": null,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "ItemView3.lay",
+                "action": null,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 5,
+                "name": "TestWindow.js",
+                "action": 5,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "TestWindow.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": 14,
+        "name": "index.html",
+        "relType": 1,
+        "path": ""
+      }
+    ]
+  },
+  "version": "4.0.3",
+  "flavor": {
+    "common": "common"
+  },
+  "defaultLanguage": "js"
+}

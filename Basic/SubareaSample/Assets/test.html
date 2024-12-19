@@ -1,0 +1,110 @@
+
+
+<!-- 
+	#1 test.html 을 사용자가 제작한 웹사이트의 시작파일이라고 가정함.
+	#2 스파이더젠 프로젝트의 bin 안에 있는 SpiderGenArea 폴더를 
+	test.html 파일이 있는 곳으로 복사 붙여넣기 한 후, 브라우저에서 test.html 을 로드함.
+-->	
+
+
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Website</title>
+    
+<!-- 
+	#3 여기부터 스파이더젠 프로젝트 bin 폴더의 index.html 내용을 복사해옴,
+	프로젝트 Properties 의 Build > Sub Folder 설정에 따라 "SpiderGenArea/TestDir/bin" 부분은 달라질 수 있음.
+--> 
+	
+	<link rel="stylesheet" href="SpiderGenArea/TestDir/bin/Framework/afc/style/afc.css"/>
+	<link rel="stylesheet" href="SpiderGenArea/TestDir/bin/Framework/afc/style/comp.css"/>
+	<link rel="stylesheet" href="SpiderGenArea/TestDir/bin/Framework/afc/style/basicStyle.css"/>
+	<link rel="stylesheet" href="SpiderGenArea/TestDir/bin/Framework/afc/style/jquery-ui.css"/>
+
+	<link rel="stylesheet" href="SpiderGenArea/TestDir/bin/Template/SubareaSampleApp_global.css"/>
+
+
+    
+        
+	<script>
+	//Electron 과 추가 라이브러리(예, jQuery 등) 와의 충돌 방지
+    //시뮬레이터에서 사용
+	window.nodeRequire = window.require;
+	delete window.require;
+	delete window.exports;
+    delete window.module;
+
+    var theApp = null;
+    var PROJECT_OPTION = {
+    "build": {
+        "bridgeName": "none",
+        "frwLoadOption": "inTimeLoad",
+        "subName": "SpiderGenArea/TestDir/bin"
+    },
+    "general": {
+        "autoScale": false,
+        "phoneDocWidth": 0,
+        "tabletDocWidth": 0,
+        "queryFormat": "qry",
+        "scaleVal": 1,
+        "userScalable": false,
+        "localizing": "",
+        "responsiveTest": "",
+        "tabletMinWidth": 500,
+        "flavor": "common"
+    },
+    "deployment": {},
+    "unitUrl": ""
+};
+    
+    document.addEventListener("DOMContentLoaded", () => 
+    {
+		afc.import("Source/SubareaSampleApp.js");
+
+        afc.scriptReady(() =>
+        {
+            if(window._version) _version.setFileVersion();
+            
+            window.theApp = new window["SubareaSampleApp"]();
+            window.theApp.isLoadTheme = false;
+            
+            if(PROJECT_OPTION.unitUrl) window.theApp.unitTest(PROJECT_OPTION.unitUrl);
+            else window.theApp.onReady();
+        });
+    });
+    </script>
+
+	<script defer src="SpiderGenArea/TestDir/bin/lib.js"></script>	
+	
+	
+<!-- 
+	#4 여기까지 스파이더젠 프로젝트 bin 폴더의 index.html 내용
+--> 
+
+
+
+</head>
+
+
+<body>
+
+    <p style="background-color: yellow;">안녕하세요. 만나서 반갑습니다. 테스트...</p>
+
+    <!-- 
+		#5 _global_style_ 과 global_resp 를 클래스에 추가 
+    -->	
+    <div class="_global_style_ global_resp" style="width: 400px; height: 400px; overflow: auto;">
+		<!-- 
+			#6 여기에 스파이더젠 화면이 로드됨 
+		-->
+	</div>
+
+    <p style="background-color: yellow;">안녕하세요. 만나서 반갑습니다. 테스트...</p>
+
+
+    <p style="background-color: cyan;">안녕하세요. 만나서 반갑습니다. 테스트...</p>
+
+
+</body></html>

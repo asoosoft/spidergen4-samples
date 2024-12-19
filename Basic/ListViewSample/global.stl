@@ -1,0 +1,9 @@
+{
+  "styleName": "global",
+  "items": {
+    "listview_layout": ".listview_layout\n{\n\tborder-top: 2px solid #999;\n\tborder-bottom: 2px solid #999;\n}",
+    "_global_style_": "._global_style_\n{\n\tfont-size: 12px;\n\tfont-family: courier;\n\ttext-size-adjust: none;\n}\n\n",
+    "listview_def": "\n\n\n.listview_def\n{\n\tbackground: -webkit-linear-gradient(top,  #3D3D3D 0%, #252525 100%);\n}",
+    "listview_select": "\n\n.listview_select\n{\n\tbackground: -webkit-linear-gradient(top,  #F4F4F4 0%, #999999 100%);\n\tcolor: rgb(0, 0, 0);\n}"
+  }
+}

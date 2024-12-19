@@ -1,0 +1,163 @@
+{
+  "projectName": "ListViewSample",
+  "fileTree": {
+    "type": 0,
+    "name": "ListViewSample",
+    "children": [
+      {
+        "type": 1,
+        "name": "Framework",
+        "action": 1,
+        "children": [
+          {
+            "type": 11,
+            "name": "afc",
+            "relType": 7,
+            "path": "afc\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Library",
+        "action": 2,
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Template",
+        "action": 4,
+        "children": [
+          {
+            "type": 4,
+            "name": "global.stl",
+            "relType": 1,
+            "path": ""
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Query",
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Assets",
+        "children": [
+          {
+            "type": 1,
+            "name": "img",
+            "children": [
+              {
+                "type": 8,
+                "name": "door.png",
+                "action": null,
+                "relType": 1,
+                "path": "img\\"
+              },
+              {
+                "type": 8,
+                "name": "page_white_add.png",
+                "action": null,
+                "relType": 1,
+                "path": "img\\"
+              },
+              {
+                "type": 8,
+                "name": "page_white_copy.png",
+                "action": null,
+                "relType": 1,
+                "path": "img\\"
+              },
+              {
+                "type": 8,
+                "name": "page_white_delete.png",
+                "action": null,
+                "relType": 1,
+                "path": "img\\"
+              },
+              {
+                "type": 8,
+                "name": "page_white_edit.png",
+                "action": null,
+                "relType": 1,
+                "path": "img\\"
+              },
+              {
+                "type": 8,
+                "name": "page_white_paste.png",
+                "action": null,
+                "relType": 1,
+                "path": "img\\"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Source",
+        "children": [
+          {
+            "type": 5,
+            "name": "ListViewSampleApp.js",
+            "relType": 1,
+            "path": ""
+          },
+          {
+            "type": 1,
+            "name": "Views",
+            "children": [
+              {
+                "type": 5,
+                "name": "MainView.js",
+                "action": null,
+                "relType": 1,
+                "path": ""
+              },
+              {
+                "type": 3,
+                "name": "MainView.lay",
+                "action": null,
+                "relType": 1,
+                "path": ""
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "name": "Items",
+            "children": [
+              {
+                "type": 5,
+                "name": "ListItemView.js",
+                "action": null,
+                "relType": 1,
+                "path": ""
+              },
+              {
+                "type": 3,
+                "name": "ListItemView.lay",
+                "action": null,
+                "relType": 1,
+                "path": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": 14,
+        "name": "index.html",
+        "relType": 1,
+        "path": ""
+      }
+    ]
+  },
+  "version": "4.0.3",
+  "flavor": {
+    "common": "common"
+  },
+  "defaultLanguage": "js"
+}

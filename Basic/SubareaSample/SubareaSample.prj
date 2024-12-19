@@ -1,0 +1,139 @@
+{
+  "projectName": "SubareaSample",
+  "fileTree": {
+    "type": 0,
+    "name": "SubareaSample",
+    "children": [
+      {
+        "type": 1,
+        "name": "Framework",
+        "action": 1,
+        "children": [
+          {
+            "type": 11,
+            "name": "afc",
+            "relType": 7,
+            "path": "afc\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Library",
+        "action": 2,
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Template",
+        "action": 4,
+        "children": [
+          {
+            "type": 1,
+            "name": "Theme",
+            "children": []
+          },
+          {
+            "type": 4,
+            "name": "SubareaSampleApp_global.stl",
+            "relType": 1,
+            "path": "Template\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Query",
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Assets",
+        "children": [
+          {
+            "type": 14,
+            "name": "test.html",
+            "action": 13,
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "icon_way1_bottom.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "icon_way1_left.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "icon_way3_bottom.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "icon_way3_left.png",
+            "relType": 1,
+            "path": "Assets\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Source",
+        "children": [
+          {
+            "type": 5,
+            "name": "SubareaSampleApp.js",
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 5,
+            "name": "MainView.js",
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 3,
+            "name": "MainView.lay",
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 5,
+            "name": "PopupView.js",
+            "action": 9,
+            "relType": 1,
+            "path": "Source\\",
+            "comment": ""
+          },
+          {
+            "type": 3,
+            "name": "PopupView.lay",
+            "action": 6,
+            "relType": 1,
+            "path": "Source\\",
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "type": 14,
+        "name": "index.html",
+        "relType": 1,
+        "path": ""
+      }
+    ]
+  },
+  "version": "4.0.3",
+  "flavor": {
+    "common": "common"
+  },
+  "defaultLanguage": "js"
+}

@@ -1,0 +1,5 @@
+bin
+*svnignore.inf
+*env.inf
+*prop.inf
+*resp.inf

@@ -1,0 +1,9 @@
+<div data-base="AView" data-class="ItemView" class="AView-Style" style="left: 0px; top: 0px; width: 100%; height: 100px; background-color: rgb(239, 239, 239); position: absolute; font-size: 20px; border-style: solid; border-top-width: 2px; border-top-color: rgb(0, 0, 255);" data-browser-height="107" data-blocks-ac002="OutBlock1,,name,,sex,,age," data-query-name="ac002" data-group="Child " data-mapping-type="3" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ALabel&quot;]}">
+    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 80px; height: auto; position: absolute; left: 20px; top: 54.5px;">성명 :&nbsp;</label>
+    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: absolute; left: 100px; top: 54.5px;" data-center-y="true">홍길동</label>
+    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: absolute; left: 190px; top: 54.5px;">성별 :&nbsp;</label>
+    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: absolute; left: 266.016px; top: 54.5px;" data-maskfunc="MyFormat.textOfValue" data-maskparam="[]" data-maskorigin="남성">여성</label>
+    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: absolute; left: 360px; top: 54.5px;" data-center-y="true">나이 :</label>
+    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: absolute; left: 430px; top: 54.5px;" data-center-y="true">20살</label>
+    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: absolute; left: 25px; top: 20px; font-size: 14px; font-weight: bold; color: rgb(158, 61, 215);">* rootView 에 매핑을 하고 Child Mapping 선택</label>
+</div>

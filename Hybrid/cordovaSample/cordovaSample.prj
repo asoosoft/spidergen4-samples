@@ -1,0 +1,165 @@
+{
+  "projectName": "cordovaSample",
+  "fileTree": {
+    "type": 0,
+    "name": "cordovaSample",
+    "children": [
+      {
+        "type": 1,
+        "name": "Framework",
+        "action": 1,
+        "children": [
+          {
+            "type": 11,
+            "name": "afc",
+            "relType": 7,
+            "path": "afc\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Library",
+        "action": 2,
+        "children": [
+          {
+            "type": 5,
+            "name": "AppManager.js",
+            "action": 2,
+            "relType": 4,
+            "path": ""
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Template",
+        "action": 4,
+        "children": [
+          {
+            "type": 1,
+            "name": "Theme",
+            "children": []
+          },
+          {
+            "type": 4,
+            "name": "cordovaSampleApp_global.stl",
+            "relType": 1,
+            "path": "Template\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Bridge",
+        "children": [
+          {
+            "type": 1,
+            "name": "android",
+            "children": [
+              {
+                "type": 1,
+                "name": "plugins",
+                "children": [
+                  {
+                    "type": 1,
+                    "name": "cordova-plugin-device",
+                    "children": [
+                      {
+                        "type": 1,
+                        "name": "www",
+                        "children": [
+                          {
+                            "type": 5,
+                            "name": "device.js",
+                            "action": 9,
+                            "relType": 1,
+                            "path": "Bridge\\android\\plugins\\cordova-plugin-device\\www\\"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": 5,
+                "name": "cordova.js",
+                "relType": 1,
+                "path": "Bridge\\android\\"
+              },
+              {
+                "type": 5,
+                "name": "cordova_plugins.js",
+                "relType": 1,
+                "path": "Bridge\\android\\"
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "name": "ios",
+            "children": []
+          },
+          {
+            "type": 1,
+            "name": "windows",
+            "children": [
+              {
+                "type": 5,
+                "name": "cordova.js",
+                "relType": 1,
+                "path": "Bridge\\windows\\"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Query",
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Assets",
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Source",
+        "children": [
+          {
+            "type": 5,
+            "name": "cordovaSampleApp.js",
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 5,
+            "name": "MainView.js",
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 3,
+            "name": "MainView.lay",
+            "relType": 1,
+            "path": "Source\\"
+          }
+        ]
+      },
+      {
+        "type": 14,
+        "name": "index.html",
+        "relType": 1,
+        "path": ""
+      }
+    ]
+  },
+  "version": "4.0.3",
+  "flavor": {
+    "common": "common"
+  },
+  "defaultLanguage": "js"
+}

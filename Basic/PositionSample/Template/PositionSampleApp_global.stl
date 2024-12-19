@@ -1,0 +1,7 @@
+{
+  "styleName": "PositionSampleApp_global",
+  "items": {
+    "_global_style_": "\r\n._global_style_\r\n{\r\n\tfont-size: 12px;\r\n\tfont-family: courier;\r\n\ttext-size-adjust: none;\r\n\r\n}\r\n",
+    "global_resp": "\r\n.global_resp\r\n{\r\n\t/* TODO:edit here */\r\n\r\n}\r\n\r\n/*가로모드*/\r\n@media screen and (orientation: landscape)\r\n{\r\n}\r\n\r\n/*세로모드*/\r\n@media screen and (orientation: portrait)\r\n{\r\n}\r\n\r\n/*ios*/\r\n@supports (-webkit-overflow-scrolling: touch)\r\n{\r\n}\r\n\r\n/*not ios*/\r\n@supports not (-webkit-overflow-scrolling: touch)\r\n{\r\n}\r\n\r\n/*phone*/\r\n@media screen and (max-width: 640px)\r\n{\r\n}\r\n\r\n/*tablet*/\r\n@media screen and (min-width:641px)\r\n{\r\n}\r\n"
+  }
+}

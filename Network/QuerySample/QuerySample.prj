@@ -1,0 +1,214 @@
+{
+  "projectName": "QuerySample",
+  "fileTree": {
+    "type": 0,
+    "name": "QuerySample",
+    "children": [
+      {
+        "type": 1,
+        "name": "Framework",
+        "action": 1,
+        "children": [
+          {
+            "type": 11,
+            "name": "afc",
+            "relType": 7,
+            "path": "afc\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Library",
+        "action": 2,
+        "children": [
+          {
+            "type": 5,
+            "name": "ABuffer.js",
+            "action": 2,
+            "relType": 4,
+            "path": ""
+          },
+          {
+            "type": 5,
+            "name": "AQuery.js",
+            "action": 2,
+            "relType": 4,
+            "path": ""
+          },
+          {
+            "type": 5,
+            "name": "AQueryData.js",
+            "action": 2,
+            "relType": 4,
+            "path": ""
+          },
+          {
+            "type": 5,
+            "name": "QueryManager.js",
+            "action": 2,
+            "relType": 4,
+            "path": ""
+          },
+          {
+            "type": 5,
+            "name": "NetworkIO.js",
+            "action": 2,
+            "relType": 4,
+            "path": ""
+          },
+          {
+            "type": 5,
+            "name": "HttpIO.js",
+            "action": 2,
+            "relType": 4,
+            "path": ""
+          },
+          {
+            "type": 5,
+            "name": "WebQueryData.js",
+            "action": null,
+            "relType": 1,
+            "path": "Library\\"
+          },
+          {
+            "type": 5,
+            "name": "WebQueryManager.js",
+            "action": null,
+            "relType": 1,
+            "path": "Library\\"
+          },
+          {
+            "type": 12,
+            "name": "MyFormat.fmt",
+            "action": null,
+            "relType": 1,
+            "path": "",
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Template",
+        "action": 4,
+        "children": [
+          {
+            "type": 4,
+            "name": "QuerySampleApp_global.stl",
+            "relType": 1,
+            "path": ""
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Query",
+        "children": [
+          {
+            "type": 8,
+            "name": "ac001.qry",
+            "action": null,
+            "relType": 1,
+            "path": "qry\\"
+          },
+          {
+            "type": 8,
+            "name": "ac002.qry",
+            "action": null,
+            "relType": 1,
+            "path": "qry\\"
+          },
+          {
+            "type": 8,
+            "name": "ac003.qry",
+            "relType": 1,
+            "path": "qry\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Assets",
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Source",
+        "children": [
+          {
+            "type": 5,
+            "name": "QuerySampleApp.js",
+            "relType": 1,
+            "path": ""
+          },
+          {
+            "type": 5,
+            "name": "MainView.js",
+            "action": null,
+            "relType": 1,
+            "path": "",
+            "comment": ""
+          },
+          {
+            "type": 3,
+            "name": "MainView.lay",
+            "action": null,
+            "relType": 1,
+            "path": "",
+            "comment": ""
+          },
+          {
+            "type": 5,
+            "name": "SampleView1.js",
+            "action": 5,
+            "relType": 1,
+            "path": "Source\\",
+            "comment": ""
+          },
+          {
+            "type": 3,
+            "name": "SampleView1.lay",
+            "action": 6,
+            "relType": 1,
+            "path": "Source\\",
+            "comment": ""
+          },
+          {
+            "type": 1,
+            "name": "subviews",
+            "children": [
+              {
+                "type": 5,
+                "name": "ItemView.js",
+                "action": 5,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "ItemView.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": 14,
+        "name": "index.html",
+        "relType": 1,
+        "path": ""
+      }
+    ]
+  },
+  "version": "4.0.10",
+  "flavor": {
+    "common": "common"
+  },
+  "defaultLanguage": "js"
+}

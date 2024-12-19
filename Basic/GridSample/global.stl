@@ -1,0 +1,9 @@
+{
+  "styleName": "global",
+  "items": {
+    "title_style": ".title_style\n{\n\tbackground: -webkit-linear-gradient(top,  #3D3D3D 0%, #252525 100%);\n}",
+    "select_grid": "\n.select_grid\n{\n\tbackground: blue;\n\n\tcolor: rgb(255, 255, 255);\n}",
+    "row_sample_style": "\n.row_sample_style\n{\n}\n\n.row_sample_style > div>table>tbody>tr:nth-child(4n-3)\n{\n\tbackground: gray;\n\tcolor: white;\n}\n\n\n.row_sample_style > div>table>tbody>tr:nth-child(4n-2)\n{\n\tbackground: gray;\n\tcolor: white;\n}",
+    "grid_header": ".grid_header\n{\n\tbackground: -webkit-linear-gradient(top,  #F4F4F4 0%, #999999 100%);\n\tcolor: rgb(0, 0, 0);\t\n}\n\n"
+  }
+}

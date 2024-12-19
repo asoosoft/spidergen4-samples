@@ -1,0 +1,53 @@
+{
+  "general": {
+    "autoScale": false,
+    "userSize": false,
+    "docWidth": 640,
+    "docHeight": 1137,
+    "scaleVal": 1,
+    "fontPath": "",
+    "fontSize": "9",
+    "isPort": true,
+    "scaleValue": 100,
+    "phoneDocWidth": 0,
+    "tabletDocWidth": 0,
+    "queryFormat": "qry",
+    "layBrowserInfo": [
+      "640",
+      "800"
+    ],
+    "tabletMinWidth": 500,
+    "responsiveTest": "",
+    "flavor": "common"
+  },
+  "build": {
+    "autoInc": true,
+    "dynamicInc": true,
+    "bridgeName": "none",
+    "compress": false,
+    "stlImportant": false,
+    "frwLoadOption": "inTimeLoad",
+    "indexTitle": "",
+    "subName": "",
+    "outputPath": "",
+    "scriptLink": "",
+    "concat": true
+  },
+  "script": {
+    "before": [],
+    "after": []
+  },
+  "subversion": {
+    "url": "",
+    "username": "",
+    "password": "",
+    "useMode": false
+  },
+  "deployment": {
+    "upload": {
+      "idx": null,
+      "list": []
+    },
+    "checkVersion": false
+  }
+}

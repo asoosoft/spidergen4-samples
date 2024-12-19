@@ -1,0 +1,12 @@
+<div class="AView-Style" data-base="AView" data-class="SubView3" id="SubView3--SubView3" style="width: 100%; height: 100%; background-color: rgb(255, 255, 0); left: 0px; top: 0px;" data-browser-width="600" data-browser-height="800" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ALabel&quot;,&quot;AGridLayout&quot;,&quot;AButton&quot;]}">
+    <label class="ALabel-Style" data-base="ALabel" data-class="ALabel" id="SubView3--TitleLabel" style="width: auto; height: auto; left: 20px; top: 20px; font-weight: bold; color: rgb(0, 0, 0); font-size: 18px;">Sub View 3</label>
+    <div class="AGridLayout-Style dev_AGridLayout_Style" data-base="AGridLayout" data-class="AGridLayout" data-flag="0001" style="width: 100%; height: 100%; left: 0px; top: 0px;">
+        <table cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr style="height: 100%;">
+                    <td style="width: 100%; text-align: center; vertical-align: middle;"><button class="AButton-Style" data-base="AButton" data-class="AButton" data-flag="0001" id="SubView3--prevBtn" style="width: 120px; height: 40px; left: 0px; top: 0px; position: relative; background-color: rgb(255, 255, 255);" data-style=" " data-listener-click="SubView3:onPrevBtnClick" data-style-over=" select_style" data-style-down=" select_style">prev tab</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

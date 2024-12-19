@@ -1,0 +1,255 @@
+{
+    "projectName": "DesignSample",
+    "fileTree": {
+        "type": 0,
+        "name": "DesignSample",
+        "children": [
+            {
+                "type": 1,
+                "name": "Framework",
+                "action": 1,
+                "children": [
+                    {
+                        "type": 11,
+                        "name": "afc",
+                        "relType": 7,
+                        "path": "afc\\"
+                    }
+                ]
+            },
+            {
+                "type": 1,
+                "name": "Library",
+                "action": 2,
+                "children": []
+            },
+            {
+                "type": 1,
+                "name": "Template",
+                "action": 4,
+                "children": [
+                    {
+                        "type": 1,
+                        "name": "Theme",
+                        "children": []
+                    },
+                    {
+                        "type": 4,
+                        "name": "DesignSampleApp_global.stl",
+                        "relType": 1,
+                        "path": "Template\\"
+                    },
+                    {
+                        "type": 4,
+                        "name": "common.stl",
+                        "action": 8,
+                        "relType": 1,
+                        "path": "Template\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 3,
+                        "name": "mycomp.tlay",
+                        "action": 7,
+                        "relType": 1,
+                        "path": "Template\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 13,
+                        "name": "myfnt.ffl",
+                        "action": 12,
+                        "relType": 1,
+                        "path": "Template\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 4,
+                        "name": "test.stl",
+                        "action": 8,
+                        "relType": 1,
+                        "path": "Template\\"
+                    }
+                ]
+            },
+            {
+                "type": 1,
+                "name": "Query",
+                "children": []
+            },
+            {
+                "type": 1,
+                "name": "Assets",
+                "children": [
+                    {
+                        "type": 8,
+                        "name": "dot.png",
+                        "relType": 1,
+                        "path": "Assets\\"
+                    },
+                    {
+                        "type": 8,
+                        "name": "교육시안.png",
+                        "relType": 1,
+                        "path": "Assets\\"
+                    },
+                    {
+                        "type": 8,
+                        "name": "디자인가이드.png",
+                        "relType": 1,
+                        "path": "Assets\\"
+                    },
+                    {
+                        "type": 8,
+                        "name": "all_save-btn.gif",
+                        "relType": 1,
+                        "path": "Assets\\"
+                    },
+                    {
+                        "type": 8,
+                        "name": "balance.svg",
+                        "relType": 1,
+                        "path": "Assets\\"
+                    },
+                    {
+                        "type": 8,
+                        "name": "sub4_img_01.jpg",
+                        "relType": 1,
+                        "path": "Assets\\"
+                    },
+                    {
+                        "type": 1,
+                        "name": "fonts",
+                        "children": [
+                            {
+                                "type": 8,
+                                "name": "notokr-bold.eot",
+                                "relType": 1,
+                                "path": "Assets\\fonts\\"
+                            },
+                            {
+                                "type": 8,
+                                "name": "notokr-bold.svg",
+                                "relType": 1,
+                                "path": "Assets\\fonts\\"
+                            },
+                            {
+                                "type": 8,
+                                "name": "notokr-bold.ttf",
+                                "relType": 1,
+                                "path": "Assets\\fonts\\"
+                            },
+                            {
+                                "type": 8,
+                                "name": "notokr-bold.woff",
+                                "relType": 1,
+                                "path": "Assets\\fonts\\"
+                            },
+                            {
+                                "type": 8,
+                                "name": "notokr-bold.woff2",
+                                "relType": 1,
+                                "path": "Assets\\fonts\\"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": 1,
+                "name": "Source",
+                "children": [
+                    {
+                        "type": 5,
+                        "name": "DesignSampleApp.js",
+                        "relType": 1,
+                        "path": "Source\\"
+                    },
+                    {
+                        "type": 5,
+                        "name": "DirectSample.js",
+                        "relType": 1,
+                        "path": "Source\\"
+                    },
+                    {
+                        "type": 3,
+                        "name": "DirectSample.lay",
+                        "relType": 1,
+                        "path": "Source\\"
+                    },
+                    {
+                        "type": 5,
+                        "name": "OriginalView.js",
+                        "action": 5,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 3,
+                        "name": "OriginalView.lay",
+                        "action": 6,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 5,
+                        "name": "StyleSample.js",
+                        "action": 5,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 3,
+                        "name": "StyleSample.lay",
+                        "action": 6,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 5,
+                        "name": "TemplateSample.js",
+                        "action": 5,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 3,
+                        "name": "TemplateSample.lay",
+                        "action": 6,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 5,
+                        "name": "WorkView.js",
+                        "action": 5,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    },
+                    {
+                        "type": 3,
+                        "name": "WorkView.lay",
+                        "action": 6,
+                        "relType": 1,
+                        "path": "Source\\",
+                        "comment": ""
+                    }
+                ]
+            },
+            {
+                "type": 14,
+                "name": "index.html",
+                "relType": 1,
+                "path": ""
+            }
+        ]
+    },
+    "version": "4.0.1"
+}

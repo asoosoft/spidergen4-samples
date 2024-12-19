@@ -1,0 +1,137 @@
+{
+  "projectName": "WindowSample",
+  "fileTree": {
+    "type": 0,
+    "name": "WindowSample",
+    "children": [
+      {
+        "type": 1,
+        "name": "Framework",
+        "action": 1,
+        "children": [
+          {
+            "type": 11,
+            "name": "afc",
+            "relType": 7,
+            "path": "afc\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Library",
+        "action": 2,
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Template",
+        "action": 4,
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Query",
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Assets",
+        "children": [
+          {
+            "type": 1,
+            "name": "image",
+            "children": [
+              {
+                "type": 8,
+                "name": "chiron1.jpg",
+                "action": null,
+                "relType": 1,
+                "path": "image\\"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Source",
+        "children": [
+          {
+            "type": 5,
+            "name": "WindowSampleApp.js",
+            "relType": 1,
+            "path": ""
+          },
+          {
+            "type": 5,
+            "name": "MainView.js",
+            "relType": 1,
+            "path": ""
+          },
+          {
+            "type": 3,
+            "name": "MainView.lay",
+            "relType": 1,
+            "path": ""
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Views",
+        "children": [
+          {
+            "type": 5,
+            "name": "WindowView1.js",
+            "relType": 1,
+            "path": ""
+          },
+          {
+            "type": 3,
+            "name": "WindowView1.lay",
+            "relType": 1,
+            "path": ""
+          },
+          {
+            "type": 5,
+            "name": "WindowView2.js",
+            "relType": 1,
+            "path": ""
+          },
+          {
+            "type": 3,
+            "name": "WindowView2.lay",
+            "relType": 1,
+            "path": ""
+          },
+          {
+            "type": 5,
+            "name": "FrameView.js",
+            "action": 9,
+            "relType": 1,
+            "path": "\\"
+          },
+          {
+            "type": 3,
+            "name": "FrameView.lay",
+            "action": 6,
+            "relType": 1,
+            "path": "\\"
+          }
+        ]
+      },
+      {
+        "type": 14,
+        "name": "index.html",
+        "relType": 1,
+        "path": ""
+      }
+    ]
+  },
+  "version": "4.0.10",
+  "flavor": {
+    "common": "common"
+  },
+  "defaultLanguage": "js"
+}

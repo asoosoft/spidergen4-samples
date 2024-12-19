@@ -1,0 +1,6 @@
+{
+  "styleName": "myfnt",
+  "items": {
+    "NotoKrB": "\n@font-face \n{\n\tfont-family: 'NotoKrB';\n\tfont-style: normal;\n\tfont-weight: 700;\n\tsrc: url('Assets/fonts/notokr-bold.eot') format('embedded-opentype'),\n\turl('Assets/fonts/notokr-bold.woff2') format('woff2'),\n\turl('Assets/fonts/notokr-bold.woff') format('woff');\n}\t\n"
+  }
+}

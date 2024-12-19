@@ -1,0 +1,12 @@
+<div data-base="AView" data-class="MainView" class="AView-Style" style="left: 0px; top: 0px; width: 100%; height: 100%; background-color: rgb(67, 67, 138); position: absolute;" data-browser-width="400" data-browser-height="580" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ATextBox&quot;,&quot;AButton&quot;,&quot;ALabel&quot;,&quot;AImage&quot;]}" data-max-abutton="2"
+    ><pre data-base="ATextBox" data-class="ATextBox" class="ATextBox-Style" style="width: 300px; height: 120px; position: absolute; left: 50px; top: 230px; color: rgb(255, 255, 255);" data-style="">여기는 스파이더젠 영역입니다.
+
+Assets/test.html 파일의 주석을 참조하십시요.</pre
+    ><button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 80px; height: 22px; position: absolute; left: 0px; top: 0px; border-width: 0px; border-style: solid; border-color: rgb(255, 0, 0); background-color: rgb(211, 167, 167);">LT</button
+    ><button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 80px; height: 22px; position: absolute; top: 0px; right: 0px; border-width: 0px; border-style: solid; border-color: rgb(255, 0, 0); background-color: rgb(211, 167, 167);">RT</button
+    ><button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 80px; height: 22px; position: absolute; left: 0px; bottom: 0px; border-width: 0px; border-style: solid; border-color: rgb(255, 0, 0); background-color: rgb(211, 167, 167);">LB</button
+    ><button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 80px; height: 22px; position: absolute; right: 0px; bottom: 0px; border-width: 0px; border-style: solid; border-color: rgb(255, 0, 0); background-color: rgb(211, 167, 167);">RB</button
+    ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 90px; height: 80px; position: absolute; left: 20px; top: 40px; background-image: url(&quot;Assets/icon_way1_bottom.png&quot;); background-repeat: no-repeat; background-size: contain;" data-background-option="fit"></label
+    ><img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 130px; height: 120px; position: absolute; top: 30px; right: 100px;" src="Assets/icon_way3_bottom.png" data-stretch-width="true"
+    ><button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 90px; height: 34px; left: 50px; top: 170px;" data-listener-click="MainView:onButtonClick">Click!</button
+></div>
