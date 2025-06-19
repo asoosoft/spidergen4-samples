@@ -77,7 +77,10 @@ router.post('/', function(req, res, next)
 					{
 						'nick_name': '아수쿨',
 						'uid': 1234567,
-						'email': 'asoocool@gmail.com'
+						'email': 'asoocool@gmail.com',
+						'nick_name2': '아수쿨2',
+						'uid2': 123456700,
+						'email2': 'asoocool2@gmail.com2'
 					}
 				]
 			} 

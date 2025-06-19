@@ -12,8 +12,8 @@
           {
             "type": 11,
             "name": "afc",
-            "relType": 7,
-            "path": "afc\\"
+            "relType": 1,
+            "path": "Framework\\"
           }
         ]
       },
@@ -206,7 +206,7 @@
       }
     ]
   },
-  "version": "4.0.10",
+  "version": "4.2.2",
   "flavor": {
     "common": "common"
   },
