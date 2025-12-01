@@ -62,13 +62,13 @@ TestView2.prototype.onAButton2Click = function(comp, info, e)
 TestView2.prototype.onHideColumnClick = function(comp, info, e)
 {
 
-	this.testGrid.grid.hideColumn(3);
+	this.testGrid.hideColumn(3);
 
 };
 
 TestView2.prototype.onShowColumnClick = function(comp, info, e)
 {
 
-	this.testGrid.grid.showColumn(3);
+	this.testGrid.showColumn(3);
 
 };
