@@ -53,7 +53,7 @@ MainView = class MainView extends AView
         var wnd = new AWindow('sample03')
         
         // 윈도우의 옵션을 설정한다.
-        wnd.setWindowOption({
+        wnd.setOption({
             isModal : true,
             isFocusLostClose : true,
             modalBgOption : 'light',
@@ -88,7 +88,7 @@ MainView = class MainView extends AView
         var wnd = new ADialog('dialog');
         
         wnd.setData({ id: "asoosoft", pw: "test1234" })
-        wnd.openDialog('Views/FrameView.lay', null, 400, 280)
+        wnd.openDialog('Views/FrameView.lay', null, 'dialog', 400, 280)
 	}
 
 	onOpenFrameBtnClick(comp, info, e)
@@ -97,7 +97,7 @@ MainView = class MainView extends AView
         // 창 생성 후 다시 Open FrameWnd 버튼을 누르면 같은 위치에 창이 다시 생성
         // 타이틀 드래그를 통해 위치 이동 및 창 리사이즈 가능
         var wnd = new AFrameWnd('frameWnd');
-        wnd.open('Views/FrameView.lay', null, 100, 100, 400, 280)
+        wnd.open('Views/FrameView.lay', null, 'frameWnd', 100, 100, 400, 280)
 	}
 
     //콜백함수가 아닌 리스너를 셋팅한 경우

@@ -1,8 +1,8 @@
 {
-    "library": {},
-    "component": {
-        "AToast.js": false
+    "library": {
+        "VanillaUI.js": true
     },
+    "component": {},
     "event": {},
     "style": {}
 }
