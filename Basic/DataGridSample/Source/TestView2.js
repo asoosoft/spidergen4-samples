@@ -33,14 +33,13 @@ TestView2.prototype.onInitDone = function()
 		
 	
 	];
-	
 	this.testGrid.setGridData(data);
 };
 
 TestView2.prototype.addTmplData = function()
 {
-	this.testGrid.addRowData([ {text:'1', colSpan:3, rowSpan:2 }, {}, {}, {text:'4'}, {text:'5'}, 	{text:'6', rowSpan:2} ], true);
-	this.testGrid.addRowData([ {text:'1', colSpan:3 }, 			  {}, {}, {text:'test', colSpan:2}, {}, {} ], true);
+	this.testGrid.addRowData([ {text:'1', colSpan:3, rowSpan:2 }, {}, {}, {text:'4'}, {text:'5'}, 	{text:'6', rowSpan:2} ], null, true);
+	this.testGrid.addRowData([ {text:'1', colSpan:3 }, 			  {}, {}, {text:'test', colSpan:2}, {}, {} ], null, true);
 	
 	this.testGrid.updateDataGrid();
 };
