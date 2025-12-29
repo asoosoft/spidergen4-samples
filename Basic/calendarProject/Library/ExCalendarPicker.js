@@ -1,7 +1,7 @@
 (async function() {
                     
 
-await afc.import("Framework/mdfc/component/ACalendarPicker.js");
+await afc.import("Framework/afcEx/component/ACalendarPicker.js");
 
 /**
 작성자 : 배경수
