@@ -1,4 +1,4 @@
-﻿SpiderGen_Release5.0/Elec_Win64
+SpiderGen_Release5.0/Elec_Win64
 SpiderGen_Release5.0/SpiderGen_Electron
 SpiderGen5.0/SpiderGen_Server/Runner/SpiderServer/package-lock.json
 **/bin
@@ -6,3 +6,4 @@ SpiderGen5.0/SpiderGen_Server/Runner/SpiderServer/package-lock.json
 **/env.inf
 **/hash.inf
 **/Framework
+Basic/calendarProject.zip

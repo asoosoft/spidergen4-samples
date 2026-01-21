@@ -1,6 +1,6 @@
 {
     "library": {
-        "ADataMask.js": false
+        "DataBinder.js": true
     },
     "component": {},
     "event": {},

@@ -3,6 +3,7 @@
   "fileTree": {
     "type": 0,
     "name": "RGrid",
+    "comment": " ＊ ",
     "children": [
       {
         "type": 1,
@@ -12,20 +13,16 @@
           {
             "type": 11,
             "name": "afc",
-            "relType": 7,
-            "path": "afc\\"
-          },
-          {
-            "type": 11,
-            "name": "mdfc",
-            "relType": 7,
-            "path": "mdfc\\"
+            "relType": 1,
+            "path": "Framework\\",
+            "comment": "1.0.0"
           },
           {
             "type": 11,
             "name": "rMate",
-            "relType": 7,
-            "path": "rMate\\"
+            "relType": 1,
+            "path": "Framework\\",
+            "comment": "1.0.0"
           }
         ]
       },
@@ -83,7 +80,7 @@
       }
     ]
   },
-  "version": "4.0.3",
+  "version": "5.0.7",
   "flavor": {
     "common": "common"
   },

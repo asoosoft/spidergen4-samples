@@ -3,6 +3,7 @@
   "fileTree": {
     "type": 0,
     "name": "GetSetDataSample",
+    "comment": " ＊ ",
     "children": [
       {
         "type": 1,
@@ -12,8 +13,9 @@
           {
             "type": 11,
             "name": "afc",
-            "relType": 7,
-            "path": "afc\\"
+            "relType": 1,
+            "path": "Framework\\",
+            "comment": "1.0.0"
           }
         ]
       },
@@ -72,6 +74,38 @@
             "name": "MainView.lay",
             "relType": 1,
             "path": "Source\\"
+          },
+          {
+            "type": 5,
+            "name": "NormalView.js",
+            "action": 9,
+            "relType": 1,
+            "path": "Source\\",
+            "comment": ""
+          },
+          {
+            "type": 3,
+            "name": "NormalView.lay",
+            "action": 6,
+            "relType": 1,
+            "path": "Source\\",
+            "comment": ""
+          },
+          {
+            "type": 5,
+            "name": "DataBindView.js",
+            "action": 9,
+            "relType": 1,
+            "path": "Source\\",
+            "comment": ""
+          },
+          {
+            "type": 3,
+            "name": "DataBindView.lay",
+            "action": 6,
+            "relType": 1,
+            "path": "Source\\",
+            "comment": ""
           }
         ]
       },
@@ -83,7 +117,7 @@
       }
     ]
   },
-  "version": "4.0.3",
+  "version": "5.0.7",
   "flavor": {
     "common": "common"
   },
