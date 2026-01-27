@@ -7,8 +7,8 @@
                 ><div data-base="AView" data-class="AView" class="AView-Style" style="width: calc(50% - 5px); height: calc((100% - 25px) - 5px); position: absolute; left: 50%; top: 25px; background-color: rgb(255, 255, 255);" data-sgap-width="3" data-stretch-width="true" id="NormalView--setView1" data-sgap-height="1" data-stretch-height="true"
                     ><input data-base="ATextField" data-class="ATextField" type="text" value="홍길동" class="ATextField-Style" autocomplete="off" style="width: calc(70% - 10px); height: 20px; position: absolute; left: 30%; top: 10px;" name="name" data-sgap-width="3" data-stretch-width="true"
                     ><pre data-base="ATextBox" data-class="ATextBox" class="ATextBox-Style" style="width: 30%; height: 20px; position: absolute; left: 0px; top: 10px; text-align: right; justify-content: flex-end; align-items: center; padding-right: 10px;">name</pre
-                    ><div data-base="AGrid" data-class="AGrid" data-fullrow-select="true" data-selectable="true" data-clear-rowtmpl="true" class="AGrid-Style" style="width: 100%; height: calc((100% - 40px) - 0px); position: absolute; left: 0px; top: 40px;" data-sgap-height="1" data-stretch-height="true" name="contents" id="NormalView--grid" data-ver="3301" data-hide-footer="true"
-                        ><div class="grid-scroll-area"
+                    ><div data-base="AGrid" data-class="AGrid" data-selectable="true" data-clear-rowtmpl="true" class="AGrid-Style" style="width: 100%; height: calc(100% - 40px); position: absolute; left: 0px; top: 40px; visibility: visible; margin-left: 0px;" data-sgap-height="1" data-stretch-height="true" name="contents" data-ver="3301" data-hide-footer="true" id="NormalView--grid" data-fullrow-select="true"
+                        ><div class="grid-scroll-area" style=""
                             ><table class="grid-header-table" align="center"
                                 ><colgroup
                                     ><col
@@ -38,9 +38,9 @@
                                 ></thead
                                 ><tbody align="center" class="body-prop"
                                     ><tr height="22px"
-                                        ><td>data 1,1</td
-                                        ><td>data 1,2</td
-                                        ><td>data 1,3</td
+                                        ><td class="">data 1,1</td
+                                        ><td class="">data 1,2</td
+                                        ><td class="">data 1,3</td
                                     ></tr
                                 ></tbody
                             ></table
