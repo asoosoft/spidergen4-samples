@@ -3,6 +3,7 @@
   "fileTree": {
     "type": 0,
     "name": "QuerySample",
+    "comment": " ＊ ",
     "children": [
       {
         "type": 1,
@@ -13,7 +14,15 @@
             "type": 11,
             "name": "afc",
             "relType": 1,
-            "path": "Framework\\"
+            "path": "Framework\\",
+            "comment": "1.0.0"
+          },
+          {
+            "type": 11,
+            "name": "sys",
+            "relType": 1,
+            "path": "Framework\\",
+            "comment": "1.0.0"
           }
         ]
       },
@@ -22,48 +31,6 @@
         "name": "Library",
         "action": 2,
         "children": [
-          {
-            "type": 5,
-            "name": "ABuffer.js",
-            "action": 2,
-            "relType": 4,
-            "path": ""
-          },
-          {
-            "type": 5,
-            "name": "AQuery.js",
-            "action": 2,
-            "relType": 4,
-            "path": ""
-          },
-          {
-            "type": 5,
-            "name": "AQueryData.js",
-            "action": 2,
-            "relType": 4,
-            "path": ""
-          },
-          {
-            "type": 5,
-            "name": "QueryManager.js",
-            "action": 2,
-            "relType": 4,
-            "path": ""
-          },
-          {
-            "type": 5,
-            "name": "NetworkIO.js",
-            "action": 2,
-            "relType": 4,
-            "path": ""
-          },
-          {
-            "type": 5,
-            "name": "HttpIO.js",
-            "action": 2,
-            "relType": 4,
-            "path": ""
-          },
           {
             "type": 5,
             "name": "WebQueryData.js",
@@ -81,10 +48,9 @@
           {
             "type": 12,
             "name": "MyFormat.fmt",
-            "action": null,
+            "action": 11,
             "relType": 1,
-            "path": "",
-            "comment": ""
+            "path": "Library\\"
           }
         ]
       },
@@ -108,22 +74,20 @@
           {
             "type": 8,
             "name": "ac001.qry",
-            "action": null,
             "relType": 1,
-            "path": "qry\\"
+            "path": "Query\\"
           },
           {
             "type": 8,
             "name": "ac002.qry",
-            "action": null,
             "relType": 1,
-            "path": "qry\\"
+            "path": "Query\\"
           },
           {
             "type": 8,
             "name": "ac003.qry",
             "relType": 1,
-            "path": "qry\\"
+            "path": "Query\\"
           }
         ]
       },
@@ -140,14 +104,14 @@
             "type": 5,
             "name": "QuerySampleApp.js",
             "relType": 1,
-            "path": ""
+            "path": "Source\\"
           },
           {
             "type": 5,
             "name": "MainView.js",
             "action": null,
             "relType": 1,
-            "path": "",
+            "path": "Source\\",
             "comment": ""
           },
           {
@@ -155,7 +119,7 @@
             "name": "MainView.lay",
             "action": null,
             "relType": 1,
-            "path": "",
+            "path": "Source\\",
             "comment": ""
           },
           {
@@ -206,7 +170,7 @@
       }
     ]
   },
-  "version": "4.2.2",
+  "version": "5.1.0",
   "flavor": {
     "common": "common"
   },
