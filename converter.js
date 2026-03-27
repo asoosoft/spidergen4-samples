@@ -149,7 +149,7 @@ function convertContent(content) {
 		protoRegex.lastIndex = endIdx;
 	}
 
-	if (methods.length === 0) return null;
+	if (methods.length === 0 && alreadyClassDecl) return null;
 
 	// Build remaining afterClass (non-method parts)
 	let remaining = '';
