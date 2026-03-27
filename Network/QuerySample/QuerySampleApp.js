@@ -1,5 +1,5 @@
 
-QuerySampleApp = class QuerySampleApp extends AApplication
+class QuerySampleApp extends AApplication
 {
     constructor()
     {
@@ -47,17 +47,6 @@ QuerySampleApp = class QuerySampleApp extends AApplication
         
         this.qm.startManager(this.serverUrl)
     }
-
 }
-
-
-
-
-
-
-
-
-
-
 
 

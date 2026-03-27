@@ -1,7 +1,7 @@
 
 afc.import('Framework/afc/component/AMessageBox.js')
 
-PopupView = class PopupView extends AView
+class PopupView extends AView
 {
 	constructor()
 	{
@@ -43,4 +43,5 @@ PopupView = class PopupView extends AView
 
 	}
 }
+
 

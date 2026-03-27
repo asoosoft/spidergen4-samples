@@ -1,7 +1,7 @@
 
 afc.import('Framework/afc/component/ADialog.js')
 
-MainView = class MainView extends AView
+class MainView extends AView
 {
     constructor()
     {
@@ -114,12 +114,6 @@ MainView = class MainView extends AView
             }
         }
     }
-
 }
-
-
-
-
-
 
 

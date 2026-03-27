@@ -1,6 +1,6 @@
 
 
-WebQueryData = class WebQueryData extends AQueryData
+class WebQueryData extends AQueryData
 {
     constructor(aquery)
     {
@@ -12,18 +12,17 @@ WebQueryData = class WebQueryData extends AQueryData
 	
 
     }
+
+	inBlockBuffer(sendObj)
+	{
+		sendObj.body = this.getQueryObj();
+	}
+
+	outBlockData(recvObj)
+	{
+		this.setQueryObj(recvObj.body);
+
+	}
 }
 
 
-
-WebQueryData.prototype.inBlockBuffer = function(sendObj)
-{
-	sendObj.body = this.getQueryObj();
-};
-
-
-WebQueryData.prototype.outBlockData = function(recvObj)
-{
-	this.setQueryObj(recvObj.body);
-	
-};

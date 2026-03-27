@@ -1,6 +1,6 @@
 
 
-MainView = class MainView extends AView
+class MainView extends AView
 {
     constructor()
     {
@@ -40,6 +40,5 @@ MainView = class MainView extends AView
 
 	}
 }
-
 
 

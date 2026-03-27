@@ -1,5 +1,5 @@
 
-TestView3 = class TestView3 extends AView
+class TestView3 extends AView
 {
 	constructor()
 	{
@@ -41,6 +41,6 @@ TestView3 = class TestView3 extends AView
 		//TODO:edit here
 
 	}
-
 }
+
 
