@@ -55,7 +55,7 @@
             "type": 5,
             "name": "TabViewSampleApp.js",
             "relType": 1,
-            "path": ""
+            "path": "Source\\"
           },
           {
             "type": 1,
@@ -65,55 +65,55 @@
                 "type": 5,
                 "name": "MainView.js",
                 "relType": 1,
-                "path": ""
+                "path": "Source\\"
               },
               {
                 "type": 3,
                 "name": "MainView.lay",
                 "relType": 1,
-                "path": ""
+                "path": "Source\\"
               },
               {
                 "type": 5,
                 "name": "SubView1.js",
                 "action": null,
                 "relType": 1,
-                "path": ""
+                "path": "Source\\"
               },
               {
                 "type": 3,
                 "name": "SubView1.lay",
                 "action": null,
                 "relType": 1,
-                "path": ""
+                "path": "Source\\"
               },
               {
                 "type": 5,
                 "name": "SubView2.js",
                 "action": null,
                 "relType": 1,
-                "path": ""
+                "path": "Source\\"
               },
               {
                 "type": 3,
                 "name": "SubView2.lay",
                 "action": null,
                 "relType": 1,
-                "path": ""
+                "path": "Source\\"
               },
               {
                 "type": 5,
                 "name": "SubView3.js",
                 "action": null,
                 "relType": 1,
-                "path": ""
+                "path": "Source\\"
               },
               {
                 "type": 3,
                 "name": "SubView3.lay",
                 "action": null,
                 "relType": 1,
-                "path": ""
+                "path": "Source\\"
               }
             ]
           }

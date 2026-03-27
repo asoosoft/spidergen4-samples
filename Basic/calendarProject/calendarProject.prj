@@ -112,7 +112,7 @@
             "type": 5,
             "name": "calendarProjectApp.js",
             "relType": 1,
-            "path": ""
+            "path": "Source\\"
           },
           {
             "type": 5,
@@ -140,7 +140,7 @@
       }
     ]
   },
-  "version": "5.0.5",
+  "version": "5.1.0",
   "flavor": {
     "common": "common"
   },

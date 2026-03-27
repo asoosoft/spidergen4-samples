@@ -12,8 +12,9 @@
           {
             "type": 11,
             "name": "afc",
-            "relType": 7,
-            "path": "afc\\"
+            "relType": 1,
+            "path": "Framework\\",
+            "comment": "1.0.0"
           }
         ]
       },
@@ -47,31 +48,31 @@
             "type": 5,
             "name": "ViewSampleApp.js",
             "relType": 1,
-            "path": ""
+            "path": "Source\\"
           },
           {
             "type": 5,
             "name": "MainView.js",
             "relType": 1,
-            "path": ""
+            "path": "Source\\"
           },
           {
             "type": 3,
             "name": "MainView.lay",
             "relType": 1,
-            "path": ""
+            "path": "Source\\"
           },
           {
             "type": 5,
             "name": "InnerView.js",
             "relType": 1,
-            "path": ""
+            "path": "Source\\"
           },
           {
             "type": 3,
             "name": "InnerView.lay",
             "relType": 1,
-            "path": ""
+            "path": "Source\\"
           }
         ]
       },
@@ -83,7 +84,7 @@
       }
     ]
   },
-  "version": "4.0.3",
+  "version": "5.1.0",
   "flavor": {
     "common": "common"
   },

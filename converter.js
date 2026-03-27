@@ -191,6 +191,163 @@ function convertContent(content) {
 }
 
 //--------------------------------------------------
+// Project reorganization: move root .js/.lay to Source/
+//--------------------------------------------------
+
+/**
+ * Find all SpiderGen project directories (containing .prj files).
+ */
+function findProjectDirs(dir) {
+	const results = [];
+	const entries = fs.readdirSync(dir, { withFileTypes: true });
+	for (const entry of entries) {
+		const fullPath = path.join(dir, entry.name);
+		if (entry.isDirectory()) {
+			if (['node_modules', '.git', '.claude', 'Framework'].includes(entry.name)) continue;
+			results.push(...findProjectDirs(fullPath));
+		} else if (entry.name.endsWith('.prj')) {
+			results.push(dir);
+		}
+	}
+	return [...new Set(results)];
+}
+
+/**
+ * Rename lowercase 'source' folder to 'Source'.
+ */
+function renameSourceFolder(projectDir) {
+	const lowerSource = path.join(projectDir, 'source');
+	const upperSource = path.join(projectDir, 'Source');
+
+	if (fs.existsSync(lowerSource) && fs.statSync(lowerSource).isDirectory()) {
+		// Check it's actually lowercase (not already 'Source' on case-insensitive FS)
+		const entries = fs.readdirSync(projectDir);
+		const actual = entries.find(e => e.toLowerCase() === 'source');
+		if (actual === 'source') {
+			// Use temp name to handle case-insensitive rename on Windows
+			const tmpName = path.join(projectDir, '_Source_tmp_');
+			fs.renameSync(lowerSource, tmpName);
+			fs.renameSync(tmpName, upperSource);
+			return true;
+		}
+	}
+	return false;
+}
+
+/**
+ * Move root .js/.lay files into Source/ folder and update .prj path info.
+ */
+function reorganizeProject(projectDir) {
+	const projectName = path.basename(projectDir);
+	const sourceDir = path.join(projectDir, 'Source');
+
+	// Step 1: Rename lowercase 'source' to 'Source'
+	const renamed = renameSourceFolder(projectDir);
+	if (renamed) {
+		console.log(`  Renamed: ${projectName}/source -> Source`);
+	}
+
+	// Step 2: Find .js and .lay files in project root
+	const entries = fs.readdirSync(projectDir, { withFileTypes: true });
+	const filesToMove = entries.filter(e =>
+		e.isFile() && (e.name.endsWith('.js') || e.name.endsWith('.lay'))
+	).map(e => e.name);
+
+	if (filesToMove.length === 0) return 0;
+
+	// Step 3: Create Source/ if not exists
+	if (!fs.existsSync(sourceDir)) {
+		fs.mkdirSync(sourceDir);
+	}
+
+	// Step 4: Move files
+	let movedCount = 0;
+	for (const fileName of filesToMove) {
+		const src = path.join(projectDir, fileName);
+		const dst = path.join(sourceDir, fileName);
+
+		if (fs.existsSync(dst)) {
+			console.log(`  Skip(exists): ${projectName}/Source/${fileName}`);
+			continue;
+		}
+
+		fs.renameSync(src, dst);
+		console.log(`  Moved: ${projectName}/${fileName} -> Source/${fileName}`);
+		movedCount++;
+	}
+
+	// Step 5: Update .prj file path references
+	const prjFiles = entries.filter(e => e.isFile() && e.name.endsWith('.prj'));
+	for (const prjEntry of prjFiles) {
+		const prjPath = path.join(projectDir, prjEntry.name);
+		const prjContent = fs.readFileSync(prjPath, 'utf8');
+
+		let prj;
+		try {
+			prj = JSON.parse(prjContent);
+		} catch (e) {
+			console.error(`  Error parsing: ${projectName}/${prjEntry.name}`);
+			continue;
+		}
+
+		let updated = false;
+		updated = updatePrjPaths(prj.fileTree, filesToMove) || updated;
+
+		// Also fix lowercase 'source\\' -> 'Source\\' in paths
+		if (renamed) {
+			updated = fixSourceCase(prj.fileTree) || updated;
+		}
+
+		if (updated) {
+			fs.writeFileSync(prjPath, JSON.stringify(prj, null, '  ') + '\n', 'utf8');
+			console.log(`  Updated: ${projectName}/${prjEntry.name}`);
+		}
+	}
+
+	return movedCount;
+}
+
+/**
+ * Recursively update path="" to path="Source\\" for moved files in prj tree.
+ */
+function updatePrjPaths(node, movedFiles) {
+	let updated = false;
+
+	if (node.name && movedFiles.includes(node.name) && node.path === '') {
+		node.path = 'Source\\';
+		updated = true;
+	}
+
+	if (node.children) {
+		for (const child of node.children) {
+			updated = updatePrjPaths(child, movedFiles) || updated;
+		}
+	}
+
+	return updated;
+}
+
+/**
+ * Recursively fix lowercase 'source\\' to 'Source\\' in prj path fields.
+ */
+function fixSourceCase(node) {
+	let updated = false;
+
+	if (node.path && node.path.startsWith('source\\')) {
+		node.path = 'S' + node.path.substring(1);
+		updated = true;
+	}
+
+	if (node.children) {
+		for (const child of node.children) {
+			updated = fixSourceCase(child) || updated;
+		}
+	}
+
+	return updated;
+}
+
+//--------------------------------------------------
 // File system operations
 //--------------------------------------------------
 
@@ -225,6 +382,21 @@ if (!fs.existsSync(absPath) || !fs.statSync(absPath).isDirectory()) {
 	process.exit(1);
 }
 
+// Step 1: Reorganize projects (move root files to Source/)
+console.log('=== Reorganizing projects ===\n');
+const projectDirs = findProjectDirs(absPath);
+let totalMoved = 0;
+for (const projDir of projectDirs) {
+	try {
+		totalMoved += reorganizeProject(projDir);
+	} catch (e) {
+		console.error(`  Error reorganizing ${path.relative(absPath, projDir)}: ${e.message}`);
+	}
+}
+console.log(`\nReorganized: ${totalMoved} files moved to Source/\n`);
+
+// Step 2: Convert JS files (prototype -> class syntax)
+console.log('=== Converting JS files ===\n');
 const files = findJsFiles(absPath);
 console.log(`Found ${files.length} .js files\n`);
 

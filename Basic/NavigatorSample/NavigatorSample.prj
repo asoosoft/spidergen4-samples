@@ -12,8 +12,9 @@
           {
             "type": 11,
             "name": "afc",
-            "relType": 7,
-            "path": "afc\\"
+            "relType": 1,
+            "path": "Framework\\",
+            "comment": "1.0.0"
           }
         ]
       },
@@ -75,21 +76,21 @@
             "type": 5,
             "name": "NavigatorSampleApp.js",
             "relType": 1,
-            "path": ""
+            "path": "Source\\"
           },
           {
             "type": 5,
             "name": "MainView.js",
             "action": null,
             "relType": 1,
-            "path": ""
+            "path": "Source\\"
           },
           {
             "type": 3,
             "name": "MainView.lay",
             "action": null,
             "relType": 1,
-            "path": ""
+            "path": "Source\\"
           },
           {
             "type": 1,
@@ -100,42 +101,42 @@
                 "name": "SubView1.js",
                 "action": null,
                 "relType": 1,
-                "path": ""
+                "path": "Source\\"
               },
               {
                 "type": 3,
                 "name": "SubView1.lay",
                 "action": null,
                 "relType": 1,
-                "path": ""
+                "path": "Source\\"
               },
               {
                 "type": 5,
                 "name": "SubView2.js",
                 "action": null,
                 "relType": 1,
-                "path": ""
+                "path": "Source\\"
               },
               {
                 "type": 3,
                 "name": "SubView2.lay",
                 "action": null,
                 "relType": 1,
-                "path": ""
+                "path": "Source\\"
               },
               {
                 "type": 5,
                 "name": "SubView3.js",
                 "action": null,
                 "relType": 1,
-                "path": ""
+                "path": "Source\\"
               },
               {
                 "type": 3,
                 "name": "SubView3.lay",
                 "action": null,
                 "relType": 1,
-                "path": ""
+                "path": "Source\\"
               }
             ]
           }
@@ -149,7 +150,7 @@
       }
     ]
   },
-  "version": "4.0.3",
+  "version": "5.1.0",
   "flavor": {
     "common": "common"
   },
