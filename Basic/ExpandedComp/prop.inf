@@ -51,6 +51,9 @@
       "list": []
     }
   },
+  "ai": {
+    "samplesPath": ""
+  },
   "localizing": {
     "useMode": false,
     "value": ""

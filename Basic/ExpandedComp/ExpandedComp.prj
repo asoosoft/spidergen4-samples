@@ -3,6 +3,7 @@
   "fileTree": {
     "type": 0,
     "name": "ExpandedComp",
+    "comment": " ＊ ",
     "children": [
       {
         "type": 1,
@@ -12,8 +13,16 @@
           {
             "type": 11,
             "name": "afc",
-            "relType": 7,
-            "path": "afc\\"
+            "relType": 1,
+            "path": "Framework\\",
+            "comment": "1.0.0"
+          },
+          {
+            "type": 11,
+            "name": "sys",
+            "relType": 1,
+            "path": "Framework\\",
+            "comment": "1.0.0"
           }
         ]
       },
@@ -21,22 +30,7 @@
         "type": 1,
         "name": "Library",
         "action": 2,
-        "children": [
-          {
-            "type": 5,
-            "name": "minimit-anima.js",
-            "action": 2,
-            "relType": 4,
-            "path": ""
-          },
-          {
-            "type": 5,
-            "name": "RadioBtnManager.js",
-            "action": 2,
-            "relType": 4,
-            "path": ""
-          }
-        ]
+        "children": []
       },
       {
         "type": 1,
@@ -44,15 +38,16 @@
         "action": 4,
         "children": [
           {
-            "type": 4,
-            "name": "ExpandedCompApp_global.stl",
-            "relType": 1,
-            "path": ""
-          },
-          {
             "type": 6,
             "name": "ResponsiveSampleView-resp.css",
             "action": 10,
+            "relType": 1,
+            "path": "Template\\"
+          },
+          {
+            "type": 4,
+            "name": "ExpandedCompApp_global.stl",
+            "action": 8,
             "relType": 1,
             "path": "Template\\"
           }
@@ -70,16 +65,14 @@
           {
             "type": 8,
             "name": "icon01_h.gif",
-            "action": null,
             "relType": 1,
-            "path": "source\\"
+            "path": "Assets\\"
           },
           {
             "type": 8,
             "name": "icon02.gif",
-            "action": null,
             "relType": 1,
-            "path": "source\\"
+            "path": "Assets\\"
           }
         ]
       },
@@ -277,7 +270,7 @@
       }
     ]
   },
-  "version": "4.0.3",
+  "version": "5.1.0",
   "flavor": {
     "common": "common"
   },
