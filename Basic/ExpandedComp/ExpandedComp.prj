@@ -81,184 +81,171 @@
         "name": "Source",
         "children": [
           {
-            "type": 5,
-            "name": "ExpandedCompApp.js",
-            "relType": 1,
-            "path": ""
-          },
-          {
-            "type": 5,
-            "name": "MainView.js",
-            "action": null,
-            "relType": 1,
-            "path": "",
-            "comment": ""
-          },
-          {
-            "type": 3,
-            "name": "MainView.lay",
-            "action": null,
-            "relType": 1,
-            "path": "",
-            "comment": ""
-          },
-          {
-            "type": 5,
-            "name": "DnDSampleView.js",
-            "action": null,
-            "relType": 1,
-            "path": "",
-            "comment": ""
-          },
-          {
-            "type": 3,
-            "name": "DnDSampleView.lay",
-            "action": null,
-            "relType": 1,
-            "path": "",
-            "comment": ""
-          },
-          {
-            "type": 5,
-            "name": "AnimaSampleView.js",
-            "action": null,
-            "relType": 1,
-            "path": "",
-            "comment": ""
-          },
-          {
-            "type": 3,
-            "name": "AnimaSampleView.lay",
-            "action": null,
-            "relType": 1,
-            "path": "",
-            "comment": ""
-          },
-          {
-            "type": 5,
-            "name": "ScrollManagerSampleView.js",
-            "action": null,
-            "relType": 1,
-            "path": "",
-            "comment": ""
-          },
-          {
-            "type": 3,
-            "name": "ScrollManagerSampleView.lay",
-            "action": null,
-            "relType": 1,
-            "path": "",
-            "comment": ""
-          },
-          {
-            "type": 5,
-            "name": "BackupManagerSampleView.js",
-            "action": null,
-            "relType": 1,
-            "path": "",
-            "comment": ""
-          },
-          {
-            "type": 3,
-            "name": "BackupManagerSampleView.lay",
-            "action": null,
-            "relType": 1,
-            "path": "",
-            "comment": ""
-          },
-          {
-            "type": 5,
-            "name": "ResponsiveSampleView.js",
-            "action": null,
-            "relType": 1,
-            "path": "",
-            "comment": ""
-          },
-          {
-            "type": 3,
-            "name": "ResponsiveSampleView.lay",
-            "action": null,
-            "relType": 1,
-            "path": "",
-            "comment": ""
-          },
-          {
-            "type": 5,
-            "name": "RBMSampleView.js",
-            "action": null,
-            "relType": 1,
-            "path": "",
-            "comment": ""
-          },
-          {
-            "type": 3,
-            "name": "RBMSampleView.lay",
-            "action": null,
-            "relType": 1,
-            "path": "",
-            "comment": ""
-          },
-          {
             "type": 1,
             "name": "subviews",
             "children": [
               {
                 "type": 5,
                 "name": "subview1.js",
-                "action": null,
+                "action": 9,
                 "relType": 1,
-                "path": "",
-                "comment": ""
+                "path": "Source\\subviews\\"
               },
               {
                 "type": 3,
                 "name": "subview1.lay",
-                "action": null,
+                "action": 6,
                 "relType": 1,
-                "path": "",
-                "comment": ""
+                "path": "Source\\subviews\\"
               },
               {
                 "type": 5,
                 "name": "tabSubview1.js",
-                "action": null,
+                "action": 9,
                 "relType": 1,
-                "path": "",
-                "comment": ""
+                "path": "Source\\subviews\\"
               },
               {
                 "type": 3,
                 "name": "tabSubview1.lay",
-                "action": null,
+                "action": 6,
                 "relType": 1,
-                "path": "",
-                "comment": ""
+                "path": "Source\\subviews\\"
               },
               {
                 "type": 5,
                 "name": "tabSubview2.js",
+                "action": 9,
                 "relType": 1,
-                "path": ""
+                "path": "Source\\subviews\\"
               },
               {
                 "type": 3,
                 "name": "tabSubview2.lay",
+                "action": 6,
                 "relType": 1,
-                "path": ""
+                "path": "Source\\subviews\\"
               },
               {
                 "type": 5,
                 "name": "tabSubview3.js",
+                "action": 9,
                 "relType": 1,
-                "path": ""
+                "path": "Source\\subviews\\"
               },
               {
                 "type": 3,
                 "name": "tabSubview3.lay",
+                "action": 6,
                 "relType": 1,
-                "path": ""
+                "path": "Source\\subviews\\"
               }
             ]
+          },
+          {
+            "type": 5,
+            "name": "AnimaSampleView.js",
+            "action": 9,
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 3,
+            "name": "AnimaSampleView.lay",
+            "action": 6,
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 5,
+            "name": "BackupManagerSampleView.js",
+            "action": 9,
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 3,
+            "name": "BackupManagerSampleView.lay",
+            "action": 6,
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 5,
+            "name": "DnDSampleView.js",
+            "action": 9,
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 3,
+            "name": "DnDSampleView.lay",
+            "action": 6,
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 5,
+            "name": "ExpandedCompApp.js",
+            "action": 9,
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 5,
+            "name": "MainView.js",
+            "action": 9,
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 3,
+            "name": "MainView.lay",
+            "action": 6,
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 5,
+            "name": "RBMSampleView.js",
+            "action": 9,
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 3,
+            "name": "RBMSampleView.lay",
+            "action": 6,
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 5,
+            "name": "ResponsiveSampleView.js",
+            "action": 9,
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 3,
+            "name": "ResponsiveSampleView.lay",
+            "action": 6,
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 5,
+            "name": "ScrollManagerSampleView.js",
+            "action": 9,
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 3,
+            "name": "ScrollManagerSampleView.lay",
+            "action": 6,
+            "relType": 1,
+            "path": "Source\\"
           }
         ]
       },
