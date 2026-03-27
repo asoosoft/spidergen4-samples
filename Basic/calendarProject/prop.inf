@@ -48,5 +48,8 @@
       "idx": null,
       "list": []
     }
+  },
+  "ai": {
+    "samplesPath": ""
   }
 }
