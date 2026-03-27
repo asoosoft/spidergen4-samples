@@ -91,12 +91,20 @@ function convertContent(content) {
 	const originalHasCRLF = content.includes('\r\n');
 	content = content.replace(/\r\n/g, '\n');
 
-	// Find class declaration: ClassName = class ClassName extends Parent\n{
-	const classRegex = /(\w+)\s*=\s*class\s+\1\s+extends\s+(\w+)\s*\n\{/;
-	const classMatch = content.match(classRegex);
-	if (!classMatch) return null;
+	// Find class declaration
+	// Pattern 1: ClassName = class ClassName extends Parent\n{
+	// Pattern 2: class ClassName extends Parent\n{
+	let classMatch = content.match(/(\w+)\s*=\s*class\s+\1\s+extends\s+(\w+)\s*\n\{/);
+	let alreadyClassDecl = false;
 
-	const className = classMatch[1];
+	if (!classMatch) {
+		// Pattern 2: already class declaration (no assignment)
+		classMatch = content.match(/class\s+(\w+)\s+extends\s+(\w+)\s*\n\{/);
+		if (!classMatch) return null;
+		alreadyClassDecl = true;
+	}
+
+	const className = alreadyClassDecl ? classMatch[1] : classMatch[1];
 	const parentClass = classMatch[2];
 
 	// Find class body braces
