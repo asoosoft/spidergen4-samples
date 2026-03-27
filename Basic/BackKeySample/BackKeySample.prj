@@ -3,6 +3,7 @@
   "fileTree": {
     "type": 0,
     "name": "BackKeySample",
+    "comment": " ＊ ",
     "children": [
       {
         "type": 1,
@@ -12,8 +13,16 @@
           {
             "type": 11,
             "name": "afc",
-            "relType": 7,
-            "path": "afc\\"
+            "relType": 1,
+            "path": "Framework\\",
+            "comment": "1.0.0"
+          },
+          {
+            "type": 11,
+            "name": "sys",
+            "relType": 1,
+            "path": "Framework\\",
+            "comment": "1.0.0"
           }
         ]
       },
@@ -21,15 +30,7 @@
         "type": 1,
         "name": "Library",
         "action": 2,
-        "children": [
-          {
-            "type": 5,
-            "name": "WebHistoryManager.js",
-            "action": 2,
-            "relType": 4,
-            "path": ""
-          }
-        ]
+        "children": []
       },
       {
         "type": 1,
@@ -176,7 +177,7 @@
       }
     ]
   },
-  "version": "4.0.3",
+  "version": "5.1.0",
   "flavor": {
     "common": "common"
   },
