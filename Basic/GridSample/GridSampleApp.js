@@ -1,7 +1,7 @@
 
 afc.import('Framework/afc/component/AToast.js')
 
-GridSampleApp = class GridSampleApp extends AApplication
+class GridSampleApp extends AApplication
 {
     constructor()
     {
@@ -13,17 +13,16 @@ GridSampleApp = class GridSampleApp extends AApplication
 	
 
     }
+
+	onReady()
+	{
+		super.onReady();
+
+		this.setMainContainer(new APage('main'));
+		this.mainContainer.open('Source/Views/MainView.lay');
+
+
+	}
 }
 
-
-
-GridSampleApp.prototype.onReady = function()
-{
-	AApplication.prototype.onReady.call(this);
-
-	this.setMainContainer(new APage('main'));
-	this.mainContainer.open('Source/Views/MainView.lay');
-
-
-};
 

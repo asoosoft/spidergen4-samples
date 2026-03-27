@@ -1,6 +1,6 @@
 
 
-TemplateSample = class TemplateSample extends AView
+class TemplateSample extends AView
 {
     constructor()
     {
@@ -12,30 +12,30 @@ TemplateSample = class TemplateSample extends AView
 	
 
     }
+
+	init(context, evtListener)
+	{
+		super.init(context, evtListener);
+
+		//TODO:edit here
+
+	}
+
+	onInitDone()
+	{
+		super.onInitDone();
+
+		//TODO:edit here
+
+	}
+
+	onActiveDone(isFirst)
+	{
+		super.onActiveDone(isFirst);
+
+		//TODO:edit here
+
+	}
 }
 
 
-
-TemplateSample.prototype.init = function(context, evtListener)
-{
-	AView.prototype.init.call(this, context, evtListener);
-
-	//TODO:edit here
-
-};
-
-TemplateSample.prototype.onInitDone = function()
-{
-	AView.prototype.onInitDone.call(this);
-
-	//TODO:edit here
-
-};
-
-TemplateSample.prototype.onActiveDone = function(isFirst)
-{
-	AView.prototype.onActiveDone.call(this, isFirst);
-
-	//TODO:edit here
-
-};

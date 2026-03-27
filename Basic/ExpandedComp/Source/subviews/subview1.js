@@ -1,6 +1,6 @@
 
 
-subview1 = class subview1 extends AView
+class subview1 extends AView
 {
     constructor()
     {
@@ -12,23 +12,22 @@ subview1 = class subview1 extends AView
 	
 
     }
+
+	onInitDone()
+	{
+		super.onInitDone();
+
+		//TODO:edit here
+
+	}
+
+	setData(data)
+	{
+
+		this.lbl1.setText(data);
+		this.msg1.setText(data + ' message.');
+
+	}
 }
 
 
-
-subview1.prototype.onInitDone = function()
-{
-	AView.prototype.onInitDone.call(this);
-
-	//TODO:edit here
-
-};
-
-
-subview1.prototype.setData = function(data)
-{
-
-	this.lbl1.setText(data);
-	this.msg1.setText(data + ' message.');
-
-};

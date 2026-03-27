@@ -3,7 +3,7 @@
 afc.import("Framework/afc/component/AToast.js");
 
 
-TabViewSampleApp = class TabViewSampleApp extends AApplication
+class TabViewSampleApp extends AApplication
 {
     constructor()
     {
@@ -15,15 +15,15 @@ TabViewSampleApp = class TabViewSampleApp extends AApplication
 	
 
     }
+
+	onReady()
+	{
+		super.onReady();
+
+		this.setMainContainer(new APage('main'));
+		this.mainContainer.open('Source/Views/MainView.lay');
+
+	}
 }
 
 
-
-TabViewSampleApp.prototype.onReady = function()
-{
-	AApplication.prototype.onReady.call(this);
-
-	this.setMainContainer(new APage('main'));
-	this.mainContainer.open('Source/Views/MainView.lay');
-
-};

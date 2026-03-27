@@ -1,6 +1,6 @@
 
 
-DataGridSampleApp = class DataGridSampleApp extends AApplication
+class DataGridSampleApp extends AApplication
 {
     constructor()
     {
@@ -12,27 +12,26 @@ DataGridSampleApp = class DataGridSampleApp extends AApplication
 	
 
     }
+
+	onReady()
+	{
+		super.onReady();
+
+		this.setMainContainer(new APage('main'));
+		this.mainContainer.open('Source/MainView.lay');
+
+		//TODO:edit here
+
+	}
+
+	unitTest(unitUrl)
+	{
+		//TODO:edit here
+
+		this.onReady();
+
+		super.unitTest(unitUrl);
+	}
 }
 
-
-
-DataGridSampleApp.prototype.onReady = function()
-{
-	AApplication.prototype.onReady.call(this);
-
-	this.setMainContainer(new APage('main'));
-	this.mainContainer.open('Source/MainView.lay');
-
-	//TODO:edit here
-
-};
-
-DataGridSampleApp.prototype.unitTest = function(unitUrl)
-{
-	//TODO:edit here
-
-	this.onReady();
-
-	AApplication.prototype.unitTest.call(this, unitUrl);
-};
 

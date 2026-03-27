@@ -1,6 +1,6 @@
 
 
-AMenuSampleApp = class AMenuSampleApp extends AApplication
+class AMenuSampleApp extends AApplication
 {
     constructor()
     {
@@ -12,27 +12,26 @@ AMenuSampleApp = class AMenuSampleApp extends AApplication
 	
 
     }
+
+	onReady()
+	{
+		super.onReady();
+
+		this.setMainContainer(new APage('main'));
+		this.mainContainer.open('Source/MainView.lay');
+
+		//TODO:edit here
+
+	}
+
+	unitTest(unitUrl)
+	{
+		//TODO:edit here
+
+		this.onReady();
+
+		super.unitTest(unitUrl);
+	}
 }
 
-
-
-AMenuSampleApp.prototype.onReady = function()
-{
-	AApplication.prototype.onReady.call(this);
-
-	this.setMainContainer(new APage('main'));
-	this.mainContainer.open('Source/MainView.lay');
-
-	//TODO:edit here
-
-};
-
-AMenuSampleApp.prototype.unitTest = function(unitUrl)
-{
-	//TODO:edit here
-
-	this.onReady();
-
-	AApplication.prototype.unitTest.call(this, unitUrl);
-};
 

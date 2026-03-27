@@ -1,6 +1,6 @@
 
 
-WindowView2 = class WindowView2 extends AView
+class WindowView2 extends AView
 {
     constructor()
     {
@@ -12,24 +12,24 @@ WindowView2 = class WindowView2 extends AView
 	
 
     }
+
+	init(context, evtListener)
+	{
+		super.init(context, evtListener);
+
+		//TODO:edit here
+
+	}
+
+	onButtonCloseClick(comp, info)
+	{
+
+		//TODO:edit here
+
+		//뷰의 컨테이너를 찾아서 닫는다.
+		this.getContainer().close();
+
+	}
 }
 
 
-
-WindowView2.prototype.init = function(context, evtListener)
-{
-	AView.prototype.init.call(this, context, evtListener);
-
-	//TODO:edit here
-
-};
-
-WindowView2.prototype.onButtonCloseClick = function(comp, info)
-{
-
-	//TODO:edit here
-	
-	//뷰의 컨테이너를 찾아서 닫는다.
-	this.getContainer().close();
-
-};

@@ -1,6 +1,6 @@
 
 
-MainView = class MainView extends AView
+class MainView extends AView
 {
     constructor()
     {
@@ -12,21 +12,21 @@ MainView = class MainView extends AView
 	
 
     }
+
+	onInitDone()
+	{
+		super.onInitDone();
+
+		//TODO:edit here
+
+	}
+
+	onMenuBtnClick(comp, info, e)
+	{
+
+		this.getContainer().navigator.goPage(comp.getComponentId());
+
+	}
 }
 
 
-
-MainView.prototype.onInitDone = function()
-{
-	AView.prototype.onInitDone.call(this);
-
-	//TODO:edit here
-
-};
-
-MainView.prototype.onMenuBtnClick = function(comp, info, e)
-{
-
-	this.getContainer().navigator.goPage(comp.getComponentId());
-
-};

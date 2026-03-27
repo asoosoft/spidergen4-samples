@@ -1,6 +1,6 @@
 
 
-MainView = class MainView extends AView
+class MainView extends AView
 {
     constructor()
     {
@@ -12,21 +12,27 @@ MainView = class MainView extends AView
 	
 
     }
+
+	init(context, evtListener)
+	{
+		super.init(context, evtListener);
+
+		//TODO:edit here
+	}
+
+	onActiveDone(isFirst)
+	{
+		super.onActiveDone(isFirst);
+
+		//TODO:edit here
+
+	}
 }
 
-
-
-MainView.prototype.init = function(context, evtListener)
-{
-	AView.prototype.init.call(this, context, evtListener);
-
-	//TODO:edit here
-};
 
 MainView.prototype.onInitDone = async function()
 {
 	AView.prototype.onInitDone.call(this);
-
 
 	// 새로 만들 뷰의 url을 이용하여 뷰 컴포넌트를 만든다.
 	// createView 는 비동기 함수이므로 로드된 view 에 접근하려면 
@@ -47,13 +53,5 @@ MainView.prototype.onInitDone = async function()
 	{
 		view.TitleLabel.setText('Hello LoadView!');
 	});
-};
-
-MainView.prototype.onActiveDone = function(isFirst)
-{
-	AView.prototype.onActiveDone.call(this, isFirst);
-
-	//TODO:edit here
-
 };
 

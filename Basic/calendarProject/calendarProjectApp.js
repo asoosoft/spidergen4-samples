@@ -1,7 +1,7 @@
 
 
 
-calendarProjectApp = class calendarProjectApp extends AApplication
+class calendarProjectApp extends AApplication
 {
     constructor()
     {
@@ -13,27 +13,26 @@ calendarProjectApp = class calendarProjectApp extends AApplication
 	
 
     }
+
+	onReady()
+	{
+		super.onReady();
+
+		this.setMainContainer(new APage('main'));
+		this.mainContainer.open('Source/MainView.lay');
+
+		//TODO:edit here
+
+	}
+
+	unitTest(unitUrl)
+	{
+		//TODO:edit here
+
+		this.onReady();
+
+		super.unitTest(unitUrl);
+	}
 }
 
-
-
-calendarProjectApp.prototype.onReady = function()
-{
-	AApplication.prototype.onReady.call(this);
-
-	this.setMainContainer(new APage('main'));
-	this.mainContainer.open('Source/MainView.lay');
-
-	//TODO:edit here
-
-};
-
-calendarProjectApp.prototype.unitTest = function(unitUrl)
-{
-	//TODO:edit here
-
-	this.onReady();
-
-	AApplication.prototype.unitTest.call(this, unitUrl);
-};
 

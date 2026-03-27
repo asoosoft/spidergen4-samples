@@ -1,6 +1,6 @@
 
 
-TestView = class TestView extends AView
+class TestView extends AView
 {
     constructor()
     {
@@ -12,30 +12,30 @@ TestView = class TestView extends AView
 	
 
     }
+
+	init(context, evtListener)
+	{
+		super.init(context, evtListener);
+
+		//TODO:edit here
+
+	}
+
+	onInitDone()
+	{
+		super.onInitDone();
+
+		//TODO:edit here
+
+	}
+
+	onActiveDone(isFirst)
+	{
+		super.onActiveDone(isFirst);
+
+		//TODO:edit here
+
+	}
 }
 
 
-
-TestView.prototype.init = function(context, evtListener)
-{
-	AView.prototype.init.call(this, context, evtListener);
-
-	//TODO:edit here
-
-};
-
-TestView.prototype.onInitDone = function()
-{
-	AView.prototype.onInitDone.call(this);
-
-	//TODO:edit here
-
-};
-
-TestView.prototype.onActiveDone = function(isFirst)
-{
-	AView.prototype.onActiveDone.call(this, isFirst);
-
-	//TODO:edit here
-
-};

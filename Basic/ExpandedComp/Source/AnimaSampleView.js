@@ -1,6 +1,6 @@
 
 
-AnimaSampleView = class AnimaSampleView extends AView
+class AnimaSampleView extends AView
 {
     constructor()
     {
@@ -12,41 +12,41 @@ AnimaSampleView = class AnimaSampleView extends AView
 	
 
     }
+
+	onInitDone()
+	{
+		super.onInitDone();
+
+		//manual site
+
+		//https://github.com/minimit/minimit-anima
+
+	}
+
+	onShowBtnClick(comp, info, e)
+	{
+		//var $ele = $(this.aniTarget.element);
+
+		//same with over line
+		this.aniTarget.$ele.anima({x:0}, 400, 'easeOut');
+
+	}
+
+	onHideBtnClick(comp, info, e)
+	{
+		//var $ele = $(this.aniTarget.element);
+
+		//same with over line
+		this.aniTarget.$ele.anima({x:-400}, 400, 'easeIn');
+
+	}
+
+	onBackBtnClick(comp, info, e)
+	{
+
+		this.getContainer().navigator.goPrevPage();
+
+	}
 }
 
 
-
-AnimaSampleView.prototype.onInitDone = function()
-{
-	AView.prototype.onInitDone.call(this);
-
-	//manual site
-	
-	//https://github.com/minimit/minimit-anima
-
-};
-
-AnimaSampleView.prototype.onShowBtnClick = function(comp, info, e)
-{
-	//var $ele = $(this.aniTarget.element);
-
-	//same with over line
-	this.aniTarget.$ele.anima({x:0}, 400, 'easeOut');
-
-};
-
-AnimaSampleView.prototype.onHideBtnClick = function(comp, info, e)
-{
-	//var $ele = $(this.aniTarget.element);
-
-	//same with over line
-	this.aniTarget.$ele.anima({x:-400}, 400, 'easeIn');
-
-};
-
-AnimaSampleView.prototype.onBackBtnClick = function(comp, info, e)
-{
-
-	this.getContainer().navigator.goPrevPage();
-
-};

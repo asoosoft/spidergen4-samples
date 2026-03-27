@@ -1,6 +1,6 @@
 
 
-ItemView2 = class ItemView2 extends AView
+class ItemView2 extends AView
 {
     constructor()
     {
@@ -12,30 +12,30 @@ ItemView2 = class ItemView2 extends AView
 	
 
     }
+
+	init(context, evtListener)
+	{
+		super.init(context, evtListener);
+
+		//TODO:edit here
+
+	}
+
+	onInitDone()
+	{
+		super.onInitDone();
+
+		//TODO:edit here
+
+	}
+
+	onActiveDone(isFirst)
+	{
+		super.onActiveDone(isFirst);
+
+		//TODO:edit here
+
+	}
 }
 
 
-
-ItemView2.prototype.init = function(context, evtListener)
-{
-	AView.prototype.init.call(this, context, evtListener);
-
-	//TODO:edit here
-
-};
-
-ItemView2.prototype.onInitDone = function()
-{
-	AView.prototype.onInitDone.call(this);
-
-	//TODO:edit here
-
-};
-
-ItemView2.prototype.onActiveDone = function(isFirst)
-{
-	AView.prototype.onActiveDone.call(this, isFirst);
-
-	//TODO:edit here
-
-};

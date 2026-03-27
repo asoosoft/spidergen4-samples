@@ -1,6 +1,6 @@
 
 
-SearchWndApp = class SearchWndApp extends AApplication
+class SearchWndApp extends AApplication
 {
     constructor()
     {
@@ -12,25 +12,24 @@ SearchWndApp = class SearchWndApp extends AApplication
 	
 
     }
+
+	onReady()
+	{
+		super.onReady();
+
+		this.setMainContainer(new APage('main'));
+		this.mainContainer.open('Source/MainView.lay');
+
+	}
+
+	unitTest(unitUrl)
+	{
+		//TODO:edit here
+
+		this.onReady();
+
+		super.unitTest(unitUrl);
+	}
 }
 
-
-
-SearchWndApp.prototype.onReady = function()
-{
-	AApplication.prototype.onReady.call(this);
-
-	this.setMainContainer(new APage('main'));
-	this.mainContainer.open('Source/MainView.lay');
-
-};
-
-SearchWndApp.prototype.unitTest = function(unitUrl)
-{
-	//TODO:edit here
-
-	this.onReady();
-
-	AApplication.prototype.unitTest.call(this, unitUrl);
-};
 

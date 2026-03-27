@@ -1,6 +1,6 @@
 
 
-LoginView = class LoginView extends AView
+class LoginView extends AView
 {
     constructor()
     {
@@ -12,37 +12,37 @@ LoginView = class LoginView extends AView
 	
 
     }
+
+	init(context, evtListener)
+	{
+		super.init(context, evtListener);
+
+		//TODO:edit here
+
+	}
+
+	onInitDone()
+	{
+		super.onInitDone();
+
+		//TODO:edit here
+
+	}
+
+	onActiveDone(isFirst)
+	{
+		super.onActiveDone(isFirst);
+
+		//TODO:edit here
+
+	}
+
+	onLoginBtnClick(comp, info, e)
+	{
+		var navi = ANavigator.getRootNavigator();
+
+		navi.goPage('MainView');
+	}
 }
 
 
-
-LoginView.prototype.init = function(context, evtListener)
-{
-	AView.prototype.init.call(this, context, evtListener);
-
-	//TODO:edit here
-
-};
-
-LoginView.prototype.onInitDone = function()
-{
-	AView.prototype.onInitDone.call(this);
-
-	//TODO:edit here
-
-};
-
-LoginView.prototype.onActiveDone = function(isFirst)
-{
-	AView.prototype.onActiveDone.call(this, isFirst);
-
-	//TODO:edit here
-
-};
-
-LoginView.prototype.onLoginBtnClick = function(comp, info, e)
-{
-	var navi = ANavigator.getRootNavigator();
-	
-	navi.goPage('MainView');
-};

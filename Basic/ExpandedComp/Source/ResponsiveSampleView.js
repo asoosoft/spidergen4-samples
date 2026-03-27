@@ -1,6 +1,6 @@
 
 
-ResponsiveSampleView = class ResponsiveSampleView extends AView
+class ResponsiveSampleView extends AView
 {
     constructor()
     {
@@ -12,21 +12,21 @@ ResponsiveSampleView = class ResponsiveSampleView extends AView
 	
 
     }
+
+	onInitDone()
+	{
+		super.onInitDone();
+
+		//TODO:edit here
+
+	}
+
+	onBackBtnClick(comp, info, e)
+	{
+
+		this.getContainer().navigator.goPrevPage();
+
+	}
 }
 
 
-
-ResponsiveSampleView.prototype.onInitDone = function()
-{
-	AView.prototype.onInitDone.call(this);
-
-	//TODO:edit here
-
-};
-
-ResponsiveSampleView.prototype.onBackBtnClick = function(comp, info, e)
-{
-
-	this.getContainer().navigator.goPrevPage();
-
-};

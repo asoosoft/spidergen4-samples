@@ -1,6 +1,6 @@
 
 
-AutoBottomApp = class AutoBottomApp extends AApplication
+class AutoBottomApp extends AApplication
 {
     constructor()
     {
@@ -12,26 +12,26 @@ AutoBottomApp = class AutoBottomApp extends AApplication
 	
 
     }
+
+	onReady()
+	{
+		super.onReady();
+
+		this.setMainContainer(new APage('main'));
+		this.mainContainer.open('Source/MainView.lay');
+
+		//TODO:edit here
+
+	}
+
+	unitTest(unitUrl)
+	{
+		//TODO:edit here
+
+		this.onReady();
+
+		super.unitTest(unitUrl);
+	}
 }
 
 
-
-AutoBottomApp.prototype.onReady = function()
-{
-	AApplication.prototype.onReady.call(this);
-
-	this.setMainContainer(new APage('main'));
-	this.mainContainer.open('Source/MainView.lay');
-
-	//TODO:edit here
-
-};
-
-AutoBottomApp.prototype.unitTest = function(unitUrl)
-{
-	//TODO:edit here
-
-	this.onReady();
-
-	AApplication.prototype.unitTest.call(this, unitUrl);
-};

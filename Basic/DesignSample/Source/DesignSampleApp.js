@@ -1,6 +1,6 @@
 
 
-DesignSampleApp = class DesignSampleApp extends AApplication
+class DesignSampleApp extends AApplication
 {
     constructor()
     {
@@ -12,28 +12,27 @@ DesignSampleApp = class DesignSampleApp extends AApplication
 	
 
     }
+
+	onReady()
+	{
+		super.onReady();
+
+		this.setMainContainer(new APage('main'));
+		this.mainContainer.open('Source/DirectSample.lay');
+		//this.mainContainer.open('Source/WorkView.lay');
+
+		//TODO:edit here
+
+	}
+
+	unitTest(unitUrl)
+	{
+		//TODO:edit here
+
+		this.onReady();
+
+		super.unitTest(unitUrl);
+	}
 }
 
-
-
-DesignSampleApp.prototype.onReady = function()
-{
-	AApplication.prototype.onReady.call(this);
-
-	this.setMainContainer(new APage('main'));
-	this.mainContainer.open('Source/DirectSample.lay');
-	//this.mainContainer.open('Source/WorkView.lay');
-
-	//TODO:edit here
-
-};
-
-DesignSampleApp.prototype.unitTest = function(unitUrl)
-{
-	//TODO:edit here
-
-	this.onReady();
-
-	AApplication.prototype.unitTest.call(this, unitUrl);
-};
 

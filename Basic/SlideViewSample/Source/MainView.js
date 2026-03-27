@@ -1,6 +1,6 @@
 
 
-MainView = class MainView extends AView
+class MainView extends AView
 {
     constructor()
     {
@@ -12,17 +12,46 @@ MainView = class MainView extends AView
 	
 
     }
+
+	init(context, evtListener)
+	{
+		super.init(context, evtListener);
+
+		//TODO:edit here
+
+	}
+
+	onActiveDone(isFirst)
+	{
+		super.onActiveDone(isFirst);
+
+		//TODO:edit here
+
+	}
+
+	onPrevBtnClick(comp, info, e)
+	{
+
+		this.testSlideView.slidePrev();
+
+	}
+
+	onNextBtnClick(comp, info, e)
+	{
+
+		this.testSlideView.slideNext();
+
+	}
+
+	onASelectBox1Change(comp, info, e)
+	{
+		//console.log('select index : ' + info);
+
+		this.testSlideView.slideTo(info);
+
+	}
 }
 
-
-
-MainView.prototype.init = function(context, evtListener)
-{
-	AView.prototype.init.call(this, context, evtListener);
-
-	//TODO:edit here
-
-};
 
 MainView.prototype.onInitDone = async function()
 {
@@ -59,35 +88,5 @@ MainView.prototype.onInitDone = async function()
 	
 	
 
-
 };
 
-MainView.prototype.onActiveDone = function(isFirst)
-{
-	AView.prototype.onActiveDone.call(this, isFirst);
-
-	//TODO:edit here
-
-};
-
-MainView.prototype.onPrevBtnClick = function(comp, info, e)
-{
-
-	this.testSlideView.slidePrev();
-
-};
-
-MainView.prototype.onNextBtnClick = function(comp, info, e)
-{
-
-	this.testSlideView.slideNext();
-
-};
-
-MainView.prototype.onASelectBox1Change = function(comp, info, e)
-{
-	//console.log('select index : ' + info);
-	
-	this.testSlideView.slideTo(info);
-
-};

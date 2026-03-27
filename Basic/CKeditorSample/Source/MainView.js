@@ -8,7 +8,7 @@
 afc.import('Assets/ckeditor/ckeditor.js');
 
 
-MainView = class MainView extends AView
+class MainView extends AView
 {
     constructor()
     {
@@ -20,34 +20,34 @@ MainView = class MainView extends AView
 	
 
     }
+
+	init(context, evtListener)
+	{
+		super.init(context, evtListener);
+
+		//TODO:edit here
+
+	}
+
+	onInitDone()
+	{
+		super.onInitDone();
+
+		//여기서 ck에디터를 적용한다.
+		//이후는 ck에이터 매뉴얼을 참고하여 적용한다.
+
+	 	CKEDITOR.replace(this.ckeditor.getElementId() , { height: 500 });
+
+		//this.ckeditor 는 ATextArea 이다.
+	}
+
+	onActiveDone(isFirst)
+	{
+		super.onActiveDone(isFirst);
+
+		//TODO:edit here
+
+	}
 }
 
 
-
-MainView.prototype.init = function(context, evtListener)
-{
-	AView.prototype.init.call(this, context, evtListener);
-
-	//TODO:edit here
-
-};
-
-MainView.prototype.onInitDone = function()
-{
-	AView.prototype.onInitDone.call(this);
-	
-	//여기서 ck에디터를 적용한다.
-	//이후는 ck에이터 매뉴얼을 참고하여 적용한다.
-	
- 	CKEDITOR.replace(this.ckeditor.getElementId() , { height: 500 });
-	
-	//this.ckeditor 는 ATextArea 이다.
-};
-
-MainView.prototype.onActiveDone = function(isFirst)
-{
-	AView.prototype.onActiveDone.call(this, isFirst);
-
-	//TODO:edit here
-
-};

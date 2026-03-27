@@ -1,6 +1,6 @@
 
 
-tabSubview2 = class tabSubview2 extends AView
+class tabSubview2 extends AView
 {
     constructor()
     {
@@ -12,14 +12,14 @@ tabSubview2 = class tabSubview2 extends AView
 	
 
     }
+
+	onInitDone()
+	{
+		super.onInitDone();
+
+		//TODO:edit here
+
+	}
 }
 
 
-
-tabSubview2.prototype.onInitDone = function()
-{
-	AView.prototype.onInitDone.call(this);
-
-	//TODO:edit here
-
-};

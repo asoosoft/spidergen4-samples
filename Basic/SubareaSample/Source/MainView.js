@@ -1,7 +1,7 @@
 
 afc.import('Framework/afc/component/ADialog.js')
 
-MainView = class MainView extends AView
+class MainView extends AView
 {
     constructor()
     {
@@ -17,29 +17,29 @@ MainView = class MainView extends AView
 		let wnd = new ADialog()
         wnd.openDialog('Source/PopupView.lay', null, 400, 300)
 	}
+
+	init(context, evtListener)
+	{
+		super.init(context, evtListener);
+
+		//TODO:edit here
+
+	}
+
+	onInitDone()
+	{
+		super.onInitDone();
+
+
+	}
+
+	onActiveDone(isFirst)
+	{
+		super.onActiveDone(isFirst);
+
+		//TODO:edit here
+
+	}
 }
 
 
-
-MainView.prototype.init = function(context, evtListener)
-{
-	AView.prototype.init.call(this, context, evtListener);
-
-	//TODO:edit here
-
-};
-
-MainView.prototype.onInitDone = function()
-{
-	AView.prototype.onInitDone.call(this);
-
-
-};
-
-MainView.prototype.onActiveDone = function(isFirst)
-{
-	AView.prototype.onActiveDone.call(this, isFirst);
-
-	//TODO:edit here
-
-};
