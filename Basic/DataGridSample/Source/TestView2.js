@@ -13,8 +13,18 @@ class TestView2 extends AView
 
     }
 
+	init(context, evtListener)
+	{
+		super.init(context, evtListener)
+
+		this.testGrid.enableMerge(true)
+
+	}    
+
 	onInitDone()
 	{
+        super.onInitDone()
+
 		var data = 
 		[
 			[ {text:'1', colSpan:3, rowSpan:2 }, {}, {}, {text:'4', type:'radio'}, {text:'5', select:true}, 	{text:'6', rowSpan:2} ],

@@ -15,6 +15,7 @@ class TestView extends AView
 
 	onInitDone()
 	{
+        super.onInitDone()
 
 		//TODO:edit here
 
