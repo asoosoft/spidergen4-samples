@@ -1,0 +1,12 @@
+<div data-base="AView" data-class="SampleView1" class="AView-Style" style="left: 0px; top: 0px; width: 100%; height: 100%; background-color: rgb(239, 239, 239); position: absolute;" data-browser-height="747" data-browser-width="700" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AListView&quot;,&quot;AButton&quot;,&quot;ATextBox&quot;]}">
+    <div data-base="AListView" data-class="AListView" class="AListView-Style" data-selectable="true" style="width: calc((100% - 20px) - 20px); height: calc((100% - 130px) - 20px); position: absolute; left: 20px; top: 130px; background-color: rgb(248, 248, 168);" data-sgap-width="1" data-sgap-height="1" id="SampleView1--listView" data-query-name="ac002" data-default-url="Source/subviews/ItemView.lay" data-blocks-ac002="OutBlock1,name">
+        <div class="listview-row" style="height: 100px;"></div>
+        <div class="listview-row AListView-select" style="height: 100px;"></div>
+        <div class="listview-row" style="height: 100px;"></div>
+        <div class="listview-row" style="height: 100px;"></div>
+    </div>
+    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 110px; height: 70px; position: absolute; left: 30px; top: 20px;" id="SampleView1--queryBtn" data-listener-click="SampleView1:onQueryBtnClick">query</button>
+    <pre data-base="ATextBox" data-class="ATextBox" class="ATextBox-Style" style="width: calc((100% - 160px) - 10px); height: 80px; position: absolute; left: 160px; top: 20px;" data-sgap-width="1">1) ListView 의 Default Url 에 데이터 수신 시 추가할 lay 파일의 경로 셋팅
+2) ListView 에 수신할 쿼리 파일을 등록하고 OutBlock 의 임의의 필드를 매핑
+3) 추가할 아이템 뷰(ItemView.lay) 에서 rootView 에 쿼리파일을 등록 및 매핑을 하고 Child Mapping 선택 </pre>
+</div>
