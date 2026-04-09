@@ -1,0 +1,6 @@
+{
+  "styleName": "styler",
+  "items": {
+    "new_style": "\r\n.new_style\r\n{\r\n\tfont-size: 12px;\r\n\tfont-family: courier;\r\n\ttext-size-adjust: none;\r\n\r\n}\r\n"
+  }
+}

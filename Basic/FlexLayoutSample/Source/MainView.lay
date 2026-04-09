@@ -1,0 +1,54 @@
+<div data-base="AView" data-class="MainView" class="AView-Style" style="left: 0px; top: 0px; width: 100%; height: 100%;" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ALabel&quot;,&quot;AFlexLayout&quot;,&quot;AButton&quot;,&quot;ATextArea&quot;,&quot;ATextField&quot;]}" data-browser-width="960" data-browser-height="920">
+    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; left: 40px; top: 14px; position: absolute;">1. 기본 가로 배치, 상하좌우 중앙정렬, gap 10px</label>
+    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 300px; height: 60px; align-items: center; left: 40px; top: 40px; position: absolute; gap: 10px; justify-content: center;">
+        <div style="position: relative; box-sizing: border-box; display: inline-block;">
+            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 80px; height: 22px; left: 0px; top: 0px; position: relative;">Button</button>
+        </div>
+        <div style="position: relative; box-sizing: border-box; display: inline-block;">
+            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 80px; height: 22px; left: 0px; top: 0px; position: relative;">Button</button>
+        </div>
+        <div style="position: relative; box-sizing: border-box; display: inline-block;">
+            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 80px; height: 22px; left: 0px; top: 0px; position: relative;">Button</button>
+        </div>
+    </div>
+    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; left: 40px; top: 110px; position: absolute;">2. 기본 세로 배치, 좌우 중앙정렬, gap 10px</label>
+    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 100px; height: 120px; align-items: center; left: 40px; top: 140px; position: absolute; flex-direction: column; gap: 10px;">
+        <div style="position: relative; box-sizing: border-box; display: inline-block;">
+            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 80px; height: 22px; left: 0px; top: 0px; position: relative;">Button</button>
+        </div>
+        <div style="position: relative; box-sizing: border-box; display: inline-block;" class="">
+            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 80px; height: 22px; left: 0px; top: 0px; position: relative;">Button</button>
+        </div>
+        <div style="position: relative; box-sizing: border-box; display: inline-block;" class="">
+            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 80px; height: 22px; left: 0px; top: 0px; position: relative;">Button</button>
+        </div>
+    </div>
+    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; left: 48px; top: 274px; position: absolute;">3. Align Items: stretch, button height : 100%</label>
+    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; left: 40px; top: 410px; position: absolute;">4. grow 셋팅을 통한 배치 응용, 리사이즈 대응 예제</label>
+    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 300px; height: 60px; align-items: stretch; left: 40px; top: 300px; position: absolute; gap: 5px;">
+        <div style="position: relative; box-sizing: border-box; display: inline-block;">
+            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 80px; height: 100%; left: 0px; top: 0px; position: relative;">Button</button>
+        </div>
+        <div style="position: relative; box-sizing: border-box; display: inline-block;">
+            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 80px; height: 100%; left: 0px; top: 0px; position: relative;">Button</button>
+        </div>
+        <div style="position: relative; box-sizing: border-box; display: inline-block;">
+            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 80px; height: 100%; left: 0px; top: 0px; position: relative;">Button</button>
+        </div>
+    </div>
+    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 50%; height: 30%; align-items: stretch; left: 40px; top: 440px; position: absolute; flex-direction: column; gap: 2px;">
+        <div style="position: relative; box-sizing: border-box; display: inline-block; flex-grow: 1;">
+            <textarea data-base="ATextArea" data-class="ATextArea" class="ATextArea-Style" style="width: 100%; height: 100%; left: 0px; top: 0px; position: relative;"></textarea>
+        </div>
+        <div style="position: relative; box-sizing: border-box; display: inline-block;">
+            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 100%; align-items: stretch; left: 0px; top: 0px; position: relative; height: 30px; gap: 2px;">
+                <div style="position: relative; box-sizing: border-box; display: inline-block; flex-grow: 1;">
+                    <input data-base="ATextField" data-class="ATextField" type="text" value="" class="ATextField-Style" autocomplete="off" style="width: 100%; height: 100%; left: 0px; top: 0px; position: relative;">
+                </div>
+                <div style="position: relative; box-sizing: border-box; display: inline-block; flex-basis: auto;">
+                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 60px; height: 100%; left: 0px; top: 0px; position: relative; background-color: rgb(67, 143, 255); color: rgb(255, 255, 255); border-radius: 5px;">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
