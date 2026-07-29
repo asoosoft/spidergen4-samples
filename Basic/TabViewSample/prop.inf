@@ -19,7 +19,8 @@
     "tabletMinWidth": 500,
     "responsiveTest": "",
     "localizing": "",
-    "flavor": "common"
+    "flavor": "common",
+    "language": "common"
   },
   "build": {
     "autoInc": true,

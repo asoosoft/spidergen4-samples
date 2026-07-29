@@ -37,7 +37,7 @@ class MainView extends AView
 		//then 이나 async, await 를 사용해야 한다.
 		this.tabView.selectTabById('tab1').then(tab =>
 		{
-			console.log(tab.view.TitleLabel.getText());
+			console.log(tab.content.view.TitleLabel.getText());
 		});	
 
 		//로드되어지는 각 뷰에서 처리할 경우 단순히 호출해도 됨.
